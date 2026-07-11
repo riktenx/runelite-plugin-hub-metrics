@@ -20,7 +20,7 @@ if (!TOKEN) {
 const OWNER = "runelite";
 const REPO = "plugin-hub";
 const PAGE_SIZE = 50;
-const FILES_PER_PR = 25;
+const FILES_PER_PR = 100; // GraphQL's max per connection page — see CLAUDE.md §4 on why 100, not more
 const REQUEST_DELAY_MS = 250;
 
 const QUERY = `
@@ -77,6 +77,14 @@ async function graphql(cursor) {
 const PLUGIN_PATH_RE = /^plugins\/([^/]+)$/;
 
 function toRecord(node) {
+  // changedFiles is the PR's true total file count; files.nodes is capped at FILES_PER_PR.
+  // If they disagree, the connection was truncated and we'd silently lose plugin events for
+  // this PR — abort instead (nothing gets written/committed on a thrown error, see main()).
+  if (node.changedFiles !== node.files.nodes.length) {
+    throw new Error(
+      `PR #${node.number} has ${node.changedFiles} changed files but only ${node.files.nodes.length} were fetched (FILES_PER_PR=${FILES_PER_PR}). Raise FILES_PER_PR or add real pagination for this PR.`,
+    );
+  }
   const files = [];
   for (const f of node.files.nodes) {
     const match = f.path.match(PLUGIN_PATH_RE);

@@ -97,7 +97,7 @@ query($cursor: String) {
         mergedAt
         updatedAt
         changedFiles
-        files(first: 25) {
+        files(first: 100) {
           nodes { path additions deletions changeType }
         }
       }
@@ -118,10 +118,22 @@ query($cursor: String) {
   older than our stored `lastSyncedAt` watermark. Typically 1-2 pages per run. This also
   naturally re-picks-up PRs that changed state after our watermark (e.g., closed without
   merging), since `updatedAt` bumps on any state change.
-- 25-file cap per PR is deliberate: normal PRs touch 1 file; if a PR ever touches more than 25,
-  `changedFiles` (the total count field) will disagree with `files.nodes.length` — treat that
-  mismatch as a signal to log a warning and fall back to a follow-up paginated `files` query
-  for that one PR, rather than sizing every request for a rare case.
+- **File-count cap and the silent-truncation gap it can cause — found and fixed post-launch.**
+  Normal PRs touch exactly 1 file; the cap only matters for a maintainer batch action touching
+  many plugins in one PR at once (a normal contributor PR can't touch more than one — see the
+  discussion this had in chat). It was originally set to 25 with a plan to "log a warning" on
+  a mismatch that was never actually implemented — a silent gap: `files.nodes` would just be
+  missing entries past 25, with no signal anywhere. Verified against the full historical ledger
+  before fixing it: zero PRs have ever exceeded 24 files, so nothing was actually corrupted.
+  Fixed by raising the cap to 100 (GraphQL's own max `first` per connection — the ceiling
+  achievable without adding real pagination) and by comparing `node.changedFiles` (the PR's true
+  total) against `node.files.nodes.length` in `toRecord()`, **throwing** on any mismatch rather
+  than logging. A throw aborts the run before `writeLedger`/`state.json` are touched (see §7 /
+  `fetch.mjs`'s `main()`), so it can never corrupt data — it just means "no update today,
+  something unusual happened, go look." Deliberately not building general
+  fetch-until-exhausted pagination for an unbounded PR size: 100 is 4x any PR ever observed, and
+  paginating a case that (as far as the data shows) has never happened once is speculative
+  complexity for a boundary that may never actually get hit.
 
 ## 5. Our data schema
 
