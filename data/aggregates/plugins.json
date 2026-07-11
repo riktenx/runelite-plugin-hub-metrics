@@ -1,5 +1,14 @@
 [
   {
+    "id": "combat-logger",
+    "firstAddedAt": "2024-02-04T07:09:52Z",
+    "lastUpdatedAt": "2026-07-11T19:42:59Z",
+    "updateCount": 37,
+    "prCount": 38,
+    "status": "active",
+    "prsLast90d": 10
+  },
+  {
     "id": "osrs-tcg",
     "firstAddedAt": "2026-06-25T04:26:31Z",
     "lastUpdatedAt": "2026-07-11T19:17:16Z",
@@ -907,15 +916,6 @@
     "prCount": 15,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "combat-logger",
-    "firstAddedAt": "2024-02-04T07:09:52Z",
-    "lastUpdatedAt": "2026-07-08T19:05:04Z",
-    "updateCount": 36,
-    "prCount": 37,
-    "status": "active",
-    "prsLast90d": 9
   },
   {
     "id": "117hd",
