@@ -1,5 +1,14 @@
 [
   {
+    "id": "osrs-tcg",
+    "firstAddedAt": "2026-06-25T04:26:31Z",
+    "lastUpdatedAt": "2026-07-11T19:17:16Z",
+    "updateCount": 8,
+    "prCount": 9,
+    "status": "active",
+    "prsLast90d": 9
+  },
+  {
     "id": "bronzeman-tcg",
     "firstAddedAt": "2026-07-11T16:29:52Z",
     "lastUpdatedAt": "2026-07-11T16:29:52Z",
@@ -700,15 +709,6 @@
     "prCount": 13,
     "status": "active",
     "prsLast90d": 13
-  },
-  {
-    "id": "osrs-tcg",
-    "firstAddedAt": "2026-06-25T04:26:31Z",
-    "lastUpdatedAt": "2026-07-09T16:02:03Z",
-    "updateCount": 7,
-    "prCount": 8,
-    "status": "active",
-    "prsLast90d": 8
   },
   {
     "id": "hide-warned-attack",
