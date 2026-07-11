@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>plugin-hub metrics</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2214%22>📈</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <h1>runelite/plugin-hub metrics</h1>
+      <p>PR throughput, backlog, and plugin activity for <a href="https://github.com/runelite/plugin-hub" target="_blank" rel="noopener">runelite/plugin-hub</a>. Data refreshed every 6 hours by CI — see <a href="https://github.com/riktenx/runelite-plugin-hub-metrics" target="_blank" rel="noopener">source</a>.</p>
+    </header>
+
+    <div id="stats" class="stat-row"></div>
+    <div id="charts"></div>
+    <div id="tables"></div>
+
+    <footer>
+      Generated from the GitHub GraphQL API. Plugin identity, PR-to-plugin mapping, and metric
+      definitions are documented in <a href="https://github.com/riktenx/runelite-plugin-hub-metrics/blob/main/CLAUDE.md" target="_blank" rel="noopener">CLAUDE.md</a>.
+    </footer>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

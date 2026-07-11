@@ -1,0 +1,2060 @@
+[
+  {
+    "week": "2019-12-09",
+    "medianHours": 5.1,
+    "p90Hours": 65.6,
+    "n": 3
+  },
+  {
+    "week": "2019-12-16",
+    "medianHours": 9.7,
+    "p90Hours": 69.5,
+    "n": 24
+  },
+  {
+    "week": "2019-12-23",
+    "medianHours": 1.9,
+    "p90Hours": 18.2,
+    "n": 11
+  },
+  {
+    "week": "2019-12-30",
+    "medianHours": 18.8,
+    "p90Hours": 81.7,
+    "n": 9
+  },
+  {
+    "week": "2020-01-06",
+    "medianHours": 16.1,
+    "p90Hours": 30.2,
+    "n": 10
+  },
+  {
+    "week": "2020-01-13",
+    "medianHours": 10.9,
+    "p90Hours": 536.8,
+    "n": 7
+  },
+  {
+    "week": "2020-01-20",
+    "medianHours": 2,
+    "p90Hours": 333.9,
+    "n": 8
+  },
+  {
+    "week": "2020-01-27",
+    "medianHours": 22.6,
+    "p90Hours": 677.3,
+    "n": 7
+  },
+  {
+    "week": "2020-02-03",
+    "medianHours": 12.8,
+    "p90Hours": 1106.3,
+    "n": 9
+  },
+  {
+    "week": "2020-02-10",
+    "medianHours": 18.7,
+    "p90Hours": 185.5,
+    "n": 13
+  },
+  {
+    "week": "2020-02-17",
+    "medianHours": 4.5,
+    "p90Hours": 42.5,
+    "n": 13
+  },
+  {
+    "week": "2020-02-24",
+    "medianHours": 1.5,
+    "p90Hours": 22,
+    "n": 15
+  },
+  {
+    "week": "2020-03-02",
+    "medianHours": 2.6,
+    "p90Hours": 25.7,
+    "n": 16
+  },
+  {
+    "week": "2020-03-09",
+    "medianHours": 15.8,
+    "p90Hours": 144.1,
+    "n": 10
+  },
+  {
+    "week": "2020-03-16",
+    "medianHours": 0.8,
+    "p90Hours": 6.7,
+    "n": 12
+  },
+  {
+    "week": "2020-03-23",
+    "medianHours": 1.6,
+    "p90Hours": 236.1,
+    "n": 14
+  },
+  {
+    "week": "2020-03-30",
+    "medianHours": 0.4,
+    "p90Hours": 5,
+    "n": 11
+  },
+  {
+    "week": "2020-04-06",
+    "medianHours": 0.6,
+    "p90Hours": 41.1,
+    "n": 9
+  },
+  {
+    "week": "2020-04-13",
+    "medianHours": 17.9,
+    "p90Hours": 137.3,
+    "n": 23
+  },
+  {
+    "week": "2020-04-20",
+    "medianHours": 10.2,
+    "p90Hours": 66.2,
+    "n": 17
+  },
+  {
+    "week": "2020-04-27",
+    "medianHours": 3.3,
+    "p90Hours": 19.6,
+    "n": 15
+  },
+  {
+    "week": "2020-05-04",
+    "medianHours": 2.7,
+    "p90Hours": 74.9,
+    "n": 29
+  },
+  {
+    "week": "2020-05-11",
+    "medianHours": 8,
+    "p90Hours": 144.3,
+    "n": 20
+  },
+  {
+    "week": "2020-05-18",
+    "medianHours": 3.4,
+    "p90Hours": 77.3,
+    "n": 10
+  },
+  {
+    "week": "2020-05-25",
+    "medianHours": 1.6,
+    "p90Hours": 56.9,
+    "n": 15
+  },
+  {
+    "week": "2020-06-01",
+    "medianHours": 0.6,
+    "p90Hours": 18.7,
+    "n": 33
+  },
+  {
+    "week": "2020-06-08",
+    "medianHours": 6.3,
+    "p90Hours": 57.2,
+    "n": 15
+  },
+  {
+    "week": "2020-06-15",
+    "medianHours": 3.8,
+    "p90Hours": 23.1,
+    "n": 34
+  },
+  {
+    "week": "2020-06-22",
+    "medianHours": 0.2,
+    "p90Hours": 31.2,
+    "n": 9
+  },
+  {
+    "week": "2020-06-29",
+    "medianHours": 9.4,
+    "p90Hours": 47,
+    "n": 18
+  },
+  {
+    "week": "2020-07-06",
+    "medianHours": 11.2,
+    "p90Hours": 52.1,
+    "n": 10
+  },
+  {
+    "week": "2020-07-13",
+    "medianHours": 26.2,
+    "p90Hours": 81.7,
+    "n": 12
+  },
+  {
+    "week": "2020-07-20",
+    "medianHours": 8.5,
+    "p90Hours": 50.7,
+    "n": 32
+  },
+  {
+    "week": "2020-07-27",
+    "medianHours": 0.6,
+    "p90Hours": 26.5,
+    "n": 25
+  },
+  {
+    "week": "2020-08-03",
+    "medianHours": 9.5,
+    "p90Hours": 153.4,
+    "n": 11
+  },
+  {
+    "week": "2020-08-10",
+    "medianHours": 6.4,
+    "p90Hours": 75.5,
+    "n": 12
+  },
+  {
+    "week": "2020-08-17",
+    "medianHours": 0.3,
+    "p90Hours": 1011.5,
+    "n": 17
+  },
+  {
+    "week": "2020-08-24",
+    "medianHours": 2.6,
+    "p90Hours": 159.5,
+    "n": 13
+  },
+  {
+    "week": "2020-08-31",
+    "medianHours": 8.6,
+    "p90Hours": 80.3,
+    "n": 16
+  },
+  {
+    "week": "2020-09-07",
+    "medianHours": 23.1,
+    "p90Hours": 145.5,
+    "n": 18
+  },
+  {
+    "week": "2020-09-14",
+    "medianHours": 3.8,
+    "p90Hours": 49.4,
+    "n": 7
+  },
+  {
+    "week": "2020-09-21",
+    "medianHours": 23.3,
+    "p90Hours": 380.2,
+    "n": 10
+  },
+  {
+    "week": "2020-09-28",
+    "medianHours": 8.4,
+    "p90Hours": 51.8,
+    "n": 25
+  },
+  {
+    "week": "2020-10-05",
+    "medianHours": 6.3,
+    "p90Hours": 208.4,
+    "n": 17
+  },
+  {
+    "week": "2020-10-12",
+    "medianHours": 6.5,
+    "p90Hours": 20.9,
+    "n": 10
+  },
+  {
+    "week": "2020-10-19",
+    "medianHours": 14.1,
+    "p90Hours": 142.4,
+    "n": 17
+  },
+  {
+    "week": "2020-10-26",
+    "medianHours": 4.4,
+    "p90Hours": 62.9,
+    "n": 31
+  },
+  {
+    "week": "2020-11-02",
+    "medianHours": 4.4,
+    "p90Hours": 68.3,
+    "n": 24
+  },
+  {
+    "week": "2020-11-09",
+    "medianHours": 1.7,
+    "p90Hours": 51.1,
+    "n": 40
+  },
+  {
+    "week": "2020-11-16",
+    "medianHours": 2.8,
+    "p90Hours": 18,
+    "n": 14
+  },
+  {
+    "week": "2020-11-23",
+    "medianHours": 32.2,
+    "p90Hours": 116.6,
+    "n": 9
+  },
+  {
+    "week": "2020-11-30",
+    "medianHours": 8.6,
+    "p90Hours": 66.9,
+    "n": 21
+  },
+  {
+    "week": "2020-12-07",
+    "medianHours": 27.8,
+    "p90Hours": 2395.2,
+    "n": 29
+  },
+  {
+    "week": "2020-12-14",
+    "medianHours": 31.8,
+    "p90Hours": 109.3,
+    "n": 13
+  },
+  {
+    "week": "2020-12-21",
+    "medianHours": 8.5,
+    "p90Hours": 59.9,
+    "n": 19
+  },
+  {
+    "week": "2020-12-28",
+    "medianHours": 2.5,
+    "p90Hours": 49.2,
+    "n": 20
+  },
+  {
+    "week": "2021-01-04",
+    "medianHours": 7.8,
+    "p90Hours": 76.8,
+    "n": 31
+  },
+  {
+    "week": "2021-01-11",
+    "medianHours": 1.4,
+    "p90Hours": 13.4,
+    "n": 27
+  },
+  {
+    "week": "2021-01-18",
+    "medianHours": 2.6,
+    "p90Hours": 17.6,
+    "n": 42
+  },
+  {
+    "week": "2021-01-25",
+    "medianHours": 3,
+    "p90Hours": 39.4,
+    "n": 34
+  },
+  {
+    "week": "2021-02-01",
+    "medianHours": 1.2,
+    "p90Hours": 53.7,
+    "n": 21
+  },
+  {
+    "week": "2021-02-08",
+    "medianHours": 0.4,
+    "p90Hours": 33.3,
+    "n": 33
+  },
+  {
+    "week": "2021-02-15",
+    "medianHours": 1.1,
+    "p90Hours": 16.8,
+    "n": 25
+  },
+  {
+    "week": "2021-02-22",
+    "medianHours": 2.8,
+    "p90Hours": 41.3,
+    "n": 25
+  },
+  {
+    "week": "2021-03-01",
+    "medianHours": 8.5,
+    "p90Hours": 73.9,
+    "n": 34
+  },
+  {
+    "week": "2021-03-08",
+    "medianHours": 24.9,
+    "p90Hours": 76,
+    "n": 22
+  },
+  {
+    "week": "2021-03-15",
+    "medianHours": 24.9,
+    "p90Hours": 69.6,
+    "n": 39
+  },
+  {
+    "week": "2021-03-22",
+    "medianHours": 7.8,
+    "p90Hours": 41.4,
+    "n": 29
+  },
+  {
+    "week": "2021-03-29",
+    "medianHours": 24.2,
+    "p90Hours": 115.8,
+    "n": 27
+  },
+  {
+    "week": "2021-04-05",
+    "medianHours": 25,
+    "p90Hours": 205.4,
+    "n": 18
+  },
+  {
+    "week": "2021-04-12",
+    "medianHours": 93.6,
+    "p90Hours": 149.7,
+    "n": 11
+  },
+  {
+    "week": "2021-04-19",
+    "medianHours": 21.5,
+    "p90Hours": 229.4,
+    "n": 26
+  },
+  {
+    "week": "2021-04-26",
+    "medianHours": 48.1,
+    "p90Hours": 90.6,
+    "n": 18
+  },
+  {
+    "week": "2021-05-03",
+    "medianHours": 32.4,
+    "p90Hours": 105,
+    "n": 31
+  },
+  {
+    "week": "2021-05-10",
+    "medianHours": 86.8,
+    "p90Hours": 152.4,
+    "n": 15
+  },
+  {
+    "week": "2021-05-17",
+    "medianHours": 5.9,
+    "p90Hours": 47.7,
+    "n": 27
+  },
+  {
+    "week": "2021-05-24",
+    "medianHours": 18.3,
+    "p90Hours": 65.9,
+    "n": 21
+  },
+  {
+    "week": "2021-05-31",
+    "medianHours": 34.2,
+    "p90Hours": 81.6,
+    "n": 23
+  },
+  {
+    "week": "2021-06-07",
+    "medianHours": 12.7,
+    "p90Hours": 122.6,
+    "n": 27
+  },
+  {
+    "week": "2021-06-14",
+    "medianHours": 6.3,
+    "p90Hours": 268.2,
+    "n": 41
+  },
+  {
+    "week": "2021-06-21",
+    "medianHours": 7.6,
+    "p90Hours": 95.9,
+    "n": 32
+  },
+  {
+    "week": "2021-06-28",
+    "medianHours": 5,
+    "p90Hours": 34.1,
+    "n": 28
+  },
+  {
+    "week": "2021-07-05",
+    "medianHours": 6.4,
+    "p90Hours": 95.9,
+    "n": 27
+  },
+  {
+    "week": "2021-07-12",
+    "medianHours": 5.6,
+    "p90Hours": 232.8,
+    "n": 29
+  },
+  {
+    "week": "2021-07-19",
+    "medianHours": 3.7,
+    "p90Hours": 96.8,
+    "n": 27
+  },
+  {
+    "week": "2021-07-26",
+    "medianHours": 9.6,
+    "p90Hours": 59.6,
+    "n": 26
+  },
+  {
+    "week": "2021-08-02",
+    "medianHours": 14.8,
+    "p90Hours": 46.3,
+    "n": 22
+  },
+  {
+    "week": "2021-08-09",
+    "medianHours": 22.9,
+    "p90Hours": 77.3,
+    "n": 18
+  },
+  {
+    "week": "2021-08-16",
+    "medianHours": 14.4,
+    "p90Hours": 77.6,
+    "n": 25
+  },
+  {
+    "week": "2021-08-23",
+    "medianHours": 0.1,
+    "p90Hours": 26.7,
+    "n": 15
+  },
+  {
+    "week": "2021-08-30",
+    "medianHours": 19.7,
+    "p90Hours": 44.5,
+    "n": 12
+  },
+  {
+    "week": "2021-09-06",
+    "medianHours": 8.9,
+    "p90Hours": 217.2,
+    "n": 29
+  },
+  {
+    "week": "2021-09-13",
+    "medianHours": 4.8,
+    "p90Hours": 52.7,
+    "n": 19
+  },
+  {
+    "week": "2021-09-20",
+    "medianHours": 4.5,
+    "p90Hours": 75.1,
+    "n": 27
+  },
+  {
+    "week": "2021-09-27",
+    "medianHours": 3.5,
+    "p90Hours": 73.5,
+    "n": 24
+  },
+  {
+    "week": "2021-10-04",
+    "medianHours": 8.3,
+    "p90Hours": 109.2,
+    "n": 33
+  },
+  {
+    "week": "2021-10-11",
+    "medianHours": 26.3,
+    "p90Hours": 168.2,
+    "n": 21
+  },
+  {
+    "week": "2021-10-18",
+    "medianHours": 69.6,
+    "p90Hours": 226.6,
+    "n": 24
+  },
+  {
+    "week": "2021-10-25",
+    "medianHours": 22.7,
+    "p90Hours": 312.1,
+    "n": 37
+  },
+  {
+    "week": "2021-11-01",
+    "medianHours": 16.7,
+    "p90Hours": 62.3,
+    "n": 21
+  },
+  {
+    "week": "2021-11-08",
+    "medianHours": 46.3,
+    "p90Hours": 168.7,
+    "n": 20
+  },
+  {
+    "week": "2021-11-15",
+    "medianHours": 31.9,
+    "p90Hours": 197.7,
+    "n": 11
+  },
+  {
+    "week": "2021-11-22",
+    "medianHours": 133,
+    "p90Hours": 194.1,
+    "n": 16
+  },
+  {
+    "week": "2021-11-29",
+    "medianHours": 35.2,
+    "p90Hours": 119.9,
+    "n": 34
+  },
+  {
+    "week": "2021-12-06",
+    "medianHours": 26.9,
+    "p90Hours": 86.3,
+    "n": 16
+  },
+  {
+    "week": "2021-12-13",
+    "medianHours": 16.3,
+    "p90Hours": 253.4,
+    "n": 45
+  },
+  {
+    "week": "2021-12-20",
+    "medianHours": 32.3,
+    "p90Hours": 87,
+    "n": 16
+  },
+  {
+    "week": "2021-12-27",
+    "medianHours": 82.5,
+    "p90Hours": 94.5,
+    "n": 14
+  },
+  {
+    "week": "2022-01-03",
+    "medianHours": 47.2,
+    "p90Hours": 250.7,
+    "n": 34
+  },
+  {
+    "week": "2022-01-10",
+    "medianHours": 38.6,
+    "p90Hours": 149.1,
+    "n": 24
+  },
+  {
+    "week": "2022-01-17",
+    "medianHours": 8.6,
+    "p90Hours": 128.1,
+    "n": 23
+  },
+  {
+    "week": "2022-01-24",
+    "medianHours": 49.8,
+    "p90Hours": 397.8,
+    "n": 15
+  },
+  {
+    "week": "2022-01-31",
+    "medianHours": 26.1,
+    "p90Hours": 508.4,
+    "n": 32
+  },
+  {
+    "week": "2022-02-07",
+    "medianHours": 27.4,
+    "p90Hours": 142.6,
+    "n": 21
+  },
+  {
+    "week": "2022-02-14",
+    "medianHours": 0.2,
+    "p90Hours": 4.7,
+    "n": 4
+  },
+  {
+    "week": "2022-02-21",
+    "medianHours": 56.4,
+    "p90Hours": 848.1,
+    "n": 25
+  },
+  {
+    "week": "2022-02-28",
+    "medianHours": 14,
+    "p90Hours": 70.8,
+    "n": 3
+  },
+  {
+    "week": "2022-03-14",
+    "medianHours": 105,
+    "p90Hours": 685,
+    "n": 20
+  },
+  {
+    "week": "2022-03-21",
+    "medianHours": 40.3,
+    "p90Hours": 800.7,
+    "n": 48
+  },
+  {
+    "week": "2022-03-28",
+    "medianHours": 14,
+    "p90Hours": 3511.1,
+    "n": 36
+  },
+  {
+    "week": "2022-04-04",
+    "medianHours": 7.2,
+    "p90Hours": 50.9,
+    "n": 16
+  },
+  {
+    "week": "2022-04-11",
+    "medianHours": 31.4,
+    "p90Hours": 103.8,
+    "n": 17
+  },
+  {
+    "week": "2022-04-18",
+    "medianHours": 33.4,
+    "p90Hours": 186,
+    "n": 34
+  },
+  {
+    "week": "2022-04-25",
+    "medianHours": 16.9,
+    "p90Hours": 99.4,
+    "n": 45
+  },
+  {
+    "week": "2022-05-02",
+    "medianHours": 42.8,
+    "p90Hours": 278.7,
+    "n": 20
+  },
+  {
+    "week": "2022-05-09",
+    "medianHours": 47.9,
+    "p90Hours": 176.7,
+    "n": 25
+  },
+  {
+    "week": "2022-05-16",
+    "medianHours": 52.8,
+    "p90Hours": 359.9,
+    "n": 40
+  },
+  {
+    "week": "2022-05-23",
+    "medianHours": 18.5,
+    "p90Hours": 71.8,
+    "n": 32
+  },
+  {
+    "week": "2022-05-30",
+    "medianHours": 40.5,
+    "p90Hours": 87.7,
+    "n": 41
+  },
+  {
+    "week": "2022-06-06",
+    "medianHours": 21.4,
+    "p90Hours": 77.3,
+    "n": 28
+  },
+  {
+    "week": "2022-06-13",
+    "medianHours": 12.2,
+    "p90Hours": 216.9,
+    "n": 37
+  },
+  {
+    "week": "2022-06-20",
+    "medianHours": 34.9,
+    "p90Hours": 128.6,
+    "n": 28
+  },
+  {
+    "week": "2022-06-27",
+    "medianHours": 12.3,
+    "p90Hours": 106.2,
+    "n": 53
+  },
+  {
+    "week": "2022-07-04",
+    "medianHours": 27.7,
+    "p90Hours": 387.9,
+    "n": 24
+  },
+  {
+    "week": "2022-07-11",
+    "medianHours": 67,
+    "p90Hours": 165.7,
+    "n": 52
+  },
+  {
+    "week": "2022-07-18",
+    "medianHours": 99.2,
+    "p90Hours": 251.9,
+    "n": 38
+  },
+  {
+    "week": "2022-07-25",
+    "medianHours": 8.1,
+    "p90Hours": 101.6,
+    "n": 14
+  },
+  {
+    "week": "2022-08-01",
+    "medianHours": 74.2,
+    "p90Hours": 226.1,
+    "n": 54
+  },
+  {
+    "week": "2022-08-08",
+    "medianHours": 3.4,
+    "p90Hours": 100.2,
+    "n": 54
+  },
+  {
+    "week": "2022-08-15",
+    "medianHours": 18.1,
+    "p90Hours": 55.2,
+    "n": 36
+  },
+  {
+    "week": "2022-08-22",
+    "medianHours": 30,
+    "p90Hours": 178.8,
+    "n": 20
+  },
+  {
+    "week": "2022-08-29",
+    "medianHours": 38.3,
+    "p90Hours": 231.1,
+    "n": 31
+  },
+  {
+    "week": "2022-09-05",
+    "medianHours": 27.2,
+    "p90Hours": 433.6,
+    "n": 26
+  },
+  {
+    "week": "2022-09-12",
+    "medianHours": 33.3,
+    "p90Hours": 210.8,
+    "n": 33
+  },
+  {
+    "week": "2022-09-19",
+    "medianHours": 85.1,
+    "p90Hours": 575.5,
+    "n": 22
+  },
+  {
+    "week": "2022-09-26",
+    "medianHours": 26.3,
+    "p90Hours": 536.2,
+    "n": 32
+  },
+  {
+    "week": "2022-10-03",
+    "medianHours": 119.8,
+    "p90Hours": 411,
+    "n": 45
+  },
+  {
+    "week": "2022-10-10",
+    "medianHours": 69.9,
+    "p90Hours": 176.4,
+    "n": 24
+  },
+  {
+    "week": "2022-10-17",
+    "medianHours": 70.7,
+    "p90Hours": 286.6,
+    "n": 19
+  },
+  {
+    "week": "2022-10-24",
+    "medianHours": 171.5,
+    "p90Hours": 299.2,
+    "n": 13
+  },
+  {
+    "week": "2022-10-31",
+    "medianHours": 222.9,
+    "p90Hours": 386.9,
+    "n": 28
+  },
+  {
+    "week": "2022-11-07",
+    "medianHours": 68,
+    "p90Hours": 1196.7,
+    "n": 66
+  },
+  {
+    "week": "2022-11-14",
+    "medianHours": 21.8,
+    "p90Hours": 119.9,
+    "n": 20
+  },
+  {
+    "week": "2022-11-21",
+    "medianHours": 20.8,
+    "p90Hours": 63,
+    "n": 9
+  },
+  {
+    "week": "2022-11-28",
+    "medianHours": 33.5,
+    "p90Hours": 212.1,
+    "n": 19
+  },
+  {
+    "week": "2022-12-05",
+    "medianHours": 64.5,
+    "p90Hours": 300.6,
+    "n": 32
+  },
+  {
+    "week": "2022-12-12",
+    "medianHours": 95,
+    "p90Hours": 258.8,
+    "n": 16
+  },
+  {
+    "week": "2022-12-19",
+    "medianHours": 0.4,
+    "p90Hours": 260.5,
+    "n": 7
+  },
+  {
+    "week": "2022-12-26",
+    "medianHours": 138,
+    "p90Hours": 361.4,
+    "n": 14
+  },
+  {
+    "week": "2023-01-02",
+    "medianHours": 217.7,
+    "p90Hours": 462.7,
+    "n": 14
+  },
+  {
+    "week": "2023-01-09",
+    "medianHours": 219.9,
+    "p90Hours": 645.6,
+    "n": 73
+  },
+  {
+    "week": "2023-01-16",
+    "medianHours": 7.6,
+    "p90Hours": 219,
+    "n": 20
+  },
+  {
+    "week": "2023-01-23",
+    "medianHours": 21.7,
+    "p90Hours": 197.8,
+    "n": 17
+  },
+  {
+    "week": "2023-01-30",
+    "medianHours": 131.8,
+    "p90Hours": 359.9,
+    "n": 48
+  },
+  {
+    "week": "2023-02-06",
+    "medianHours": 8.1,
+    "p90Hours": 112.8,
+    "n": 17
+  },
+  {
+    "week": "2023-02-13",
+    "medianHours": 0.6,
+    "p90Hours": 64.4,
+    "n": 7
+  },
+  {
+    "week": "2023-02-20",
+    "medianHours": 480.4,
+    "p90Hours": 1102.9,
+    "n": 23
+  },
+  {
+    "week": "2023-02-27",
+    "medianHours": 366.1,
+    "p90Hours": 722.8,
+    "n": 47
+  },
+  {
+    "week": "2023-03-06",
+    "medianHours": 137.3,
+    "p90Hours": 315.9,
+    "n": 53
+  },
+  {
+    "week": "2023-03-13",
+    "medianHours": 173.2,
+    "p90Hours": 253.9,
+    "n": 60
+  },
+  {
+    "week": "2023-03-20",
+    "medianHours": 73.2,
+    "p90Hours": 367.7,
+    "n": 36
+  },
+  {
+    "week": "2023-03-27",
+    "medianHours": 167.8,
+    "p90Hours": 194.3,
+    "n": 30
+  },
+  {
+    "week": "2023-04-03",
+    "medianHours": 55.3,
+    "p90Hours": 278.5,
+    "n": 50
+  },
+  {
+    "week": "2023-04-10",
+    "medianHours": 39,
+    "p90Hours": 405.8,
+    "n": 46
+  },
+  {
+    "week": "2023-04-17",
+    "medianHours": 18.4,
+    "p90Hours": 129.5,
+    "n": 11
+  },
+  {
+    "week": "2023-04-24",
+    "medianHours": 98.6,
+    "p90Hours": 238.5,
+    "n": 33
+  },
+  {
+    "week": "2023-05-01",
+    "medianHours": 128.6,
+    "p90Hours": 378.7,
+    "n": 39
+  },
+  {
+    "week": "2023-05-08",
+    "medianHours": 14.8,
+    "p90Hours": 83.6,
+    "n": 32
+  },
+  {
+    "week": "2023-05-15",
+    "medianHours": 114.7,
+    "p90Hours": 320.2,
+    "n": 26
+  },
+  {
+    "week": "2023-05-22",
+    "medianHours": 192.5,
+    "p90Hours": 381.5,
+    "n": 24
+  },
+  {
+    "week": "2023-05-29",
+    "medianHours": 81.7,
+    "p90Hours": 214.3,
+    "n": 48
+  },
+  {
+    "week": "2023-06-05",
+    "medianHours": 25.3,
+    "p90Hours": 72.1,
+    "n": 28
+  },
+  {
+    "week": "2023-06-12",
+    "medianHours": 45.7,
+    "p90Hours": 189.5,
+    "n": 13
+  },
+  {
+    "week": "2023-06-19",
+    "medianHours": 135.4,
+    "p90Hours": 248.1,
+    "n": 26
+  },
+  {
+    "week": "2023-06-26",
+    "medianHours": 26.5,
+    "p90Hours": 335.9,
+    "n": 51
+  },
+  {
+    "week": "2023-07-03",
+    "medianHours": 37.8,
+    "p90Hours": 177.6,
+    "n": 32
+  },
+  {
+    "week": "2023-07-10",
+    "medianHours": 84.4,
+    "p90Hours": 149.7,
+    "n": 22
+  },
+  {
+    "week": "2023-07-17",
+    "medianHours": 70.6,
+    "p90Hours": 163.3,
+    "n": 23
+  },
+  {
+    "week": "2023-07-24",
+    "medianHours": 155.6,
+    "p90Hours": 304.3,
+    "n": 18
+  },
+  {
+    "week": "2023-07-31",
+    "medianHours": 86.1,
+    "p90Hours": 340.7,
+    "n": 70
+  },
+  {
+    "week": "2023-08-07",
+    "medianHours": 52.4,
+    "p90Hours": 100.4,
+    "n": 20
+  },
+  {
+    "week": "2023-08-14",
+    "medianHours": 26.5,
+    "p90Hours": 2141.7,
+    "n": 8
+  },
+  {
+    "week": "2023-08-21",
+    "medianHours": 205.3,
+    "p90Hours": 303.3,
+    "n": 13
+  },
+  {
+    "week": "2023-08-28",
+    "medianHours": 244.9,
+    "p90Hours": 486,
+    "n": 43
+  },
+  {
+    "week": "2023-09-04",
+    "medianHours": 70.8,
+    "p90Hours": 361.7,
+    "n": 45
+  },
+  {
+    "week": "2023-09-11",
+    "medianHours": 96.7,
+    "p90Hours": 358,
+    "n": 26
+  },
+  {
+    "week": "2023-09-18",
+    "medianHours": 26.2,
+    "p90Hours": 120.4,
+    "n": 25
+  },
+  {
+    "week": "2023-09-25",
+    "medianHours": 136.3,
+    "p90Hours": 568.8,
+    "n": 55
+  },
+  {
+    "week": "2023-10-02",
+    "medianHours": 101.9,
+    "p90Hours": 554.4,
+    "n": 20
+  },
+  {
+    "week": "2023-10-09",
+    "medianHours": 115.7,
+    "p90Hours": 1169.9,
+    "n": 68
+  },
+  {
+    "week": "2023-10-16",
+    "medianHours": 12.2,
+    "p90Hours": 132,
+    "n": 29
+  },
+  {
+    "week": "2023-10-23",
+    "medianHours": 4.4,
+    "p90Hours": 123,
+    "n": 9
+  },
+  {
+    "week": "2023-10-30",
+    "medianHours": 152.5,
+    "p90Hours": 348.6,
+    "n": 11
+  },
+  {
+    "week": "2023-11-06",
+    "medianHours": 309.9,
+    "p90Hours": 520.9,
+    "n": 44
+  },
+  {
+    "week": "2023-11-13",
+    "medianHours": 78.2,
+    "p90Hours": 238,
+    "n": 37
+  },
+  {
+    "week": "2023-11-20",
+    "medianHours": 10.1,
+    "p90Hours": 679.1,
+    "n": 14
+  },
+  {
+    "week": "2023-11-27",
+    "medianHours": 45.6,
+    "p90Hours": 371.9,
+    "n": 32
+  },
+  {
+    "week": "2023-12-04",
+    "medianHours": 178.5,
+    "p90Hours": 3901.6,
+    "n": 6
+  },
+  {
+    "week": "2023-12-11",
+    "medianHours": 66.4,
+    "p90Hours": 232.6,
+    "n": 15
+  },
+  {
+    "week": "2023-12-18",
+    "medianHours": 551.6,
+    "p90Hours": 741,
+    "n": 9
+  },
+  {
+    "week": "2023-12-25",
+    "medianHours": 0.2,
+    "p90Hours": 81.9,
+    "n": 3
+  },
+  {
+    "week": "2024-01-01",
+    "medianHours": 548.9,
+    "p90Hours": 3331.3,
+    "n": 50
+  },
+  {
+    "week": "2024-01-08",
+    "medianHours": 26,
+    "p90Hours": 622.9,
+    "n": 40
+  },
+  {
+    "week": "2024-01-15",
+    "medianHours": 27,
+    "p90Hours": 740.5,
+    "n": 11
+  },
+  {
+    "week": "2024-01-22",
+    "medianHours": 147.3,
+    "p90Hours": 259.8,
+    "n": 32
+  },
+  {
+    "week": "2024-01-29",
+    "medianHours": 91.5,
+    "p90Hours": 1257.5,
+    "n": 64
+  },
+  {
+    "week": "2024-02-05",
+    "medianHours": 33,
+    "p90Hours": 638.7,
+    "n": 19
+  },
+  {
+    "week": "2024-02-12",
+    "medianHours": 162.8,
+    "p90Hours": 626.8,
+    "n": 19
+  },
+  {
+    "week": "2024-02-19",
+    "medianHours": 109.6,
+    "p90Hours": 410.6,
+    "n": 66
+  },
+  {
+    "week": "2024-02-26",
+    "medianHours": 44,
+    "p90Hours": 87.7,
+    "n": 22
+  },
+  {
+    "week": "2024-03-04",
+    "medianHours": 135.9,
+    "p90Hours": 369.9,
+    "n": 36
+  },
+  {
+    "week": "2024-03-11",
+    "medianHours": 101.4,
+    "p90Hours": 404.7,
+    "n": 37
+  },
+  {
+    "week": "2024-03-18",
+    "medianHours": 83.3,
+    "p90Hours": 1668.2,
+    "n": 46
+  },
+  {
+    "week": "2024-03-25",
+    "medianHours": 69.2,
+    "p90Hours": 263.2,
+    "n": 37
+  },
+  {
+    "week": "2024-04-01",
+    "medianHours": 179.6,
+    "p90Hours": 606.9,
+    "n": 38
+  },
+  {
+    "week": "2024-04-08",
+    "medianHours": 91.5,
+    "p90Hours": 2179.6,
+    "n": 81
+  },
+  {
+    "week": "2024-04-15",
+    "medianHours": 30.6,
+    "p90Hours": 110.6,
+    "n": 34
+  },
+  {
+    "week": "2024-04-22",
+    "medianHours": 24.5,
+    "p90Hours": 76.8,
+    "n": 31
+  },
+  {
+    "week": "2024-04-29",
+    "medianHours": 68,
+    "p90Hours": 295,
+    "n": 26
+  },
+  {
+    "week": "2024-05-06",
+    "medianHours": 38.2,
+    "p90Hours": 526.4,
+    "n": 21
+  },
+  {
+    "week": "2024-05-13",
+    "medianHours": 79.3,
+    "p90Hours": 608.5,
+    "n": 42
+  },
+  {
+    "week": "2024-05-20",
+    "medianHours": 66.2,
+    "p90Hours": 597.5,
+    "n": 57
+  },
+  {
+    "week": "2024-05-27",
+    "medianHours": 220.7,
+    "p90Hours": 486.4,
+    "n": 7
+  },
+  {
+    "week": "2024-06-03",
+    "medianHours": 220.9,
+    "p90Hours": 367.6,
+    "n": 32
+  },
+  {
+    "week": "2024-06-10",
+    "medianHours": 135.3,
+    "p90Hours": 549.9,
+    "n": 34
+  },
+  {
+    "week": "2024-06-17",
+    "medianHours": 7,
+    "p90Hours": 707.5,
+    "n": 10
+  },
+  {
+    "week": "2024-06-24",
+    "medianHours": 219.2,
+    "p90Hours": 858,
+    "n": 28
+  },
+  {
+    "week": "2024-07-01",
+    "medianHours": 248.6,
+    "p90Hours": 2605.8,
+    "n": 28
+  },
+  {
+    "week": "2024-07-08",
+    "medianHours": 38.5,
+    "p90Hours": 809.8,
+    "n": 50
+  },
+  {
+    "week": "2024-07-15",
+    "medianHours": 12.8,
+    "p90Hours": 603.3,
+    "n": 52
+  },
+  {
+    "week": "2024-07-22",
+    "medianHours": 6.1,
+    "p90Hours": 541.2,
+    "n": 25
+  },
+  {
+    "week": "2024-07-29",
+    "medianHours": 150.6,
+    "p90Hours": 1004,
+    "n": 36
+  },
+  {
+    "week": "2024-08-05",
+    "medianHours": 56.9,
+    "p90Hours": 310.1,
+    "n": 24
+  },
+  {
+    "week": "2024-08-12",
+    "medianHours": 6.6,
+    "p90Hours": 324.9,
+    "n": 46
+  },
+  {
+    "week": "2024-08-19",
+    "medianHours": 2.5,
+    "p90Hours": 901.3,
+    "n": 9
+  },
+  {
+    "week": "2024-08-26",
+    "medianHours": 113,
+    "p90Hours": 542.8,
+    "n": 41
+  },
+  {
+    "week": "2024-09-02",
+    "medianHours": 9.2,
+    "p90Hours": 166.2,
+    "n": 29
+  },
+  {
+    "week": "2024-09-09",
+    "medianHours": 47.2,
+    "p90Hours": 92.2,
+    "n": 14
+  },
+  {
+    "week": "2024-09-16",
+    "medianHours": 55.3,
+    "p90Hours": 818,
+    "n": 43
+  },
+  {
+    "week": "2024-09-23",
+    "medianHours": 11.3,
+    "p90Hours": 156.1,
+    "n": 37
+  },
+  {
+    "week": "2024-09-30",
+    "medianHours": 35,
+    "p90Hours": 1449.3,
+    "n": 64
+  },
+  {
+    "week": "2024-10-07",
+    "medianHours": 54,
+    "p90Hours": 632.9,
+    "n": 57
+  },
+  {
+    "week": "2024-10-14",
+    "medianHours": 19.6,
+    "p90Hours": 1386.1,
+    "n": 89
+  },
+  {
+    "week": "2024-10-21",
+    "medianHours": 15.8,
+    "p90Hours": 84.4,
+    "n": 56
+  },
+  {
+    "week": "2024-10-28",
+    "medianHours": 7,
+    "p90Hours": 36.4,
+    "n": 33
+  },
+  {
+    "week": "2024-11-04",
+    "medianHours": 24.1,
+    "p90Hours": 127.1,
+    "n": 34
+  },
+  {
+    "week": "2024-11-11",
+    "medianHours": 14.6,
+    "p90Hours": 2283.7,
+    "n": 40
+  },
+  {
+    "week": "2024-11-18",
+    "medianHours": 8.5,
+    "p90Hours": 103.4,
+    "n": 45
+  },
+  {
+    "week": "2024-11-25",
+    "medianHours": 21.6,
+    "p90Hours": 89.1,
+    "n": 58
+  },
+  {
+    "week": "2024-12-02",
+    "medianHours": 17.1,
+    "p90Hours": 192.5,
+    "n": 29
+  },
+  {
+    "week": "2024-12-09",
+    "medianHours": 13.1,
+    "p90Hours": 116.8,
+    "n": 27
+  },
+  {
+    "week": "2024-12-16",
+    "medianHours": 71.9,
+    "p90Hours": 263,
+    "n": 19
+  },
+  {
+    "week": "2024-12-23",
+    "medianHours": 48.5,
+    "p90Hours": 796,
+    "n": 17
+  },
+  {
+    "week": "2024-12-30",
+    "medianHours": 2.9,
+    "p90Hours": 39.4,
+    "n": 9
+  },
+  {
+    "week": "2025-01-06",
+    "medianHours": 85.1,
+    "p90Hours": 553.1,
+    "n": 36
+  },
+  {
+    "week": "2025-01-13",
+    "medianHours": 8.1,
+    "p90Hours": 1251.7,
+    "n": 10
+  },
+  {
+    "week": "2025-01-20",
+    "medianHours": 19.5,
+    "p90Hours": 290.7,
+    "n": 49
+  },
+  {
+    "week": "2025-01-27",
+    "medianHours": 9,
+    "p90Hours": 108.9,
+    "n": 49
+  },
+  {
+    "week": "2025-02-03",
+    "medianHours": 8.7,
+    "p90Hours": 136.5,
+    "n": 43
+  },
+  {
+    "week": "2025-02-10",
+    "medianHours": 6.7,
+    "p90Hours": 79.6,
+    "n": 61
+  },
+  {
+    "week": "2025-02-17",
+    "medianHours": 3.4,
+    "p90Hours": 45.8,
+    "n": 61
+  },
+  {
+    "week": "2025-02-24",
+    "medianHours": 17.7,
+    "p90Hours": 175.3,
+    "n": 55
+  },
+  {
+    "week": "2025-03-03",
+    "medianHours": 20.3,
+    "p90Hours": 133.4,
+    "n": 50
+  },
+  {
+    "week": "2025-03-10",
+    "medianHours": 15.9,
+    "p90Hours": 116.3,
+    "n": 46
+  },
+  {
+    "week": "2025-03-17",
+    "medianHours": 24.8,
+    "p90Hours": 89.2,
+    "n": 51
+  },
+  {
+    "week": "2025-03-24",
+    "medianHours": 29.6,
+    "p90Hours": 133.8,
+    "n": 37
+  },
+  {
+    "week": "2025-03-31",
+    "medianHours": 31.5,
+    "p90Hours": 129.1,
+    "n": 27
+  },
+  {
+    "week": "2025-04-07",
+    "medianHours": 19.7,
+    "p90Hours": 103.3,
+    "n": 44
+  },
+  {
+    "week": "2025-04-14",
+    "medianHours": 24.9,
+    "p90Hours": 127.5,
+    "n": 46
+  },
+  {
+    "week": "2025-04-21",
+    "medianHours": 43.9,
+    "p90Hours": 243,
+    "n": 30
+  },
+  {
+    "week": "2025-04-28",
+    "medianHours": 27.3,
+    "p90Hours": 97,
+    "n": 44
+  },
+  {
+    "week": "2025-05-05",
+    "medianHours": 53.3,
+    "p90Hours": 494.1,
+    "n": 55
+  },
+  {
+    "week": "2025-05-12",
+    "medianHours": 8.8,
+    "p90Hours": 143.2,
+    "n": 33
+  },
+  {
+    "week": "2025-05-19",
+    "medianHours": 55.3,
+    "p90Hours": 252,
+    "n": 52
+  },
+  {
+    "week": "2025-05-26",
+    "medianHours": 8.8,
+    "p90Hours": 259.2,
+    "n": 37
+  },
+  {
+    "week": "2025-06-02",
+    "medianHours": 5.6,
+    "p90Hours": 340.3,
+    "n": 33
+  },
+  {
+    "week": "2025-06-09",
+    "medianHours": 13.8,
+    "p90Hours": 103.6,
+    "n": 34
+  },
+  {
+    "week": "2025-06-16",
+    "medianHours": 100,
+    "p90Hours": 662.3,
+    "n": 37
+  },
+  {
+    "week": "2025-06-23",
+    "medianHours": 293.1,
+    "p90Hours": 502.2,
+    "n": 73
+  },
+  {
+    "week": "2025-06-30",
+    "medianHours": 8.2,
+    "p90Hours": 871.1,
+    "n": 99
+  },
+  {
+    "week": "2025-07-07",
+    "medianHours": 13,
+    "p90Hours": 62.1,
+    "n": 72
+  },
+  {
+    "week": "2025-07-14",
+    "medianHours": 12.7,
+    "p90Hours": 65.1,
+    "n": 58
+  },
+  {
+    "week": "2025-07-21",
+    "medianHours": 19.2,
+    "p90Hours": 138.4,
+    "n": 84
+  },
+  {
+    "week": "2025-07-28",
+    "medianHours": 16.3,
+    "p90Hours": 198.9,
+    "n": 101
+  },
+  {
+    "week": "2025-08-04",
+    "medianHours": 8.4,
+    "p90Hours": 119.9,
+    "n": 49
+  },
+  {
+    "week": "2025-08-11",
+    "medianHours": 40.3,
+    "p90Hours": 237.3,
+    "n": 65
+  },
+  {
+    "week": "2025-08-18",
+    "medianHours": 3.5,
+    "p90Hours": 87,
+    "n": 41
+  },
+  {
+    "week": "2025-08-25",
+    "medianHours": 13.9,
+    "p90Hours": 198.8,
+    "n": 78
+  },
+  {
+    "week": "2025-09-01",
+    "medianHours": 24.5,
+    "p90Hours": 395.7,
+    "n": 51
+  },
+  {
+    "week": "2025-09-08",
+    "medianHours": 39.6,
+    "p90Hours": 676,
+    "n": 40
+  },
+  {
+    "week": "2025-09-15",
+    "medianHours": 4.2,
+    "p90Hours": 143.2,
+    "n": 37
+  },
+  {
+    "week": "2025-09-22",
+    "medianHours": 18.9,
+    "p90Hours": 785.8,
+    "n": 57
+  },
+  {
+    "week": "2025-09-29",
+    "medianHours": 7,
+    "p90Hours": 310.7,
+    "n": 38
+  },
+  {
+    "week": "2025-10-06",
+    "medianHours": 46.6,
+    "p90Hours": 317.2,
+    "n": 32
+  },
+  {
+    "week": "2025-10-13",
+    "medianHours": 23.2,
+    "p90Hours": 408.3,
+    "n": 59
+  },
+  {
+    "week": "2025-10-20",
+    "medianHours": 4.5,
+    "p90Hours": 305.9,
+    "n": 35
+  },
+  {
+    "week": "2025-10-27",
+    "medianHours": 23.7,
+    "p90Hours": 1292.9,
+    "n": 56
+  },
+  {
+    "week": "2025-11-03",
+    "medianHours": 10.2,
+    "p90Hours": 1254.9,
+    "n": 86
+  },
+  {
+    "week": "2025-11-10",
+    "medianHours": 20.9,
+    "p90Hours": 960.8,
+    "n": 53
+  },
+  {
+    "week": "2025-11-17",
+    "medianHours": 3.8,
+    "p90Hours": 27.1,
+    "n": 47
+  },
+  {
+    "week": "2025-11-24",
+    "medianHours": 32,
+    "p90Hours": 324.1,
+    "n": 96
+  },
+  {
+    "week": "2025-12-01",
+    "medianHours": 6.8,
+    "p90Hours": 726.9,
+    "n": 94
+  },
+  {
+    "week": "2025-12-08",
+    "medianHours": 9.4,
+    "p90Hours": 558.1,
+    "n": 95
+  },
+  {
+    "week": "2025-12-15",
+    "medianHours": 19.6,
+    "p90Hours": 521.5,
+    "n": 78
+  },
+  {
+    "week": "2025-12-22",
+    "medianHours": 20.7,
+    "p90Hours": 332.4,
+    "n": 78
+  },
+  {
+    "week": "2025-12-29",
+    "medianHours": 21.9,
+    "p90Hours": 1059.2,
+    "n": 83
+  },
+  {
+    "week": "2026-01-05",
+    "medianHours": 15.3,
+    "p90Hours": 175.8,
+    "n": 86
+  },
+  {
+    "week": "2026-01-12",
+    "medianHours": 21.2,
+    "p90Hours": 185.1,
+    "n": 98
+  },
+  {
+    "week": "2026-01-19",
+    "medianHours": 19.7,
+    "p90Hours": 278.2,
+    "n": 95
+  },
+  {
+    "week": "2026-01-26",
+    "medianHours": 6,
+    "p90Hours": 121.5,
+    "n": 81
+  },
+  {
+    "week": "2026-02-02",
+    "medianHours": 13.4,
+    "p90Hours": 179.6,
+    "n": 100
+  },
+  {
+    "week": "2026-02-09",
+    "medianHours": 17.8,
+    "p90Hours": 188,
+    "n": 54
+  },
+  {
+    "week": "2026-02-16",
+    "medianHours": 12.5,
+    "p90Hours": 179,
+    "n": 79
+  },
+  {
+    "week": "2026-02-23",
+    "medianHours": 50.5,
+    "p90Hours": 300,
+    "n": 136
+  },
+  {
+    "week": "2026-03-02",
+    "medianHours": 17.8,
+    "p90Hours": 128.8,
+    "n": 113
+  },
+  {
+    "week": "2026-03-09",
+    "medianHours": 11.9,
+    "p90Hours": 253.8,
+    "n": 115
+  },
+  {
+    "week": "2026-03-16",
+    "medianHours": 11.6,
+    "p90Hours": 386.7,
+    "n": 80
+  },
+  {
+    "week": "2026-03-23",
+    "medianHours": 12.5,
+    "p90Hours": 555.2,
+    "n": 71
+  },
+  {
+    "week": "2026-03-30",
+    "medianHours": 17.7,
+    "p90Hours": 178.9,
+    "n": 85
+  },
+  {
+    "week": "2026-04-06",
+    "medianHours": 27.2,
+    "p90Hours": 751.5,
+    "n": 60
+  },
+  {
+    "week": "2026-04-13",
+    "medianHours": 4.2,
+    "p90Hours": 69,
+    "n": 89
+  },
+  {
+    "week": "2026-04-20",
+    "medianHours": 19.7,
+    "p90Hours": 881.5,
+    "n": 66
+  },
+  {
+    "week": "2026-04-27",
+    "medianHours": 16.4,
+    "p90Hours": 930.7,
+    "n": 144
+  },
+  {
+    "week": "2026-05-04",
+    "medianHours": 7.4,
+    "p90Hours": 399.8,
+    "n": 95
+  },
+  {
+    "week": "2026-05-11",
+    "medianHours": 74,
+    "p90Hours": 1373.5,
+    "n": 261
+  },
+  {
+    "week": "2026-05-18",
+    "medianHours": 0.8,
+    "p90Hours": 339.9,
+    "n": 173
+  },
+  {
+    "week": "2026-05-25",
+    "medianHours": 0.7,
+    "p90Hours": 522.5,
+    "n": 155
+  },
+  {
+    "week": "2026-06-01",
+    "medianHours": 0.7,
+    "p90Hours": 470.8,
+    "n": 123
+  },
+  {
+    "week": "2026-06-08",
+    "medianHours": 0.7,
+    "p90Hours": 95.2,
+    "n": 137
+  },
+  {
+    "week": "2026-06-15",
+    "medianHours": 0.7,
+    "p90Hours": 163.2,
+    "n": 145
+  },
+  {
+    "week": "2026-06-22",
+    "medianHours": 4.5,
+    "p90Hours": 399,
+    "n": 334
+  },
+  {
+    "week": "2026-06-29",
+    "medianHours": 0.7,
+    "p90Hours": 25,
+    "n": 308
+  },
+  {
+    "week": "2026-07-06",
+    "medianHours": 1.1,
+    "p90Hours": 26.1,
+    "n": 302
+  }
+]

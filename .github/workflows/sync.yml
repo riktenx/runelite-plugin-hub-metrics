@@ -1,0 +1,66 @@
+name: Sync plugin-hub data
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch incremental PR data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch.mjs
+
+      - name: Rebuild aggregates
+        run: node scripts/aggregate.mjs
+
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain data | grep -q .; then
+            git add data
+            git commit -m "Sync plugin-hub data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          else
+            echo "No data changes."
+          fi
+
+      - name: Assemble Pages artifact
+        run: |
+          mkdir -p _site
+          cp -r site/. _site/
+          mkdir -p _site/data/aggregates
+          cp data/aggregates/*.json _site/data/aggregates/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: sync
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
