@@ -6,14 +6,14 @@ CI, no backend/server, no database beyond flat files committed to this repo.
 
 Hosted at: `riktenx.github.io/runelite-plugin-hub-metrics` (GitHub Pages, "GitHub Actions" source).
 
-Status: implemented locally (fetch, aggregate, site all working against real data) and not yet
-pushed to GitHub — see §9.
+Status: **live.** Repo pushed, Pages enabled, dashboard deployed and serving real data at the
+URL above. Daily sync is running in CI — see §9.
 
 ## 1. Why not GitHub's built-in stats
 
 GitHub's repo Insights (`/repos/{owner}/{repo}/stats/*`: contributors, code_frequency,
 punch_card, participation) are commit-based and repo-wide. plugin-hub is one repo containing
-~1,000 independent plugins, each represented by a pointer file — commit-level stats can't tell
+~2,000 independent plugins, each represented by a pointer file — commit-level stats can't tell
 you "is plugin X actively maintained" or "how long does review take," which is what's
 interesting here. We need PR-level data, joined to which plugin each PR touched. That has to be
 built from the PR list ourselves. Confirmed this is the only path — there's no innate
@@ -245,21 +245,32 @@ per the "more than ~7 meaningful categories → table" rule.
 
 ## 9. Implementation status
 
-All of this has been built and run against real data (13,635 PRs, 2,086 active plugins):
+All of this has been built, pushed, and is running live:
 
-1. `scripts/fetch.mjs` backfill — done. Record counts matched the live totals in §2 exactly
-   (11,536 merged / 2,079 closed / 20 open).
+1. `scripts/fetch.mjs` backfill — done at launch. Record counts matched the live totals in §2
+   exactly (11,536 merged / 2,079 closed / 20 open at the time).
 2. `scripts/aggregate.mjs` — done; weekly/backlog/latency/plugins/authors aggregates spot-checked
    against `gh pr list` and cross-checked against the Git Trees API (see the gotcha in §2).
-3. `sync.yml` — written, not yet run in CI (needs the GitHub repo to exist first).
-4. Static site — done, smoke-tested headlessly (jsdom) against the real aggregates: zero runtime
-   errors, correct element/row counts, no `NaN`/`undefined` in any generated SVG path.
+3. `sync.yml` — pushed, Pages enabled (source = GitHub Actions), and run successfully twice via
+   manual `workflow_dispatch` (fetch → aggregate → commit → deploy all verified working
+   end-to-end, including a real incremental commit picked up mid-session). The `schedule` trigger
+   itself hadn't fired yet as of this writing — first scheduled run is the next `00:00 UTC`.
+4. Static site — done, smoke-tested headlessly (jsdom) against the real aggregates before launch
+   (zero runtime errors, correct element/row counts, no `NaN`/`undefined` in any SVG path), and
+   confirmed live in the browser post-deploy.
 5. Per-plugin drill-down page — not built. Still optional/later, per §3.
+6. The file-cap fix in §4 (100-file cap, throw on `changedFiles` mismatch) shipped after launch,
+   verified with a real incremental run first (no throw, as expected) before being committed.
 
-Not yet done: pushing this to GitHub, enabling Pages, and watching the first scheduled run
-actually deploy. That's a deliberate stopping point — creating the public repo and turning on
-CI meaningfully affects the account it's made under, so it's happening as an explicit, separate,
-confirmed step rather than bundled into local implementation.
+**Operational note:** shortly after launch, a local commit got built on a stale `main` (fetched
+the remote log to inspect it, but never actually pulled) and diverged from `origin/main`, which
+the bot had since moved with its own sync commit. Rather than hand-merge the diverged data files
+— risky, since `data/` is meant to be regenerated, not manually reconciled — the fix was to reset
+local `main` to the true remote tip, reapply just the code/doc diff on top, and rerun
+`fetch.mjs`/`aggregate.mjs` fresh against the correct base. Same "clean rebuild over hand-patching
+derived data" principle as §11's recovery model, just applied to a git mistake instead of a code
+bug. Take care to `git pull` (not just `git fetch` + inspect) before committing, given the bot can
+push to `main` at any time.
 
 ## 10. Open questions
 
@@ -273,3 +284,25 @@ confirmed step rather than bundled into local implementation.
   2,086 live plugins, 2,088 were tracked active (only 2 off), and the two known exceptions
   (`wilderness-multi-lines` / `method-observer`) are genuine multi-step rename chains the
   same-PR heuristic can't follow — good enough for a first cut, not chased further.
+
+## 11. Data-quality recovery model
+
+However confident the code is, there's no reason to assume it's bug-free — it's a normal amount
+of hand-written logic, not something exhaustively proven. What actually matters is how cheap it
+is to recover when a bug is found, and that differs by layer:
+
+- **Aggregation bugs** (a miscount in `aggregate.mjs`) are free to fix: it's a pure function of
+  `data/prs.ndjson` with no network calls, so fix the logic and rerun — instant, no risk.
+- **Fetch/ledger bugs** (something wrong in what `fetch.mjs` extracts) are still cheap: GitHub's
+  history for closed/merged PRs is immutable, so a full re-backfill (delete `state.json`, rerun)
+  reconstructs a correct ledger from scratch in about 9 minutes and ~275 GraphQL requests —
+  trivial against the 5,000/hr budget. This is exactly what happened for the plugin-path-filter
+  bug (§2) and is *not* what was needed for the file-cap fix (§4), because that gap had never
+  actually been hit by any historical PR — confirmed by checking the ledger before deciding a
+  rebuild was unnecessary. Always check "has this actually corrupted existing data, or only
+  future data" before reaching for a full rebuild.
+- **No automated drift-detection is built, by design.** Rather than add validation machinery,
+  the plan is a periodic manual check — e.g. monthly, re-run the same spot-checks done at launch
+  (compare ledger-derived totals against live `gh pr list` / GraphQL counts, cross-check active
+  plugin count against the Git Trees API) and look for drift. Lightweight and sufficient given
+  how cheap recovery already is once something is found.
