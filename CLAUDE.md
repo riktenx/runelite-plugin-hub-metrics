@@ -43,8 +43,8 @@ Verified directly against the live repo (`gh api`), not assumed:
 - Repo scale as of this writing: **2,086 active plugin files** (confirmed via the Git Trees API,
   `git/trees/master?recursive=1`, which is not paginated/truncated), 11,536 merged PRs, 2,079
   closed (rejected/abandoned) PRs, 20 open. Merge turnaround for simple version-bump PRs is
-  often well under an hour, and the sampled rate is roughly ~50/day, so daily or 6-hourly sync
-  is plenty fresh — this is not a high-frequency-polling problem.
+  often well under an hour, and the sampled rate is roughly ~50/day, so daily sync is plenty
+  fresh — this is not a high-frequency-polling problem.
 - **Gotcha, hit during implementation:** the Contents API (`contents/plugins`, a plain
   directory listing) silently truncates at 1,000 entries with no error or truncation flag —
   it initially looked like there were exactly 1,000 plugins, which was just where the API cut
@@ -198,8 +198,7 @@ and easy to debug by opening `data/aggregates/*.json` directly.
 Single workflow, `schedule` + `workflow_dispatch` triggers only (**not** `push` — this avoids a
 commit-triggers-workflow loop, since the workflow itself commits to `main`).
 
-1. `schedule: cron: '0 */6 * * *'` (every 6 hours — matches the observed ~50 PRs/day pace;
-   trivially adjustable).
+1. `schedule: cron: '0 0 * * *'` (once daily, midnight UTC — trivially adjustable).
 2. Checkout `main`.
 3. `node scripts/fetch.mjs` — reads `data/state.json`, runs the incremental GraphQL sync,
    upserts into `data/prs.ndjson`, updates the watermark.
@@ -252,8 +251,10 @@ confirmed step rather than bundled into local implementation.
 
 ## 10. Open questions
 
-- 6-hour cadence is a starting guess, not a measured requirement — revisit after a week of real
-  sync-duration/rate-limit data.
+- Started at a 6-hour cadence, changed to daily shortly after launch (not driven by measured
+  sync-duration/rate-limit data — rate limit usage was trivial either way, ~275 requests for a
+  full backfill against a 5,000/hr budget; this was just a "daily is fresh enough" call). Still
+  trivially adjustable if the pace of upstream activity ever calls for tighter polling.
 - **Rename handling — resolved, with a known gap.** A same-PR `ADDED`+`DELETED` pair is treated
   as a rename (old id marked `renamed`/`renamedTo`, new id starts fresh) in both `weekly.json`
   (excluded from add/remove churn counts) and `plugins.json`. Verified against real data: of

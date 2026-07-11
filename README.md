@@ -5,7 +5,7 @@ PR throughput, backlog, and per-plugin activity metrics for
 
 Live dashboard: **https://riktenx.github.io/runelite-plugin-hub-metrics/**
 
-Data is synced from the GitHub GraphQL API every 6 hours by
+Data is synced from the GitHub GraphQL API daily by
 [`.github/workflows/sync.yml`](.github/workflows/sync.yml) into `data/`, then rebuilt into
 small aggregate files the static site in `site/` reads directly — no backend, no database.
 
