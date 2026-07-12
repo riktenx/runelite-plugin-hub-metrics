@@ -37,9 +37,20 @@ function formatWeekLabel(iso) {
   return d.toLocaleDateString(undefined, { month: "short", day: "numeric", timeZone: "UTC" });
 }
 
+function formatDateTime(iso) {
+  const d = new Date(iso);
+  return d.toLocaleString(undefined, {
+    year: "numeric", month: "short", day: "numeric",
+    hour: "numeric", minute: "2-digit",
+    timeZoneName: "short",
+  });
+}
+
+const MONTH_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
 function formatMonthLabel(ym) {
-  const d = new Date(ym + "-01T00:00:00Z");
-  return d.toLocaleDateString(undefined, { month: "short", year: "2-digit", timeZone: "UTC" });
+  const [y, m] = ym.split("-").map(Number);
+  return `${MONTH_ABBR[m - 1]} '${String(y).slice(2)}`;
 }
 
 function niceMax(raw) {
@@ -48,6 +59,37 @@ function niceMax(raw) {
   const frac = raw / pow;
   const step = frac <= 1 ? 1 : frac <= 2 ? 2 : frac <= 5 ? 5 : 10;
   return step * pow;
+}
+
+// Smallest multiple of `step` strictly greater than `raw` (axis ceiling for fixed-increment axes).
+function niceMaxStep(raw, step) {
+  if (raw <= 0) return step;
+  return (Math.floor(raw / step) + 1) * step;
+}
+
+// Max labels the 960-wide chart body can show without crowding. Angled labels take less
+// horizontal footprint than upright ones, so this can run higher than a horizontal-label axis
+// would allow. Fixed against the SVG's own viewBox units, so it holds regardless of display size.
+const MAX_AXIS_TICKS = 12;
+
+// Evenly-spaced-by-index ticks (always includes the first and last point), rather than snapping
+// to calendar boundaries — calendar months/quarters don't contain the same number of weekly
+// samples, so boundary-aligned ticks end up unevenly spaced in pixel space. Anchored to the most
+// recent sample and stepped backward by a constant integer gap, so the spacing between every
+// pair of ticks is identical (no "skips a week" artifact from rounding fractional positions).
+function evenTicks(n, max) {
+  if (n <= max) return Array.from({ length: n }, (_, i) => i);
+  const step = Math.ceil((n - 1) / (max - 1));
+  const ticks = [];
+  for (let i = n - 1; i >= 0; i -= step) ticks.push(i);
+  return ticks.reverse();
+}
+
+// Weekly samples ('YYYY-MM-DD') get mm/dd/yy; monthly samples ('YYYY-MM', from the added/removed
+// bar chart) are already one point per month, so just mm/yy.
+function formatAxisLabel(dateStr) {
+  const [y, m, d] = dateStr.split("-");
+  return d ? `${m}/${d}/${y.slice(2)}` : `${m}/${y.slice(2)}`;
 }
 
 // ---- Chart card scaffold: title/subtitle + chart<->table toggle -------------------------
@@ -104,15 +146,23 @@ function statusPill(status) {
 
 // ---- Line chart (1-3 series, shared week axis) -------------------------------------------
 
-function lineChart(host, { weeks, series, height = 260 }) {
+function lineChart(host, { weeks, series, height = 260, yStep }) {
   const W = 960, H = height;
-  const margin = { top: 12, right: 16, bottom: 24, left: 46 };
+  const margin = { top: 12, right: 16, bottom: 48, left: 46 };
   const plotW = W - margin.left - margin.right;
   const plotH = H - margin.top - margin.bottom;
   const n = weeks.length;
 
+  if (n === 0) {
+    host.appendChild(el("div", { class: "empty-range" }, "No data in this range."));
+    return;
+  }
+
   const rawMax = Math.max(1, ...series.flatMap((s) => s.values));
-  const yMax = niceMax(rawMax * 1.15);
+  const yMax = yStep ? niceMaxStep(rawMax, yStep) : niceMax(rawMax * 1.15);
+  const yTicks = yStep
+    ? Array.from({ length: yMax / yStep + 1 }, (_, i) => i * yStep)
+    : Array.from({ length: 5 }, (_, i) => (yMax / 4) * i);
 
   const x = (i) => margin.left + (n <= 1 ? 0 : (i / (n - 1)) * plotW);
   const y = (v) => margin.top + plotH - (v / yMax) * plotH;
@@ -121,9 +171,7 @@ function lineChart(host, { weeks, series, height = 260 }) {
 
   // gridlines + y labels
   const gGrid = svg("g");
-  const steps = 4;
-  for (let i = 0; i <= steps; i++) {
-    const v = (yMax / steps) * i;
+  for (const v of yTicks) {
     const gy = y(v);
     gGrid.appendChild(svg("line", { x1: margin.left, x2: W - margin.right, y1: gy, y2: gy, stroke: "var(--gridline)", "stroke-width": 1 }));
     const label = svg("text", { x: margin.left - 8, y: gy + 4, "text-anchor": "end", "font-size": 11, fill: "var(--text-muted)" });
@@ -135,12 +183,18 @@ function lineChart(host, { weeks, series, height = 260 }) {
   // baseline
   root.appendChild(svg("line", { x1: margin.left, x2: W - margin.right, y1: y(0), y2: y(0), stroke: "var(--baseline)", "stroke-width": 1 }));
 
-  // x labels: ~7 ticks
-  const tickEvery = Math.max(1, Math.round(n / 7));
+  // x labels: evenly-spaced literal sample dates, capped at a legible tick count. Angled with a
+  // positive slope (low-left to high-right) so the _end_ of each label (text-anchor="end") sits
+  // right at its data point, with a little clearance below the axis line before the text starts.
+  const xTicks = evenTicks(n, MAX_AXIS_TICKS);
   const gX = svg("g");
-  for (let i = 0; i < n; i += tickEvery) {
-    const label = svg("text", { x: x(i), y: H - 4, "text-anchor": "middle", "font-size": 11, fill: "var(--text-muted)" });
-    label.textContent = formatWeekLabel(weeks[i]);
+  for (const i of xTicks) {
+    const tx = x(i), ty = margin.top + plotH + 10;
+    const label = svg("text", {
+      x: tx, y: ty, "text-anchor": "end", "font-size": 11, fill: "var(--text-muted)",
+      transform: `rotate(-40 ${tx} ${ty})`,
+    });
+    label.textContent = formatAxisLabel(weeks[i]);
     gX.appendChild(label);
   }
   root.appendChild(gX);
@@ -237,10 +291,15 @@ function roundedBarPath(x, width, yFrom, yTo, roundTop) {
 
 function divergingBarChart(host, { months, pos, neg, posColor, negColor, height = 260 }) {
   const W = 960, H = height;
-  const margin = { top: 12, right: 16, bottom: 24, left: 46 };
+  const margin = { top: 12, right: 16, bottom: 48, left: 46 };
   const plotW = W - margin.left - margin.right;
   const plotH = H - margin.top - margin.bottom;
   const n = months.length;
+
+  if (n === 0) {
+    host.appendChild(el("div", { class: "empty-range" }, "No data in this range."));
+    return;
+  }
 
   const rawMax = Math.max(1, ...pos, ...neg);
   const yMax = niceMax(rawMax * 1.15);
@@ -255,11 +314,15 @@ function divergingBarChart(host, { months, pos, neg, posColor, negColor, height 
 
   root.appendChild(svg("line", { x1: margin.left, x2: W - margin.right, y1: mid, y2: mid, stroke: "var(--baseline)", "stroke-width": 1 }));
 
-  const tickEvery = Math.max(1, Math.round(n / 8));
-  for (let i = 0; i < n; i += tickEvery) {
+  const xTicks = evenTicks(n, MAX_AXIS_TICKS);
+  for (const i of xTicks) {
     const cx = margin.left + slot * (i + 0.5);
-    const label = svg("text", { x: cx, y: H - 4, "text-anchor": "middle", "font-size": 11, fill: "var(--text-muted)" });
-    label.textContent = formatMonthLabel(months[i]);
+    const ty = margin.top + plotH + 10;
+    const label = svg("text", {
+      x: cx, y: ty, "text-anchor": "end", "font-size": 11, fill: "var(--text-muted)",
+      transform: `rotate(-40 ${cx} ${ty})`,
+    });
+    label.textContent = formatAxisLabel(months[i]);
     root.appendChild(label);
   }
 
@@ -302,6 +365,102 @@ function legendRow(host, items) {
   host.appendChild(legend);
 }
 
+// ---- Date range control ---------------------------------------------------------------------
+
+const RANGE_PRESETS = [
+  { key: "1m", label: "1M", months: 1 },
+  { key: "3m", label: "3M", months: 3 },
+  { key: "6m", label: "6M", months: 6 },
+  { key: "1y", label: "1Y", months: 12 },
+];
+
+function addMonthsUTC(iso, delta) {
+  const d = new Date(iso + "T00:00:00Z");
+  d.setUTCMonth(d.getUTCMonth() + delta);
+  return d.toISOString().slice(0, 10);
+}
+
+function filterByRange(rows, field, start, end) {
+  return rows.filter((r) => r[field] >= start && r[field] <= end);
+}
+
+function presetRange(preset, minDate, maxDate) {
+  const end = maxDate;
+  const start = addMonthsUTC(end, -preset.months);
+  return { start: start > minDate ? start : minDate, end };
+}
+
+// Preset buttons (1M/3M/6M/1Y/All) + a custom from/to date range, sharing one filter across
+// every time-series chart on the page. `defaultKey` picks which preset is active on first
+// render. "All" spans [minDate, maxDate] — the earliest and latest weeks actually in the ledger.
+function dateRangeControl(host, { minDate, maxDate, defaultKey, onChange }) {
+  const bar = el("div", { class: "range-control" });
+  const presetRow = el("div", { class: "range-presets" });
+  const customRow = el("div", { class: "range-custom" });
+  customRow.style.display = "none";
+
+  const buttons = [];
+  function setActive(key) {
+    for (const b of buttons) b.btn.classList.toggle("active", b.key === key);
+    customRow.style.display = key === "custom" ? "flex" : "none";
+  }
+
+  for (const preset of RANGE_PRESETS) {
+    const btn = el("button", { class: "range-btn", type: "button" }, preset.label);
+    btn.addEventListener("click", () => {
+      const range = presetRange(preset, minDate, maxDate);
+      fromInput.value = range.start;
+      toInput.value = range.end;
+      setActive(preset.key);
+      onChange(range);
+    });
+    buttons.push({ key: preset.key, btn });
+    presetRow.appendChild(btn);
+  }
+
+  const defaultPreset = RANGE_PRESETS.find((p) => p.key === defaultKey) || RANGE_PRESETS[2];
+  const defaultRange = presetRange(defaultPreset, minDate, maxDate);
+
+  const allBtn = el("button", { class: "range-btn", type: "button" }, "All");
+  allBtn.addEventListener("click", () => {
+    const range = { start: minDate, end: maxDate };
+    fromInput.value = range.start;
+    toInput.value = range.end;
+    setActive("all");
+    onChange(range);
+  });
+  buttons.push({ key: "all", btn: allBtn });
+  presetRow.appendChild(allBtn);
+
+  const customBtn = el("button", { class: "range-btn", type: "button" }, "Custom");
+  customBtn.addEventListener("click", () => {
+    setActive("custom");
+    onChange({ start: fromInput.value, end: toInput.value });
+  });
+  buttons.push({ key: "custom", btn: customBtn });
+  presetRow.appendChild(customBtn);
+
+  const fromInput = el("input", { type: "date", class: "range-date", min: minDate, max: maxDate, value: defaultRange.start });
+  const toInput = el("input", { type: "date", class: "range-date", min: minDate, max: maxDate, value: defaultRange.end });
+  function applyCustom() {
+    let start = fromInput.value || minDate;
+    let end = toInput.value || maxDate;
+    if (start > end) [start, end] = [end, start];
+    fromInput.value = start;
+    toInput.value = end;
+    setActive("custom");
+    onChange({ start, end });
+  }
+  fromInput.addEventListener("change", applyCustom);
+  toInput.addEventListener("change", applyCustom);
+  customRow.append(el("span", {}, "From"), fromInput, el("span", {}, "to"), toInput);
+
+  bar.append(presetRow, customRow);
+  host.appendChild(bar);
+  setActive(defaultPreset.key);
+  onChange(defaultRange);
+}
+
 // ---- Stat tiles ----------------------------------------------------------------------------
 
 function statTile(parent, { label, value, delta }) {
@@ -330,19 +489,19 @@ function monthlyRollup(weekly) {
 }
 
 async function main() {
-  const [weekly, backlog, latency, plugins, authors] = await Promise.all([
+  const [weekly, backlog, latency, plugins, authors, state] = await Promise.all([
     fetchJSON("data/aggregates/weekly.json"),
     fetchJSON("data/aggregates/backlog.json"),
     fetchJSON("data/aggregates/latency.json"),
     fetchJSON("data/aggregates/plugins.json"),
     fetchJSON("data/aggregates/authors.json"),
+    fetchJSON("data/state.json"),
   ]);
 
   // --- stat tiles ---
   const statHost = document.getElementById("stats");
   const lastWeek = weekly[weekly.length - 1];
   const prevWeek = weekly[weekly.length - 2];
-  const currentOpen = backlog[backlog.length - 1]?.openCount ?? 0;
   const totalMerged = weekly.reduce((sum, w) => sum + w.merged, 0);
   const activePlugins = plugins.filter((p) => p.status === "active").length;
   const recentLatency = latency.slice(-4);
@@ -350,7 +509,7 @@ async function main() {
     ? Math.round(recentLatency.reduce((s, w) => s + w.medianHours, 0) / recentLatency.length)
     : null;
 
-  statTile(statHost, { label: "Open PRs right now", value: String(currentOpen) });
+  statTile(statHost, { label: "Last synced", value: formatDateTime(state.lastSyncedAt) });
   statTile(statHost, {
     label: "Merged this week",
     value: String(lastWeek.merged),
@@ -362,117 +521,136 @@ async function main() {
   statTile(statHost, { label: "Merged PRs, all-time", value: formatCompact(totalMerged) });
   statTile(statHost, { label: "Median time-to-close (last 4wk)", value: avgMedianLatency !== null ? `${avgMedianLatency}h` : "—" });
 
-  // --- PR activity (opened / merged / closed-unmerged) ---
-  chartCard(document.getElementById("charts"), {
-    title: "PR activity per week",
-    subtitle: "Opened vs. merged vs. closed without merging",
-    buildChart(host) {
-      lineChart(host, {
-        weeks: weekly.map((w) => w.week),
-        series: [
-          { key: "opened", label: "Opened", color: "blue", values: weekly.map((w) => w.opened) },
-          { key: "merged", label: "Merged", color: "green", values: weekly.map((w) => w.merged) },
-          { key: "closedUnmerged", label: "Closed unmerged", color: "red", values: weekly.map((w) => w.closedUnmerged) },
-        ],
-      });
-      legendRow(host, [
-        { label: "Opened", color: "blue" },
-        { label: "Merged", color: "green" },
-        { label: "Closed unmerged", color: "red" },
-      ]);
-    },
-    buildTable(host) {
-      dataTable(host, {
-        columns: [
-          { label: "Week of", value: (r) => formatWeekLabel(r.week) },
-          { label: "Opened", num: true, value: (r) => r.opened },
-          { label: "Merged", num: true, value: (r) => r.merged },
-          { label: "Closed unmerged", num: true, value: (r) => r.closedUnmerged },
-        ],
-        rows: weekly,
-      });
-    },
-  });
+  // --- time-series charts, filtered to the selected date range ---
+  const chartsHost = document.getElementById("charts");
 
-  // --- backlog ---
-  chartCard(document.getElementById("charts"), {
-    title: "Open PR backlog over time",
-    subtitle: "Cumulative opened minus resolved",
-    buildChart(host) {
-      lineChart(host, {
-        weeks: backlog.map((w) => w.week),
-        series: [{ key: "open", label: "Open PRs", color: "blue", values: backlog.map((w) => w.openCount) }],
-      });
-    },
-    buildTable(host) {
-      dataTable(host, {
-        columns: [
-          { label: "Week of", value: (r) => formatWeekLabel(r.week) },
-          { label: "Open PRs", num: true, value: (r) => r.openCount },
-        ],
-        rows: backlog,
-      });
-    },
-  });
+  function renderCharts(range) {
+    chartsHost.innerHTML = "";
+    const weeklyR = filterByRange(weekly, "week", range.start, range.end);
+    const backlogR = filterByRange(backlog, "week", range.start, range.end);
+    const latencyR = filterByRange(latency, "week", range.start, range.end);
+    const monthlyR = monthlyRollup(weeklyR);
 
-  // --- plugins added/removed ---
-  const monthly = monthlyRollup(weekly);
-  chartCard(document.getElementById("charts"), {
-    title: "Plugins added vs. removed",
-    subtitle: "By month, from merged PRs that added or deleted a plugins/ file",
-    buildChart(host) {
-      divergingBarChart(host, {
-        months: monthly.map((m) => m.month),
-        pos: monthly.map((m) => m.pluginsAdded),
-        neg: monthly.map((m) => m.pluginsRemoved),
-        posColor: "blue",
-        negColor: "red",
-      });
-      legendRow(host, [
-        { label: "Added", color: "blue", bar: true },
-        { label: "Removed", color: "red", bar: true },
-      ]);
-    },
-    buildTable(host) {
-      dataTable(host, {
-        columns: [
-          { label: "Month", value: (r) => formatMonthLabel(r.month) },
-          { label: "Added", num: true, value: (r) => r.pluginsAdded },
-          { label: "Removed", num: true, value: (r) => r.pluginsRemoved },
-        ],
-        rows: monthly,
-      });
-    },
-  });
+    // --- PR activity (opened / merged / closed-unmerged) ---
+    chartCard(chartsHost, {
+      title: "PR activity per week",
+      subtitle: "Opened vs. merged vs. closed without merging",
+      buildChart(host) {
+        lineChart(host, {
+          weeks: weeklyR.map((w) => w.week),
+          yStep: 50,
+          series: [
+            { key: "opened", label: "Opened", color: "blue", values: weeklyR.map((w) => w.opened) },
+            { key: "merged", label: "Merged", color: "green", values: weeklyR.map((w) => w.merged) },
+            { key: "closedUnmerged", label: "Closed unmerged", color: "red", values: weeklyR.map((w) => w.closedUnmerged) },
+          ],
+        });
+        legendRow(host, [
+          { label: "Opened", color: "blue" },
+          { label: "Merged", color: "green" },
+          { label: "Closed unmerged", color: "red" },
+        ]);
+      },
+      buildTable(host) {
+        dataTable(host, {
+          columns: [
+            { label: "Week of", value: (r) => formatWeekLabel(r.week) },
+            { label: "Opened", num: true, value: (r) => r.opened },
+            { label: "Merged", num: true, value: (r) => r.merged },
+            { label: "Closed unmerged", num: true, value: (r) => r.closedUnmerged },
+          ],
+          rows: weeklyR,
+        });
+      },
+    });
 
-  // --- latency ---
-  chartCard(document.getElementById("charts"), {
-    title: "Time to resolution",
-    subtitle: "Hours from PR open to close (merged or rejected), by week closed",
-    buildChart(host) {
-      lineChart(host, {
-        weeks: latency.map((w) => w.week),
-        series: [
-          { key: "median", label: "Median", color: "blue", values: latency.map((w) => w.medianHours) },
-          { key: "p90", label: "P90", color: "orange", values: latency.map((w) => w.p90Hours) },
-        ],
-      });
-      legendRow(host, [
-        { label: "Median hours", color: "blue" },
-        { label: "P90 hours", color: "orange" },
-      ]);
-    },
-    buildTable(host) {
-      dataTable(host, {
-        columns: [
-          { label: "Week of", value: (r) => formatWeekLabel(r.week) },
-          { label: "Median hrs", num: true, value: (r) => r.medianHours },
-          { label: "P90 hrs", num: true, value: (r) => r.p90Hours },
-          { label: "PRs closed", num: true, value: (r) => r.n },
-        ],
-        rows: latency,
-      });
-    },
+    // --- backlog ---
+    chartCard(chartsHost, {
+      title: "Open PR backlog over time",
+      subtitle: "Cumulative opened minus resolved",
+      buildChart(host) {
+        lineChart(host, {
+          weeks: backlogR.map((w) => w.week),
+          yStep: 50,
+          series: [{ key: "open", label: "Open PRs", color: "blue", values: backlogR.map((w) => w.openCount) }],
+        });
+      },
+      buildTable(host) {
+        dataTable(host, {
+          columns: [
+            { label: "Week of", value: (r) => formatWeekLabel(r.week) },
+            { label: "Open PRs", num: true, value: (r) => r.openCount },
+          ],
+          rows: backlogR,
+        });
+      },
+    });
+
+    // --- plugins added/removed ---
+    chartCard(chartsHost, {
+      title: "Plugins added vs. removed",
+      subtitle: "By month, from merged PRs that added or deleted a plugins/ file",
+      buildChart(host) {
+        divergingBarChart(host, {
+          months: monthlyR.map((m) => m.month),
+          pos: monthlyR.map((m) => m.pluginsAdded),
+          neg: monthlyR.map((m) => m.pluginsRemoved),
+          posColor: "blue",
+          negColor: "red",
+        });
+        legendRow(host, [
+          { label: "Added", color: "blue", bar: true },
+          { label: "Removed", color: "red", bar: true },
+        ]);
+      },
+      buildTable(host) {
+        dataTable(host, {
+          columns: [
+            { label: "Month", value: (r) => formatMonthLabel(r.month) },
+            { label: "Added", num: true, value: (r) => r.pluginsAdded },
+            { label: "Removed", num: true, value: (r) => r.pluginsRemoved },
+          ],
+          rows: monthlyR,
+        });
+      },
+    });
+
+    // --- latency ---
+    chartCard(chartsHost, {
+      title: "Time to resolution",
+      subtitle: "Hours from PR open to close (merged or rejected), by week closed",
+      buildChart(host) {
+        lineChart(host, {
+          weeks: latencyR.map((w) => w.week),
+          series: [
+            { key: "median", label: "Median", color: "blue", values: latencyR.map((w) => w.medianHours) },
+            { key: "p90", label: "P90", color: "orange", values: latencyR.map((w) => w.p90Hours) },
+          ],
+        });
+        legendRow(host, [
+          { label: "Median hours", color: "blue" },
+          { label: "P90 hours", color: "orange" },
+        ]);
+      },
+      buildTable(host) {
+        dataTable(host, {
+          columns: [
+            { label: "Week of", value: (r) => formatWeekLabel(r.week) },
+            { label: "Median hrs", num: true, value: (r) => r.medianHours },
+            { label: "P90 hrs", num: true, value: (r) => r.p90Hours },
+            { label: "PRs closed", num: true, value: (r) => r.n },
+          ],
+          rows: latencyR,
+        });
+      },
+    });
+  }
+
+  dateRangeControl(document.getElementById("range"), {
+    minDate: weekly[0].week,
+    maxDate: weekly[weekly.length - 1].week,
+    defaultKey: "6m",
+    onChange: renderCharts,
   });
 
   // --- leaderboards (table only — >7 meaningful categories, per dataviz guidance) ---

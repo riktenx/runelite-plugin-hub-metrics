@@ -50,6 +50,7 @@ jobs:
           cp -r site/. _site/
           mkdir -p _site/data/aggregates
           cp data/aggregates/*.json _site/data/aggregates/
+          cp data/state.json _site/data/state.json
 
       - uses: actions/upload-pages-artifact@v3
         with:

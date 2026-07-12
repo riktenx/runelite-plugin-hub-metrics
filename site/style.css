@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light;
   --page: #f9f9f7;
   --surface: #fcfcfb;
   --text-primary: #0b0b0b;
@@ -21,6 +22,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    color-scheme: dark;
     --page: #0d0d0d;
     --surface: #1a1a19;
     --text-primary: #ffffff;
@@ -107,6 +109,57 @@ header.top p a { color: inherit; }
 .stat-tile .delta.up { color: var(--success); }
 .stat-tile .delta.down { color: var(--red); }
 
+/* Date range control */
+
+.range-control {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.range-presets {
+  display: flex;
+  gap: 6px;
+}
+
+.range-btn {
+  font-size: 12px;
+  color: var(--text-secondary);
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 4px 11px;
+  cursor: pointer;
+}
+
+.range-btn:hover { background: var(--gridline); }
+
+.range-btn.active {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: #fff;
+}
+
+.range-custom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.range-date {
+  font: inherit;
+  font-size: 12px;
+  color: var(--text-primary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 3px 6px;
+}
+
 /* Chart cards */
 
 .card {
@@ -157,6 +210,15 @@ header.top p a { color: inherit; }
   width: 100%;
   height: auto;
   overflow: visible;
+}
+
+.empty-range {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+  color: var(--text-muted);
+  font-size: 13px;
 }
 
 .legend {

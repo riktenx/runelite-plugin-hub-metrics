@@ -218,10 +218,11 @@ commit-triggers-workflow loop, since the workflow itself commits to `main`).
 5. If `git status` shows changes under `data/`: commit as a bot identity
    (`github-actions[bot]`), push directly to `main`. No PR — this is generated data, not
    authored code.
-6. `actions/upload-pages-artifact` on `site/` + `data/aggregates` (and `data/plugins.json` for
-   drill-down), then `actions/deploy-pages`. Uses Pages' "GitHub Actions" deployment source, so
-   there's no `gh-pages` branch to keep in sync — the live site is whatever `main` produced,
-   deployed straight from the artifact.
+6. `actions/upload-pages-artifact` on `site/` + `data/aggregates/*.json` + `data/state.json` (the
+   sync watermark, read by the frontend for the "Last synced" stat tile), then
+   `actions/deploy-pages`. Uses Pages' "GitHub Actions" deployment source, so there's no
+   `gh-pages` branch to keep in sync — the live site is whatever `main` produced, deployed
+   straight from the artifact.
 7. Workflow permissions: `contents: write`, `pages: write`, `id-token: write`.
 
 One-time manual step (can't be scripted): enable Pages on the repo, source = "GitHub Actions",
@@ -238,10 +239,36 @@ everywhere those three appear; added=blue/removed=red as the diverging pair), a 
 multi-series chart, and a "view as table" toggle on every chart card (the accessibility fallback,
 also just a plain, always-available way to read exact values).
 
-Pages: a stat-tile row (open PRs, merged this week + delta, active plugins, all-time merged,
-median close time), the PR-activity/backlog/added-removed/latency charts, and two leaderboard
-tables (most-active plugins by `prsLast90d`, top authors) — leaderboards are tables, not charts,
-per the "more than ~7 meaningful categories → table" rule.
+Pages: a stat-tile row (last synced, merged this week + delta, active plugins, all-time merged,
+median close time — no "open PRs right now" tile; that number is only ever as fresh as the last
+daily sync, and calling it "right now" was misleading), the PR-activity/backlog/added-removed/
+latency charts, and two leaderboard tables (most-active plugins by `prsLast90d`, top authors) —
+leaderboards are tables, not charts, per the "more than ~7 meaningful categories → table" rule.
+
+**Date range control.** One control above the charts (1M/3M/6M/1Y/All presets, default 6M, plus
+a custom from/to date picker) filters all four time-series charts at once. The stat tiles and
+leaderboards are deliberately not range-filtered — they're "current state" / "all-time" by
+design, not a trend over the selected window. "All" spans `[minDate, maxDate]` taken from the
+first/last rows of `weekly.json` (the earliest and latest weeks actually in the ledger), not a
+hardcoded date.
+
+**Axis behavior.** Went through a few iterations, each driven by something that only looked
+wrong once real data was on screen:
+- Y-axis: the two PR-count charts (PR activity, backlog) use fixed 50-unit gridline increments,
+  capped at the next multiple of 50 strictly above the visible max, instead of the general
+  `niceMax` scaling the other two charts (latency in hours, plugins added/removed) still use —
+  those aren't PR counts, so a fixed round-number step doesn't apply to them.
+- X-axis: ticks are evenly spaced *by index*, not snapped to calendar boundaries. An earlier
+  version placed a tick at every month/quarter start, which looked subtly wrong once rendered —
+  calendar months don't contain the same number of weekly samples, so boundary-aligned ticks
+  ended up unevenly spaced in pixel space. Ticks now anchor to the most recent sample and step
+  backward by a constant integer gap (`evenTicks` in `main.js`), capped at 12 labels
+  (`MAX_AXIS_TICKS`) — angled labels need less horizontal room than upright ones, so this can run
+  higher than a horizontal-label axis would allow. Every tick is a real sample, labeled with its
+  literal date (`mm/dd/yy` for weekly data, `mm/yy` for the monthly bar chart), never an
+  interpolated or calendar-snapped one. Labels are angled with a positive slope (low-left to
+  high-right) so the label's *end*, not its middle, lands on the data point, with a small gap
+  below the axis line before the text starts.
 
 ## 9. Implementation status
 
@@ -261,6 +288,20 @@ All of this has been built, pushed, and is running live:
 5. Per-plugin drill-down page — not built. Still optional/later, per §3.
 6. The file-cap fix in §4 (100-file cap, throw on `changedFiles` mismatch) shipped after launch,
    verified with a real incremental run first (no throw, as expected) before being committed.
+7. Dashboard UX pass (§8: date range control, fixed-50 y-axis for the two PR-count charts,
+   evenly-spaced literal-date x-axis ticks, "Last synced" stat tile replacing "open PRs right
+   now") — shipped after launch. Relative `fetch()` paths mean jsdom alone can't run the site
+   (module scripts and `fetch` need a real HTTP server, not jsdom's virtual resource loader), so
+   this was smoke-tested against a real local server serving `site/` + `data/` flattened the same
+   way the Pages artifact does, exercised through every date-range preset plus edge cases (empty
+   range, multi-year custom range spanning >12 months). Axis label angle, spacing, and clearance
+   from the baseline were verified by rasterizing the actual chart SVGs to PNG and inspecting
+   them (via `@resvg/resvg-js`, no browser needed) rather than just trusting the transform math —
+   the slope direction was wrong on the first pass (an SVG `rotate()` sign flip) and caught this
+   way once the requested direction was pinned down. Also caught a real spec bug pre-ship:
+   `Intl.DateTimeFormat` throws if `dateStyle`/
+   `timeStyle` are combined with `timeZoneName` (not a jsdom quirk — reproduced in plain Node),
+   so the "Last synced" formatter uses individual component options instead.
 
 **Operational note:** shortly after launch, a local commit got built on a stale `main` (fetched
 the remote log to inspect it, but never actually pulled) and diverged from `origin/main`, which
