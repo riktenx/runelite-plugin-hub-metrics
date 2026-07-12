@@ -2745,10 +2745,10 @@
   },
   {
     "week": "2026-07-06",
-    "opened": 326,
-    "merged": 287,
+    "opened": 332,
+    "merged": 293,
     "closedUnmerged": 32,
-    "pluginsAdded": 65,
+    "pluginsAdded": 66,
     "pluginsRemoved": 0
   }
 ]

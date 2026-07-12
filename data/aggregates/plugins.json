@@ -1,5 +1,59 @@
 [
   {
+    "id": "barrows-tunnels-kill-tracker",
+    "firstAddedAt": "2026-07-12T05:21:29Z",
+    "lastUpdatedAt": "2026-07-12T05:21:29Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "hcim-guide-plugin",
+    "firstAddedAt": "2026-05-01T01:13:33Z",
+    "lastUpdatedAt": "2026-07-12T04:35:35Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "pvp-profit-tracker",
+    "firstAddedAt": "2026-07-03T04:39:30Z",
+    "lastUpdatedAt": "2026-07-12T02:53:08Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "regear",
+    "firstAddedAt": "2026-07-09T00:14:49Z",
+    "lastUpdatedAt": "2026-07-12T02:37:39Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "inventory-highlighter",
+    "firstAddedAt": "2026-05-07T12:53:31Z",
+    "lastUpdatedAt": "2026-07-12T02:21:55Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "goalplanner",
+    "firstAddedAt": "2026-05-17T23:02:13Z",
+    "lastUpdatedAt": "2026-07-12T02:15:56Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
     "id": "raids-death-indicator",
     "firstAddedAt": "2025-02-08T08:08:13Z",
     "lastUpdatedAt": "2026-07-12T01:41:12Z",
@@ -432,15 +486,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "pvp-profit-tracker",
-    "firstAddedAt": "2026-07-03T04:39:30Z",
-    "lastUpdatedAt": "2026-07-10T21:36:19Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
-  },
-  {
     "id": "tempoross-solo-helper",
     "firstAddedAt": "2026-07-09T19:29:16Z",
     "lastUpdatedAt": "2026-07-10T20:45:18Z",
@@ -511,15 +556,6 @@
     "prCount": 16,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "regear",
-    "firstAddedAt": "2026-07-09T00:14:49Z",
-    "lastUpdatedAt": "2026-07-10T18:27:03Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "ironkin-clan-plugin",
@@ -1303,15 +1339,6 @@
     "prCount": 22,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "goalplanner",
-    "firstAddedAt": "2026-05-17T23:02:13Z",
-    "lastUpdatedAt": "2026-07-06T05:44:11Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "movable-orbs",
@@ -5634,15 +5661,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "inventory-highlighter",
-    "firstAddedAt": "2026-05-07T12:53:31Z",
-    "lastUpdatedAt": "2026-05-08T03:24:12Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "cox-analytics",
     "firstAddedAt": "2022-08-09T17:32:34Z",
     "lastUpdatedAt": "2026-05-07T22:01:10Z",
@@ -5864,15 +5882,6 @@
     "lastUpdatedAt": "2026-05-02T20:43:59Z",
     "updateCount": 1,
     "prCount": 2,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "hcim-guide-plugin",
-    "firstAddedAt": "2026-05-01T01:13:33Z",
-    "lastUpdatedAt": "2026-05-01T01:13:33Z",
-    "updateCount": 0,
-    "prCount": 1,
     "status": "active",
     "prsLast90d": 1
   },
