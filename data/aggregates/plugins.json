@@ -1,5 +1,122 @@
 [
   {
+    "id": "raids-death-indicator",
+    "firstAddedAt": "2025-02-08T08:08:13Z",
+    "lastUpdatedAt": "2026-07-12T01:41:12Z",
+    "updateCount": 31,
+    "prCount": 32,
+    "status": "active",
+    "prsLast90d": 13
+  },
+  {
+    "id": "route-planner",
+    "firstAddedAt": "2026-06-24T16:43:19Z",
+    "lastUpdatedAt": "2026-07-12T00:55:21Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "hot-stacks",
+    "firstAddedAt": "2026-07-08T23:16:25Z",
+    "lastUpdatedAt": "2026-07-12T00:50:04Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "bosshpbaradjustments",
+    "firstAddedAt": "2026-07-11T08:09:05Z",
+    "lastUpdatedAt": "2026-07-12T00:39:41Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "ge-uncut",
+    "firstAddedAt": "2026-07-09T00:35:14Z",
+    "lastUpdatedAt": "2026-07-12T00:19:14Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "osrscn",
+    "firstAddedAt": "2026-06-21T17:23:13Z",
+    "lastUpdatedAt": "2026-07-12T00:03:48Z",
+    "updateCount": 6,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "bingo-team-icons",
+    "firstAddedAt": "2026-07-09T08:41:21Z",
+    "lastUpdatedAt": "2026-07-11T23:58:28Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "dvd-bounce",
+    "firstAddedAt": "2026-07-11T11:32:53Z",
+    "lastUpdatedAt": "2026-07-11T23:42:59Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "jumpscare",
+    "firstAddedAt": "2026-07-11T11:27:36Z",
+    "lastUpdatedAt": "2026-07-11T23:37:28Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "kph-tracker",
+    "firstAddedAt": "2020-12-03T01:47:11Z",
+    "lastUpdatedAt": "2026-07-11T23:16:47Z",
+    "updateCount": 33,
+    "prCount": 34,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "visual-bloodwood",
+    "firstAddedAt": "2026-07-10T05:18:48Z",
+    "lastUpdatedAt": "2026-07-11T22:56:25Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "blast-mine-tracker",
+    "firstAddedAt": "2026-04-26T22:06:50Z",
+    "lastUpdatedAt": "2026-07-11T21:54:58Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "leechfin-fishing",
+    "firstAddedAt": "2026-07-06T23:20:32Z",
+    "lastUpdatedAt": "2026-07-11T21:39:32Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
     "id": "combat-logger",
     "firstAddedAt": "2024-02-04T07:09:52Z",
     "lastUpdatedAt": "2026-07-11T19:42:59Z",
@@ -27,15 +144,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "ge-uncut",
-    "firstAddedAt": "2026-07-09T00:35:14Z",
-    "lastUpdatedAt": "2026-07-11T15:54:12Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "anvil",
     "firstAddedAt": "2026-05-17T05:42:17Z",
     "lastUpdatedAt": "2026-07-11T15:38:40Z",
@@ -61,15 +169,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "raids-death-indicator",
-    "firstAddedAt": "2025-02-08T08:08:13Z",
-    "lastUpdatedAt": "2026-07-11T14:01:39Z",
-    "updateCount": 30,
-    "prCount": 31,
-    "status": "active",
-    "prsLast90d": 12
   },
   {
     "id": "hitsplat-customizer",
@@ -117,15 +216,6 @@
     "prsLast90d": 7
   },
   {
-    "id": "osrscn",
-    "firstAddedAt": "2026-06-21T17:23:13Z",
-    "lastUpdatedAt": "2026-07-11T12:34:17Z",
-    "updateCount": 5,
-    "prCount": 6,
-    "status": "active",
-    "prsLast90d": 6
-  },
-  {
     "id": "csv-lifetime-drop-ledger",
     "firstAddedAt": "2026-07-11T12:29:08Z",
     "lastUpdatedAt": "2026-07-11T12:29:08Z",
@@ -151,24 +241,6 @@
     "prCount": 3,
     "status": "active",
     "prsLast90d": 3
-  },
-  {
-    "id": "dvd-bounce",
-    "firstAddedAt": "2026-07-11T11:32:53Z",
-    "lastUpdatedAt": "2026-07-11T11:32:53Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "jumpscare",
-    "firstAddedAt": "2026-07-11T11:27:36Z",
-    "lastUpdatedAt": "2026-07-11T11:27:36Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "splash-helper",
@@ -205,15 +277,6 @@
     "prCount": 27,
     "status": "active",
     "prsLast90d": 13
-  },
-  {
-    "id": "bosshpbaradjustments",
-    "firstAddedAt": "2026-07-11T08:09:05Z",
-    "lastUpdatedAt": "2026-07-11T08:09:05Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "fbclan-plugin",
@@ -259,15 +322,6 @@
     "prCount": 15,
     "status": "active",
     "prsLast90d": 15
-  },
-  {
-    "id": "bingo-team-icons",
-    "firstAddedAt": "2026-07-09T08:41:21Z",
-    "lastUpdatedAt": "2026-07-11T05:35:50Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
   },
   {
     "id": "better-object-hider",
@@ -549,15 +603,6 @@
     "prsLast90d": 3
   },
   {
-    "id": "hot-stacks",
-    "firstAddedAt": "2026-07-08T23:16:25Z",
-    "lastUpdatedAt": "2026-07-10T10:24:12Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "remove-chatbox-separator",
     "firstAddedAt": "2026-07-10T08:32:14Z",
     "lastUpdatedAt": "2026-07-10T09:58:43Z",
@@ -592,15 +637,6 @@
     "prCount": 9,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "visual-bloodwood",
-    "firstAddedAt": "2026-07-10T05:18:48Z",
-    "lastUpdatedAt": "2026-07-10T06:30:14Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
   },
   {
     "id": "nex-loot-tracker",
@@ -1080,15 +1116,6 @@
     "prsLast90d": 4
   },
   {
-    "id": "route-planner",
-    "firstAddedAt": "2026-06-24T16:43:19Z",
-    "lastUpdatedAt": "2026-07-07T13:38:11Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "smoke-devil-effects-hider",
     "firstAddedAt": "2026-07-07T12:16:41Z",
     "lastUpdatedAt": "2026-07-07T12:16:41Z",
@@ -1195,15 +1222,6 @@
     "prCount": 15,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "leechfin-fishing",
-    "firstAddedAt": "2026-07-06T23:20:32Z",
-    "lastUpdatedAt": "2026-07-06T23:20:32Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "visual-tick-cursor",
@@ -1728,15 +1746,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "blast-mine-tracker",
-    "firstAddedAt": "2026-04-26T22:06:50Z",
-    "lastUpdatedAt": "2026-07-03T22:07:05Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "bank-value-history",
     "firstAddedAt": "2026-05-15T15:43:45Z",
     "lastUpdatedAt": "2026-07-03T16:11:55Z",
@@ -2031,7 +2040,7 @@
     "updateCount": 88,
     "prCount": 90,
     "status": "active",
-    "prsLast90d": 12
+    "prsLast90d": 11
   },
   {
     "id": "loot-lookup",
@@ -8897,15 +8906,6 @@
     "lastUpdatedAt": "2025-12-30T15:19:10Z",
     "updateCount": 0,
     "prCount": 1,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "kph-tracker",
-    "firstAddedAt": "2020-12-03T01:47:11Z",
-    "lastUpdatedAt": "2025-12-30T14:04:46Z",
-    "updateCount": 32,
-    "prCount": 33,
     "status": "active",
     "prsLast90d": 0
   },
