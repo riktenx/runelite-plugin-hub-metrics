@@ -26,8 +26,8 @@
   },
   {
     "login": "TicTac7x",
-    "prCount": 137,
-    "mergedCount": 129
+    "prCount": 142,
+    "mergedCount": 133
   },
   {
     "login": "aHooder",
@@ -116,8 +116,8 @@
   },
   {
     "login": "iProdigy",
-    "prCount": 57,
-    "mergedCount": 56
+    "prCount": 58,
+    "mergedCount": 57
   },
   {
     "login": "leejt",
@@ -172,7 +172,7 @@
   {
     "login": "equirs",
     "prCount": 49,
-    "mergedCount": 48
+    "mergedCount": 49
   },
   {
     "login": "Fiffers",
@@ -191,7 +191,12 @@
   },
   {
     "login": "bopsec",
-    "prCount": 45,
+    "prCount": 46,
+    "mergedCount": 43
+  },
+  {
+    "login": "DapperMickie",
+    "prCount": 44,
     "mergedCount": 42
   },
   {
@@ -203,11 +208,6 @@
     "login": "vikke1234",
     "prCount": 42,
     "mergedCount": 40
-  },
-  {
-    "login": "DapperMickie",
-    "prCount": 42,
-    "mergedCount": 41
   },
   {
     "login": "mablack01",
