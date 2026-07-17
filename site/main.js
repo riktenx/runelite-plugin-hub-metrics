@@ -46,6 +46,17 @@ function formatDateTime(iso) {
   });
 }
 
+// Monday (UTC) of the week containing `date` — mirrors aggregate.mjs's weekOf bucketing, so we
+// can identify (and drop) the still-in-progress current week: its counts grow throughout the
+// week, which reads as a drop/spike artifact in both the stat tile and the charts until the
+// week actually closes.
+function weekOf(date) {
+  const utc = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  const dayNum = (utc.getUTCDay() + 6) % 7; // Mon=0 .. Sun=6
+  utc.setUTCDate(utc.getUTCDate() - dayNum);
+  return utc.toISOString().slice(0, 10);
+}
+
 const MONTH_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function formatMonthLabel(ym) {
@@ -498,20 +509,27 @@ async function main() {
     fetchJSON("data/state.json"),
   ]);
 
+  // Drop the still-in-progress current week everywhere below (stat tile and every time-series
+  // chart) — its counts are a partial week, not a comparable data point yet.
+  const currentWeek = weekOf(new Date());
+  const weeklyComplete = weekly.filter((w) => w.week < currentWeek);
+  const backlogComplete = backlog.filter((w) => w.week < currentWeek);
+  const latencyComplete = latency.filter((w) => w.week < currentWeek);
+
   // --- stat tiles ---
   const statHost = document.getElementById("stats");
-  const lastWeek = weekly[weekly.length - 1];
-  const prevWeek = weekly[weekly.length - 2];
+  const lastWeek = weeklyComplete[weeklyComplete.length - 1];
+  const prevWeek = weeklyComplete[weeklyComplete.length - 2];
   const totalMerged = weekly.reduce((sum, w) => sum + w.merged, 0);
   const activePlugins = plugins.filter((p) => p.status === "active").length;
-  const recentLatency = latency.slice(-4);
+  const recentLatency = latencyComplete.slice(-4);
   const avgMedianLatency = recentLatency.length
     ? Math.round(recentLatency.reduce((s, w) => s + w.medianHours, 0) / recentLatency.length)
     : null;
 
   statTile(statHost, { label: "Last synced", value: formatDateTime(state.lastSyncedAt) });
   statTile(statHost, {
-    label: "Merged this week",
+    label: "Merged last week",
     value: String(lastWeek.merged),
     delta: prevWeek
       ? { text: `${lastWeek.merged >= prevWeek.merged ? "+" : ""}${lastWeek.merged - prevWeek.merged} vs prior week`, direction: lastWeek.merged >= prevWeek.merged ? "up" : "down" }
@@ -526,9 +544,9 @@ async function main() {
 
   function renderCharts(range) {
     chartsHost.innerHTML = "";
-    const weeklyR = filterByRange(weekly, "week", range.start, range.end);
-    const backlogR = filterByRange(backlog, "week", range.start, range.end);
-    const latencyR = filterByRange(latency, "week", range.start, range.end);
+    const weeklyR = filterByRange(weeklyComplete, "week", range.start, range.end);
+    const backlogR = filterByRange(backlogComplete, "week", range.start, range.end);
+    const latencyR = filterByRange(latencyComplete, "week", range.start, range.end);
     const monthlyR = monthlyRollup(weeklyR);
 
     // --- PR activity (opened / merged / closed-unmerged) ---
@@ -647,8 +665,8 @@ async function main() {
   }
 
   dateRangeControl(document.getElementById("range"), {
-    minDate: weekly[0].week,
-    maxDate: weekly[weekly.length - 1].week,
+    minDate: weeklyComplete[0].week,
+    maxDate: weeklyComplete[weeklyComplete.length - 1].week,
     defaultKey: "6m",
     onChange: renderCharts,
   });

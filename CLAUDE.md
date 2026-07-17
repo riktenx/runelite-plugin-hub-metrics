@@ -239,18 +239,31 @@ everywhere those three appear; added=blue/removed=red as the diverging pair), a 
 multi-series chart, and a "view as table" toggle on every chart card (the accessibility fallback,
 also just a plain, always-available way to read exact values).
 
-Pages: a stat-tile row (last synced, merged this week + delta, active plugins, all-time merged,
+Pages: a stat-tile row (last synced, merged last week + delta, active plugins, all-time merged,
 median close time — no "open PRs right now" tile; that number is only ever as fresh as the last
 daily sync, and calling it "right now" was misleading), the PR-activity/backlog/added-removed/
 latency charts, and two leaderboard tables (most-active plugins by `prsLast90d`, top authors) —
 leaderboards are tables, not charts, per the "more than ~7 meaningful categories → table" rule.
 
+**Current (in-progress) week is excluded from stat tile and charts.** `weekly.json`'s last
+bucket is whatever week contains "today" — partial by construction, since the week isn't over
+yet. Originally the "merged this week" tile and every time-series chart read straight off that
+bucket, which meant the number visibly grew as the week progressed and looked like a drop
+right after each week rolled over — a misleading "this week" framing for a site that only
+updates once a day. Fixed client-side in `main.js`: a `weekOf()` mirroring `aggregate.mjs`'s
+Monday-anchored bucketing identifies the current week key, and every weekly/latency/backlog
+array is filtered to strictly-before it before use — so the stat tile is "merged **last**
+week" (last fully-closed week) and no chart, nor the date-range control's `minDate`/`maxDate`
+bounds, can reach into the partial week. `aggregate.mjs` itself is untouched — the partial
+bucket is still written to `weekly.json` (it's a correct partial count, just not one we want
+surfaced as if it were final), so this stays a display-layer filter, not a data change.
+
 **Date range control.** One control above the charts (1M/3M/6M/1Y/All presets, default 6M, plus
 a custom from/to date picker) filters all four time-series charts at once. The stat tiles and
 leaderboards are deliberately not range-filtered — they're "current state" / "all-time" by
 design, not a trend over the selected window. "All" spans `[minDate, maxDate]` taken from the
-first/last rows of `weekly.json` (the earliest and latest weeks actually in the ledger), not a
-hardcoded date.
+first/last complete weeks (the in-progress current week excluded, per above), not a hardcoded
+date.
 
 **Axis behavior.** Went through a few iterations, each driven by something that only looked
 wrong once real data was on screen:
