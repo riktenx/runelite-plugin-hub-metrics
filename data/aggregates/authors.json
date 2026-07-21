@@ -60,14 +60,14 @@
     "mergedCount": 97
   },
   {
+    "login": "Cyborger1",
+    "prCount": 93,
+    "mergedCount": 88
+  },
+  {
     "login": "dekvall",
     "prCount": 92,
     "mergedCount": 92
-  },
-  {
-    "login": "Cyborger1",
-    "prCount": 92,
-    "mergedCount": 87
   },
   {
     "login": "ldavid432",
@@ -76,7 +76,7 @@
   },
   {
     "login": "JZomDev",
-    "prCount": 84,
+    "prCount": 85,
     "mergedCount": 82
   },
   {
@@ -120,6 +120,11 @@
     "mergedCount": 57
   },
   {
+    "login": "guillaume009",
+    "prCount": 57,
+    "mergedCount": 55
+  },
+  {
     "login": "leejt",
     "prCount": 56,
     "mergedCount": 53
@@ -133,11 +138,6 @@
     "login": "m0bilebtw",
     "prCount": 56,
     "mergedCount": 56
-  },
-  {
-    "login": "guillaume009",
-    "prCount": 56,
-    "mergedCount": 55
   },
   {
     "login": "adamk33n3r",
@@ -235,17 +235,17 @@
     "mergedCount": 40
   },
   {
+    "login": "Endrit-alt",
+    "prCount": 41,
+    "mergedCount": 37
+  },
+  {
     "login": "abextm",
     "prCount": 40,
     "mergedCount": 40
   },
   {
     "login": "hex-agon",
-    "prCount": 40,
-    "mergedCount": 39
-  },
-  {
-    "login": "Infinitay",
     "prCount": 40,
     "mergedCount": 39
   }
