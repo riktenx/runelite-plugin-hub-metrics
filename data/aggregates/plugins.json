@@ -1,5 +1,194 @@
 [
   {
+    "id": "runealytics",
+    "firstAddedAt": "2026-05-12T04:06:21Z",
+    "lastUpdatedAt": "2026-07-24T00:05:51Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "gotr-progress-bar",
+    "firstAddedAt": "2026-07-23T23:30:30Z",
+    "lastUpdatedAt": "2026-07-23T23:30:30Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "nex-loot-tracker",
+    "firstAddedAt": "2026-07-09T06:04:23Z",
+    "lastUpdatedAt": "2026-07-23T22:50:05Z",
+    "updateCount": 12,
+    "prCount": 13,
+    "status": "active",
+    "prsLast90d": 13
+  },
+  {
+    "id": "stations-cozy-clutter",
+    "firstAddedAt": "2026-07-23T18:51:04Z",
+    "lastUpdatedAt": "2026-07-23T22:44:52Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "jumpscare",
+    "firstAddedAt": "2026-07-11T11:27:36Z",
+    "lastUpdatedAt": "2026-07-23T21:08:35Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "dvd-bounce",
+    "firstAddedAt": "2026-07-11T11:32:53Z",
+    "lastUpdatedAt": "2026-07-23T21:03:23Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "bronzeman-tcg",
+    "firstAddedAt": "2026-07-11T16:29:52Z",
+    "lastUpdatedAt": "2026-07-23T20:43:02Z",
+    "updateCount": 22,
+    "prCount": 23,
+    "status": "active",
+    "prsLast90d": 23
+  },
+  {
+    "id": "lendingtracker",
+    "firstAddedAt": "2026-03-03T23:26:41Z",
+    "lastUpdatedAt": "2026-07-23T19:57:22Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "raidparty",
+    "firstAddedAt": "2026-05-16T01:36:37Z",
+    "lastUpdatedAt": "2026-07-23T19:38:36Z",
+    "updateCount": 8,
+    "prCount": 9,
+    "status": "active",
+    "prsLast90d": 9
+  },
+  {
+    "id": "true-tile-movement-animation",
+    "firstAddedAt": "2026-07-08T03:31:46Z",
+    "lastUpdatedAt": "2026-07-23T18:20:06Z",
+    "updateCount": 11,
+    "prCount": 12,
+    "status": "active",
+    "prsLast90d": 12
+  },
+  {
+    "id": "named-pets",
+    "firstAddedAt": "2023-10-15T04:45:43Z",
+    "lastUpdatedAt": "2026-07-23T16:29:03Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "runeprofile",
+    "firstAddedAt": "2022-11-03T04:11:31Z",
+    "lastUpdatedAt": "2026-07-23T16:08:48Z",
+    "updateCount": 38,
+    "prCount": 39,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "ruthless-clan",
+    "firstAddedAt": "2026-06-25T14:06:02Z",
+    "lastUpdatedAt": "2026-07-23T15:38:20Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "npc-health-text",
+    "firstAddedAt": "2026-07-23T02:19:50Z",
+    "lastUpdatedAt": "2026-07-23T15:23:03Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "grape-expectations",
+    "firstAddedAt": "2026-07-23T15:17:40Z",
+    "lastUpdatedAt": "2026-07-23T15:17:40Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "chat-overlay",
+    "firstAddedAt": "2026-05-13T19:34:04Z",
+    "lastUpdatedAt": "2026-07-23T14:11:03Z",
+    "updateCount": 13,
+    "prCount": 14,
+    "status": "active",
+    "prsLast90d": 14
+  },
+  {
+    "id": "flipping-copilot",
+    "firstAddedAt": "2024-04-24T07:53:40Z",
+    "lastUpdatedAt": "2026-07-23T13:40:26Z",
+    "updateCount": 51,
+    "prCount": 52,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "clogman-mode",
+    "firstAddedAt": "2026-01-17T18:18:28Z",
+    "lastUpdatedAt": "2026-07-23T12:45:01Z",
+    "updateCount": 8,
+    "prCount": 9,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "pricecheck-flipping",
+    "firstAddedAt": "2026-07-17T01:38:27Z",
+    "lastUpdatedAt": "2026-07-23T10:29:13Z",
+    "updateCount": 8,
+    "prCount": 9,
+    "status": "active",
+    "prsLast90d": 9
+  },
+  {
+    "id": "guide-overlay",
+    "firstAddedAt": "2026-07-14T14:23:48Z",
+    "lastUpdatedAt": "2026-07-23T04:51:40Z",
+    "updateCount": 6,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "osrs-tcg",
+    "firstAddedAt": "2026-06-25T04:26:31Z",
+    "lastUpdatedAt": "2026-07-23T02:50:20Z",
+    "updateCount": 13,
+    "prCount": 14,
+    "status": "active",
+    "prsLast90d": 14
+  },
+  {
     "id": "fashionscape",
     "firstAddedAt": "2021-02-07T00:23:51Z",
     "lastUpdatedAt": "2026-07-23T01:38:07Z",
@@ -52,15 +241,6 @@
     "prCount": 54,
     "status": "active",
     "prsLast90d": 15
-  },
-  {
-    "id": "bronzeman-tcg",
-    "firstAddedAt": "2026-07-11T16:29:52Z",
-    "lastUpdatedAt": "2026-07-22T22:28:42Z",
-    "updateCount": 20,
-    "prCount": 21,
-    "status": "active",
-    "prsLast90d": 21
   },
   {
     "id": "gauntlet-crafting",
@@ -144,15 +324,6 @@
     "prsLast90d": 5
   },
   {
-    "id": "lendingtracker",
-    "firstAddedAt": "2026-03-03T23:26:41Z",
-    "lastUpdatedAt": "2026-07-22T14:50:43Z",
-    "updateCount": 4,
-    "prCount": 5,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "route-planner",
     "firstAddedAt": "2026-06-24T16:43:19Z",
     "lastUpdatedAt": "2026-07-22T12:54:05Z",
@@ -160,15 +331,6 @@
     "prCount": 12,
     "status": "active",
     "prsLast90d": 12
-  },
-  {
-    "id": "nex-loot-tracker",
-    "firstAddedAt": "2026-07-09T06:04:23Z",
-    "lastUpdatedAt": "2026-07-22T12:28:38Z",
-    "updateCount": 10,
-    "prCount": 11,
-    "status": "active",
-    "prsLast90d": 11
   },
   {
     "id": "health-status-overlays",
@@ -196,15 +358,6 @@
     "prCount": 7,
     "status": "active",
     "prsLast90d": 7
-  },
-  {
-    "id": "guide-overlay",
-    "firstAddedAt": "2026-07-14T14:23:48Z",
-    "lastUpdatedAt": "2026-07-22T06:37:41Z",
-    "updateCount": 5,
-    "prCount": 6,
-    "status": "active",
-    "prsLast90d": 6
   },
   {
     "id": "grand-flip-out",
@@ -259,15 +412,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "pricecheck-flipping",
-    "firstAddedAt": "2026-07-17T01:38:27Z",
-    "lastUpdatedAt": "2026-07-21T23:35:40Z",
-    "updateCount": 7,
-    "prCount": 8,
-    "status": "active",
-    "prsLast90d": 8
   },
   {
     "id": "penguin-crushers",
@@ -405,15 +549,6 @@
     "prsLast90d": 14
   },
   {
-    "id": "osrs-tcg",
-    "firstAddedAt": "2026-06-25T04:26:31Z",
-    "lastUpdatedAt": "2026-07-21T13:02:43Z",
-    "updateCount": 12,
-    "prCount": 13,
-    "status": "active",
-    "prsLast90d": 13
-  },
-  {
     "id": "action-progress",
     "firstAddedAt": "2022-03-22T20:16:50Z",
     "lastUpdatedAt": "2026-07-21T12:22:06Z",
@@ -441,15 +576,6 @@
     "prsLast90d": 12
   },
   {
-    "id": "chat-overlay",
-    "firstAddedAt": "2026-05-13T19:34:04Z",
-    "lastUpdatedAt": "2026-07-21T08:07:25Z",
-    "updateCount": 12,
-    "prCount": 13,
-    "status": "active",
-    "prsLast90d": 13
-  },
-  {
     "id": "groupstoragetracker",
     "firstAddedAt": "2026-07-15T15:03:55Z",
     "lastUpdatedAt": "2026-07-21T05:29:49Z",
@@ -475,15 +601,6 @@
     "prCount": 9,
     "status": "active",
     "prsLast90d": 9
-  },
-  {
-    "id": "true-tile-movement-animation",
-    "firstAddedAt": "2026-07-08T03:31:46Z",
-    "lastUpdatedAt": "2026-07-21T01:55:36Z",
-    "updateCount": 9,
-    "prCount": 10,
-    "status": "active",
-    "prsLast90d": 10
   },
   {
     "id": "better-notifications",
@@ -520,15 +637,6 @@
     "prCount": 3,
     "status": "active",
     "prsLast90d": 3
-  },
-  {
-    "id": "flipping-copilot",
-    "firstAddedAt": "2024-04-24T07:53:40Z",
-    "lastUpdatedAt": "2026-07-20T18:04:49Z",
-    "updateCount": 50,
-    "prCount": 51,
-    "status": "active",
-    "prsLast90d": 7
   },
   {
     "id": "paint-overlays",
@@ -682,15 +790,6 @@
     "prCount": 3,
     "status": "active",
     "prsLast90d": 3
-  },
-  {
-    "id": "jumpscare",
-    "firstAddedAt": "2026-07-11T11:27:36Z",
-    "lastUpdatedAt": "2026-07-19T12:11:22Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "07flip",
@@ -862,15 +961,6 @@
     "prCount": 14,
     "status": "active",
     "prsLast90d": 14
-  },
-  {
-    "id": "runeprofile",
-    "firstAddedAt": "2022-11-03T04:11:31Z",
-    "lastUpdatedAt": "2026-07-18T12:35:53Z",
-    "updateCount": 37,
-    "prCount": 38,
-    "status": "active",
-    "prsLast90d": 7
   },
   {
     "id": "overhead-notifications",
@@ -1267,15 +1357,6 @@
     "prCount": 12,
     "status": "active",
     "prsLast90d": 12
-  },
-  {
-    "id": "dvd-bounce",
-    "firstAddedAt": "2026-07-11T11:32:53Z",
-    "lastUpdatedAt": "2026-07-15T13:00:35Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "brimstone-and-elven-chest-tracker",
@@ -2673,15 +2754,6 @@
     "prsLast90d": 3
   },
   {
-    "id": "runealytics",
-    "firstAddedAt": "2026-05-12T04:06:21Z",
-    "lastUpdatedAt": "2026-07-05T13:49:23Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "upper-case-transformer",
     "firstAddedAt": "2026-03-02T21:13:33Z",
     "lastUpdatedAt": "2026-07-05T09:56:52Z",
@@ -3312,15 +3384,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "ruthless-clan",
-    "firstAddedAt": "2026-06-25T14:06:02Z",
-    "lastUpdatedAt": "2026-06-27T14:29:40Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "alert-bad-offers",
     "firstAddedAt": "2026-06-26T00:07:47Z",
     "lastUpdatedAt": "2026-06-27T14:28:40Z",
@@ -3355,15 +3418,6 @@
     "prCount": 4,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "raidparty",
-    "firstAddedAt": "2026-05-16T01:36:37Z",
-    "lastUpdatedAt": "2026-06-27T03:20:08Z",
-    "updateCount": 7,
-    "prCount": 8,
-    "status": "active",
-    "prsLast90d": 8
   },
   {
     "id": "collection-log-hider",
@@ -4552,15 +4606,6 @@
     "prCount": 45,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "clogman-mode",
-    "firstAddedAt": "2026-01-17T18:18:28Z",
-    "lastUpdatedAt": "2026-06-13T17:44:19Z",
-    "updateCount": 7,
-    "prCount": 8,
-    "status": "active",
-    "prsLast90d": 2
   },
   {
     "id": "veges-pk-guide",
@@ -7053,7 +7098,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "grouping-customizer",
@@ -7062,7 +7107,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "hotkeyable-menu-swaps",
@@ -7448,15 +7493,6 @@
     "lastUpdatedAt": "2026-04-06T10:14:50Z",
     "updateCount": 0,
     "prCount": 1,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "named-pets",
-    "firstAddedAt": "2023-10-15T04:45:43Z",
-    "lastUpdatedAt": "2026-04-06T06:27:19Z",
-    "updateCount": 6,
-    "prCount": 7,
     "status": "active",
     "prsLast90d": 0
   },
