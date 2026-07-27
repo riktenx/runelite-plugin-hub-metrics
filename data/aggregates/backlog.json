@@ -1361,26 +1361,30 @@
   },
   {
     "week": "2026-06-15",
-    "openCount": 103
+    "openCount": 104
   },
   {
     "week": "2026-06-22",
-    "openCount": 26
+    "openCount": 27
   },
   {
     "week": "2026-06-29",
-    "openCount": 20
+    "openCount": 21
   },
   {
     "week": "2026-07-06",
-    "openCount": 37
+    "openCount": 38
   },
   {
     "week": "2026-07-13",
-    "openCount": 84
+    "openCount": 85
   },
   {
     "week": "2026-07-20",
-    "openCount": 133
+    "openCount": 142
+  },
+  {
+    "week": "2026-07-27",
+    "openCount": 140
   }
 ]

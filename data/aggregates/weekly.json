@@ -2723,7 +2723,7 @@
     "week": "2026-06-15",
     "opened": 157,
     "merged": 127,
-    "closedUnmerged": 18,
+    "closedUnmerged": 17,
     "pluginsAdded": 32,
     "pluginsRemoved": 0
   },
@@ -2761,10 +2761,18 @@
   },
   {
     "week": "2026-07-20",
-    "opened": 250,
-    "merged": 183,
-    "closedUnmerged": 18,
-    "pluginsAdded": 22,
+    "opened": 290,
+    "merged": 211,
+    "closedUnmerged": 22,
+    "pluginsAdded": 28,
+    "pluginsRemoved": 0
+  },
+  {
+    "week": "2026-07-27",
+    "opened": 3,
+    "merged": 5,
+    "closedUnmerged": 0,
+    "pluginsAdded": 2,
     "pluginsRemoved": 0
   }
 ]
