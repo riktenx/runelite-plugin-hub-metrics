@@ -235,6 +235,11 @@
     "mergedCount": 38
   },
   {
+    "login": "1Defence",
+    "prCount": 41,
+    "mergedCount": 40
+  },
+  {
     "login": "pajlada",
     "prCount": 41,
     "mergedCount": 40
@@ -243,10 +248,5 @@
     "login": "abextm",
     "prCount": 40,
     "mergedCount": 40
-  },
-  {
-    "login": "1Defence",
-    "prCount": 40,
-    "mergedCount": 39
   }
 ]
