@@ -165,6 +165,11 @@
     "mergedCount": 50
   },
   {
+    "login": "bopsec",
+    "prCount": 50,
+    "mergedCount": 46
+  },
+  {
     "login": "andmcadams",
     "prCount": 49,
     "mergedCount": 48
@@ -178,11 +183,6 @@
     "login": "Fiffers",
     "prCount": 49,
     "mergedCount": 43
-  },
-  {
-    "login": "bopsec",
-    "prCount": 49,
-    "mergedCount": 45
   },
   {
     "login": "DapperMickie",
