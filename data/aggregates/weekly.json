@@ -2769,10 +2769,10 @@
   },
   {
     "week": "2026-07-27",
-    "opened": 78,
-    "merged": 77,
-    "closedUnmerged": 10,
-    "pluginsAdded": 17,
+    "opened": 124,
+    "merged": 111,
+    "closedUnmerged": 14,
+    "pluginsAdded": 21,
     "pluginsRemoved": 0
   }
 ]

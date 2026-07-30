@@ -27,7 +27,7 @@
   {
     "login": "TicTac7x",
     "prCount": 146,
-    "mergedCount": 136
+    "mergedCount": 137
   },
   {
     "login": "aHooder",
@@ -71,8 +71,8 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 87,
-    "mergedCount": 85
+    "prCount": 89,
+    "mergedCount": 87
   },
   {
     "login": "JZomDev",
@@ -81,8 +81,8 @@
   },
   {
     "login": "l2-",
-    "prCount": 82,
-    "mergedCount": 82
+    "prCount": 83,
+    "mergedCount": 83
   },
   {
     "login": "ChunkyAtlas",
@@ -160,14 +160,14 @@
     "mergedCount": 49
   },
   {
+    "login": "bopsec",
+    "prCount": 51,
+    "mergedCount": 46
+  },
+  {
     "login": "equirs",
     "prCount": 50,
     "mergedCount": 50
-  },
-  {
-    "login": "bopsec",
-    "prCount": 50,
-    "mergedCount": 46
   },
   {
     "login": "andmcadams",
@@ -210,6 +210,11 @@
     "mergedCount": 41
   },
   {
+    "login": "Endrit-alt",
+    "prCount": 43,
+    "mergedCount": 39
+  },
+  {
     "login": "Bram91",
     "prCount": 42,
     "mergedCount": 41
@@ -223,11 +228,6 @@
     "login": "ReinhardtR",
     "prCount": 42,
     "mergedCount": 39
-  },
-  {
-    "login": "Endrit-alt",
-    "prCount": 42,
-    "mergedCount": 38
   },
   {
     "login": "melkypie",
