@@ -72,7 +72,7 @@
   {
     "login": "ldavid432",
     "prCount": 91,
-    "mergedCount": 88
+    "mergedCount": 89
   },
   {
     "login": "JZomDev",
@@ -145,6 +145,16 @@
     "mergedCount": 52
   },
   {
+    "login": "SuperNerdEric",
+    "prCount": 54,
+    "mergedCount": 51
+  },
+  {
+    "login": "bopsec",
+    "prCount": 54,
+    "mergedCount": 50
+  },
+  {
     "login": "Matsyir",
     "prCount": 53,
     "mergedCount": 52
@@ -153,16 +163,6 @@
     "login": "MoreBuchus",
     "prCount": 53,
     "mergedCount": 51
-  },
-  {
-    "login": "SuperNerdEric",
-    "prCount": 53,
-    "mergedCount": 51
-  },
-  {
-    "login": "bopsec",
-    "prCount": 53,
-    "mergedCount": 50
   },
   {
     "login": "equirs",
@@ -190,14 +190,14 @@
     "mergedCount": 47
   },
   {
+    "login": "rorro",
+    "prCount": 47,
+    "mergedCount": 46
+  },
+  {
     "login": "Trevor159",
     "prCount": 46,
     "mergedCount": 45
-  },
-  {
-    "login": "rorro",
-    "prCount": 46,
-    "mergedCount": 46
   },
   {
     "login": "mablack01",
