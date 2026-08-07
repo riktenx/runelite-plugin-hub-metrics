@@ -1,12 +1,129 @@
 [
   {
-    "id": "slayer-task-loot",
-    "firstAddedAt": "2026-08-05T12:49:14Z",
-    "lastUpdatedAt": "2026-08-05T23:36:36Z",
+    "id": "ge-uncut",
+    "firstAddedAt": "2026-07-09T00:35:14Z",
+    "lastUpdatedAt": "2026-08-07T01:18:07Z",
+    "updateCount": 13,
+    "prCount": 14,
+    "status": "active",
+    "prsLast90d": 14
+  },
+  {
+    "id": "contextual-cursor",
+    "firstAddedAt": "2020-09-09T00:54:19Z",
+    "lastUpdatedAt": "2026-08-07T01:07:41Z",
+    "updateCount": 48,
+    "prCount": 49,
+    "status": "active",
+    "prsLast90d": 15
+  },
+  {
+    "id": "seedbox",
+    "firstAddedAt": "2026-08-06T15:41:22Z",
+    "lastUpdatedAt": "2026-08-06T15:41:22Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "collection-log-popup-enhanced",
+    "firstAddedAt": "2026-07-26T19:23:21Z",
+    "lastUpdatedAt": "2026-08-06T15:31:07Z",
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
     "prsLast90d": 3
+  },
+  {
+    "id": "clue-saver",
+    "firstAddedAt": "2025-04-14T07:19:31Z",
+    "lastUpdatedAt": "2026-08-06T14:35:18Z",
+    "updateCount": 11,
+    "prCount": 12,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "emote-wheel",
+    "firstAddedAt": "2026-08-01T21:17:53Z",
+    "lastUpdatedAt": "2026-08-06T14:19:56Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "golem-crafting",
+    "firstAddedAt": "2026-07-30T05:06:18Z",
+    "lastUpdatedAt": "2026-08-06T13:24:04Z",
+    "updateCount": 11,
+    "prCount": 12,
+    "status": "active",
+    "prsLast90d": 12
+  },
+  {
+    "id": "bronzeman-tcg",
+    "firstAddedAt": "2026-07-11T16:29:52Z",
+    "lastUpdatedAt": "2026-08-06T12:43:21Z",
+    "updateCount": 31,
+    "prCount": 32,
+    "status": "active",
+    "prsLast90d": 32
+  },
+  {
+    "id": "minimap-zoom-controls",
+    "firstAddedAt": "2026-08-06T12:38:07Z",
+    "lastUpdatedAt": "2026-08-06T12:38:07Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "slayer-task-loot",
+    "firstAddedAt": "2026-08-05T12:49:14Z",
+    "lastUpdatedAt": "2026-08-06T11:52:27Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "taskman",
+    "firstAddedAt": "2022-09-22T17:23:12Z",
+    "lastUpdatedAt": "2026-08-06T08:41:05Z",
+    "updateCount": 13,
+    "prCount": 14,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "afk-hider",
+    "firstAddedAt": "2026-08-06T05:07:48Z",
+    "lastUpdatedAt": "2026-08-06T06:38:51Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "inventory-item-counter",
+    "firstAddedAt": "2026-08-06T03:36:37Z",
+    "lastUpdatedAt": "2026-08-06T03:36:37Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "slayerdex",
+    "firstAddedAt": "2026-07-28T16:27:20Z",
+    "lastUpdatedAt": "2026-08-06T02:44:57Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
   },
   {
     "id": "goat-pit-indicators",
@@ -153,24 +270,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "bronzeman-tcg",
-    "firstAddedAt": "2026-07-11T16:29:52Z",
-    "lastUpdatedAt": "2026-08-05T00:40:17Z",
-    "updateCount": 30,
-    "prCount": 31,
-    "status": "active",
-    "prsLast90d": 31
-  },
-  {
-    "id": "golem-crafting",
-    "firstAddedAt": "2026-07-30T05:06:18Z",
-    "lastUpdatedAt": "2026-08-05T00:19:48Z",
-    "updateCount": 10,
-    "prCount": 11,
-    "status": "active",
-    "prsLast90d": 11
-  },
-  {
     "id": "slayer-task-logger",
     "firstAddedAt": "2026-06-21T21:07:32Z",
     "lastUpdatedAt": "2026-08-05T00:09:31Z",
@@ -178,15 +277,6 @@
     "prCount": 3,
     "status": "active",
     "prsLast90d": 3
-  },
-  {
-    "id": "ge-uncut",
-    "firstAddedAt": "2026-07-09T00:35:14Z",
-    "lastUpdatedAt": "2026-08-04T22:23:04Z",
-    "updateCount": 12,
-    "prCount": 13,
-    "status": "active",
-    "prsLast90d": 13
   },
   {
     "id": "ring-of-time",
@@ -249,7 +339,7 @@
     "updateCount": 16,
     "prCount": 17,
     "status": "active",
-    "prsLast90d": 17
+    "prsLast90d": 16
   },
   {
     "id": "faux-bingo",
@@ -468,15 +558,6 @@
     "prsLast90d": 4
   },
   {
-    "id": "contextual-cursor",
-    "firstAddedAt": "2020-09-09T00:54:19Z",
-    "lastUpdatedAt": "2026-08-03T04:26:56Z",
-    "updateCount": 47,
-    "prCount": 48,
-    "status": "active",
-    "prsLast90d": 14
-  },
-  {
     "id": "stations-inspect-details",
     "firstAddedAt": "2026-08-02T10:20:23Z",
     "lastUpdatedAt": "2026-08-03T03:41:08Z",
@@ -693,15 +774,6 @@
     "prsLast90d": 22
   },
   {
-    "id": "emote-wheel",
-    "firstAddedAt": "2026-08-01T21:17:53Z",
-    "lastUpdatedAt": "2026-08-02T00:46:32Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "slayer-bank-tab",
     "firstAddedAt": "2026-07-07T01:07:24Z",
     "lastUpdatedAt": "2026-08-01T23:55:51Z",
@@ -799,15 +871,6 @@
     "prCount": 7,
     "status": "active",
     "prsLast90d": 7
-  },
-  {
-    "id": "collection-log-popup-enhanced",
-    "firstAddedAt": "2026-07-26T19:23:21Z",
-    "lastUpdatedAt": "2026-08-01T11:19:47Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
   },
   {
     "id": "ba-metronome",
@@ -1069,15 +1132,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "slayerdex",
-    "firstAddedAt": "2026-07-28T16:27:20Z",
-    "lastUpdatedAt": "2026-07-31T12:23:18Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "ruby-counter",
@@ -3048,7 +3102,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "pvm-score",
@@ -4371,7 +4425,7 @@
     "updateCount": 88,
     "prCount": 90,
     "status": "active",
-    "prsLast90d": 9
+    "prsLast90d": 8
   },
   {
     "id": "loot-lookup",
@@ -5604,7 +5658,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "visual-npc-dialogue",
@@ -5802,7 +5856,7 @@
     "updateCount": 10,
     "prCount": 11,
     "status": "active",
-    "prsLast90d": 11
+    "prsLast90d": 9
   },
   {
     "id": "runecrafting-tracker",
@@ -6144,7 +6198,7 @@
     "updateCount": 31,
     "prCount": 32,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "tzhaar-hp-tracker",
@@ -7440,7 +7494,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "pvp-arena-points",
@@ -7449,7 +7503,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "placeholder-prices",
@@ -7458,7 +7512,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "tombs-of-amascut",
@@ -7467,7 +7521,7 @@
     "updateCount": 59,
     "prCount": 60,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "cox-analytics",
@@ -10701,15 +10755,6 @@
     "prsLast90d": 0
   },
   {
-    "id": "taskman",
-    "firstAddedAt": "2022-09-22T17:23:12Z",
-    "lastUpdatedAt": "2025-12-17T18:13:34Z",
-    "updateCount": 12,
-    "prCount": 13,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
     "id": "average-total-level",
     "firstAddedAt": "2024-11-20T05:31:35Z",
     "lastUpdatedAt": "2025-12-17T06:47:50Z",
@@ -12218,15 +12263,6 @@
     "lastUpdatedAt": "2025-08-27T17:04:53Z",
     "updateCount": 0,
     "prCount": 1,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "clue-saver",
-    "firstAddedAt": "2025-04-14T07:19:31Z",
-    "lastUpdatedAt": "2025-08-27T16:39:27Z",
-    "updateCount": 10,
-    "prCount": 11,
     "status": "active",
     "prsLast90d": 0
   },
