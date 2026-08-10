@@ -2777,10 +2777,18 @@
   },
   {
     "week": "2026-08-03",
-    "opened": 226,
-    "merged": 140,
-    "closedUnmerged": 40,
-    "pluginsAdded": 30,
+    "opened": 253,
+    "merged": 156,
+    "closedUnmerged": 44,
+    "pluginsAdded": 33,
+    "pluginsRemoved": 0
+  },
+  {
+    "week": "2026-08-10",
+    "opened": 2,
+    "merged": 0,
+    "closedUnmerged": 0,
+    "pluginsAdded": 0,
     "pluginsRemoved": 0
   }
 ]
