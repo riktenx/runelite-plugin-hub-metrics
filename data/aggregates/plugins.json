@@ -1,12 +1,174 @@
 [
   {
-    "id": "gearforge",
-    "firstAddedAt": "2026-08-08T07:21:33Z",
-    "lastUpdatedAt": "2026-08-09T23:47:45Z",
+    "id": "mirror-tabs",
+    "firstAddedAt": "2026-08-10T23:34:59Z",
+    "lastUpdatedAt": "2026-08-10T23:34:59Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "clue-scroll-juggling",
+    "firstAddedAt": "2021-06-11T05:39:27Z",
+    "lastUpdatedAt": "2026-08-10T22:49:13Z",
+    "updateCount": 9,
+    "prCount": 10,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "not-enough-runes",
+    "firstAddedAt": "2022-03-27T17:02:50Z",
+    "lastUpdatedAt": "2026-08-10T22:19:51Z",
+    "updateCount": 19,
+    "prCount": 20,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "slayer-task-loot",
+    "firstAddedAt": "2026-08-05T12:49:14Z",
+    "lastUpdatedAt": "2026-08-10T21:22:32Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "ring-of-time",
+    "firstAddedAt": "2026-08-01T10:59:27Z",
+    "lastUpdatedAt": "2026-08-10T19:55:58Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "partychat",
+    "firstAddedAt": "2026-08-10T18:09:26Z",
+    "lastUpdatedAt": "2026-08-10T18:09:26Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "friendtabs",
+    "firstAddedAt": "2026-07-13T16:26:44Z",
+    "lastUpdatedAt": "2026-08-10T17:38:50Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "loot-beams-deluxe",
+    "firstAddedAt": "2026-07-26T05:36:29Z",
+    "lastUpdatedAt": "2026-08-10T11:23:33Z",
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
     "prsLast90d": 3
+  },
+  {
+    "id": "transparant-prayers",
+    "firstAddedAt": "2026-08-07T12:03:28Z",
+    "lastUpdatedAt": "2026-08-10T10:47:53Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "chatboxescapeblocker",
+    "firstAddedAt": "2026-07-24T17:04:25Z",
+    "lastUpdatedAt": "2026-08-10T10:17:26Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "gearforge",
+    "firstAddedAt": "2026-08-08T07:21:33Z",
+    "lastUpdatedAt": "2026-08-10T09:01:26Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "groupstoragetracker",
+    "firstAddedAt": "2026-07-15T15:03:55Z",
+    "lastUpdatedAt": "2026-08-10T07:44:53Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "hunter-rumour-history",
+    "firstAddedAt": "2026-08-10T07:39:39Z",
+    "lastUpdatedAt": "2026-08-10T07:39:39Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "loot-logger",
+    "firstAddedAt": "2020-01-15T02:04:28Z",
+    "lastUpdatedAt": "2026-08-10T07:09:05Z",
+    "updateCount": 44,
+    "prCount": 45,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "grimy-herb-stopwatch",
+    "firstAddedAt": "2026-08-10T06:58:37Z",
+    "lastUpdatedAt": "2026-08-10T06:58:37Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "inventory-interaction-highlight",
+    "firstAddedAt": "2026-08-10T06:23:03Z",
+    "lastUpdatedAt": "2026-08-10T06:23:03Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "clean-chat",
+    "firstAddedAt": "2025-04-20T01:07:29Z",
+    "lastUpdatedAt": "2026-08-10T03:00:34Z",
+    "updateCount": 32,
+    "prCount": 33,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "golem-crafting",
+    "firstAddedAt": "2026-07-30T05:06:18Z",
+    "lastUpdatedAt": "2026-08-10T02:34:59Z",
+    "updateCount": 13,
+    "prCount": 14,
+    "status": "active",
+    "prsLast90d": 14
+  },
+  {
+    "id": "compact-orbs",
+    "firstAddedAt": "2025-10-29T03:34:39Z",
+    "lastUpdatedAt": "2026-08-10T01:13:53Z",
+    "updateCount": 25,
+    "prCount": 26,
+    "status": "active",
+    "prsLast90d": 8
   },
   {
     "id": "slayer-task-time-tracker",
@@ -207,15 +369,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "chatboxescapeblocker",
-    "firstAddedAt": "2026-07-24T17:04:25Z",
-    "lastUpdatedAt": "2026-08-08T08:34:47Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "flip-smart",
     "firstAddedAt": "2025-12-10T20:45:17Z",
     "lastUpdatedAt": "2026-08-08T08:29:34Z",
@@ -249,7 +402,7 @@
     "updateCount": 28,
     "prCount": 29,
     "status": "active",
-    "prsLast90d": 9
+    "prsLast90d": 8
   },
   {
     "id": "ge-companion",
@@ -279,15 +432,6 @@
     "prsLast90d": 6
   },
   {
-    "id": "transparant-prayers",
-    "firstAddedAt": "2026-08-07T12:03:28Z",
-    "lastUpdatedAt": "2026-08-08T07:16:20Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "bis-loadouts",
     "firstAddedAt": "2026-08-08T07:06:05Z",
     "lastUpdatedAt": "2026-08-08T07:06:05Z",
@@ -295,15 +439,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "compact-orbs",
-    "firstAddedAt": "2025-10-29T03:34:39Z",
-    "lastUpdatedAt": "2026-08-08T05:19:19Z",
-    "updateCount": 24,
-    "prCount": 25,
-    "status": "active",
-    "prsLast90d": 7
   },
   {
     "id": "action-progress",
@@ -394,15 +529,6 @@
     "prCount": 4,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "golem-crafting",
-    "firstAddedAt": "2026-07-30T05:06:18Z",
-    "lastUpdatedAt": "2026-08-07T15:41:52Z",
-    "updateCount": 12,
-    "prCount": 13,
-    "status": "active",
-    "prsLast90d": 13
   },
   {
     "id": "goat-pit-indicators",
@@ -511,15 +637,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "slayer-task-loot",
-    "firstAddedAt": "2026-08-05T12:49:14Z",
-    "lastUpdatedAt": "2026-08-06T11:52:27Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "taskman",
@@ -678,15 +795,6 @@
     "id": "slayer-task-logger",
     "firstAddedAt": "2026-06-21T21:07:32Z",
     "lastUpdatedAt": "2026-08-05T00:09:31Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
-    "id": "ring-of-time",
-    "firstAddedAt": "2026-08-01T10:59:27Z",
-    "lastUpdatedAt": "2026-08-04T21:11:55Z",
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
@@ -1140,7 +1248,7 @@
     "updateCount": 10,
     "prCount": 11,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 6
   },
   {
     "id": "gotr-rune-tracker",
@@ -2061,15 +2169,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "loot-beams-deluxe",
-    "firstAddedAt": "2026-07-26T05:36:29Z",
-    "lastUpdatedAt": "2026-07-27T10:58:22Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "pricecheck-flipping",
     "firstAddedAt": "2026-07-17T01:38:27Z",
     "lastUpdatedAt": "2026-07-27T07:36:44Z",
@@ -2391,7 +2490,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "gotr-progress-bar",
@@ -2565,15 +2664,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "not-enough-runes",
-    "firstAddedAt": "2022-03-27T17:02:50Z",
-    "lastUpdatedAt": "2026-07-22T01:40:45Z",
-    "updateCount": 18,
-    "prCount": 19,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "pb-tracker-sync",
     "firstAddedAt": "2026-07-05T01:03:16Z",
     "lastUpdatedAt": "2026-07-21T23:56:08Z",
@@ -2634,7 +2724,7 @@
     "updateCount": 25,
     "prCount": 26,
     "status": "active",
-    "prsLast90d": 18
+    "prsLast90d": 17
   },
   {
     "id": "aio-bingo",
@@ -2662,15 +2752,6 @@
     "prCount": 33,
     "status": "active",
     "prsLast90d": 14
-  },
-  {
-    "id": "groupstoragetracker",
-    "firstAddedAt": "2026-07-15T15:03:55Z",
-    "lastUpdatedAt": "2026-07-21T05:29:49Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "improved-tears-of-guthix-interface",
@@ -3411,15 +3492,6 @@
     "prsLast90d": 6
   },
   {
-    "id": "friendtabs",
-    "firstAddedAt": "2026-07-13T16:26:44Z",
-    "lastUpdatedAt": "2026-07-13T16:26:44Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "worn-equip-viewer",
     "firstAddedAt": "2023-06-04T05:15:07Z",
     "lastUpdatedAt": "2026-07-13T15:24:41Z",
@@ -4068,15 +4140,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "clean-chat",
-    "firstAddedAt": "2025-04-20T01:07:29Z",
-    "lastUpdatedAt": "2026-07-07T02:24:27Z",
-    "updateCount": 31,
-    "prCount": 32,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "follow-plus",
     "firstAddedAt": "2026-07-05T04:16:55Z",
     "lastUpdatedAt": "2026-07-07T01:48:43Z",
@@ -4137,7 +4200,7 @@
     "updateCount": 23,
     "prCount": 24,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 6
   },
   {
     "id": "sea-charting-quest-helper",
@@ -4632,7 +4695,7 @@
     "updateCount": 88,
     "prCount": 90,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "loot-lookup",
@@ -6045,7 +6108,7 @@
     "updateCount": 10,
     "prCount": 11,
     "status": "active",
-    "prsLast90d": 9
+    "prsLast90d": 8
   },
   {
     "id": "runecrafting-tracker",
@@ -6180,16 +6243,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
-  },
-  {
-    "id": "loot-logger",
-    "firstAddedAt": "2020-01-15T02:04:28Z",
-    "lastUpdatedAt": "2026-06-07T00:40:33Z",
-    "updateCount": 43,
-    "prCount": 44,
-    "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "osrs-dashboard",
@@ -6801,7 +6855,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "matching-lootbeams",
@@ -6909,7 +6963,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "ge-iq-sync",
@@ -7548,7 +7602,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "shortest-grave",
@@ -7557,7 +7611,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "zom-afk-gotr",
@@ -7566,7 +7620,7 @@
     "updateCount": 8,
     "prCount": 9,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 0
   },
   {
     "id": "global-chat",
@@ -7575,7 +7629,7 @@
     "updateCount": 13,
     "prCount": 14,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "xp-to-level-notification",
@@ -7584,7 +7638,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "toa-invocations",
@@ -7593,7 +7647,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "nail-beast-sfx",
@@ -7602,7 +7656,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "boss-buddy",
@@ -15593,15 +15647,6 @@
     "lastUpdatedAt": "2024-05-13T03:47:29Z",
     "updateCount": 0,
     "prCount": 1,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "clue-scroll-juggling",
-    "firstAddedAt": "2021-06-11T05:39:27Z",
-    "lastUpdatedAt": "2024-05-12T06:46:10Z",
-    "updateCount": 8,
-    "prCount": 9,
     "status": "active",
     "prsLast90d": 0
   },
