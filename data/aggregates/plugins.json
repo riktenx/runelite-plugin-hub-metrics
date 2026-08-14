@@ -1,17 +1,116 @@
 [
   {
-    "id": "camera-restore",
-    "firstAddedAt": "2026-08-13T01:02:09Z",
-    "lastUpdatedAt": "2026-08-13T01:02:09Z",
+    "id": "flinch",
+    "firstAddedAt": "2026-08-13T23:41:37Z",
+    "lastUpdatedAt": "2026-08-13T23:41:37Z",
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
   },
   {
+    "id": "map-decorator",
+    "firstAddedAt": "2026-07-03T10:58:20Z",
+    "lastUpdatedAt": "2026-08-13T22:05:12Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "multi-tagger",
+    "firstAddedAt": "2026-08-13T18:57:22Z",
+    "lastUpdatedAt": "2026-08-13T18:57:22Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "monster-hp-percentage",
+    "firstAddedAt": "2022-07-05T17:18:11Z",
+    "lastUpdatedAt": "2026-08-13T18:20:10Z",
+    "updateCount": 20,
+    "prCount": 21,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "custom-hp-bar",
+    "firstAddedAt": "2026-07-21T13:53:57Z",
+    "lastUpdatedAt": "2026-08-13T14:49:10Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "object-marker-plus",
+    "firstAddedAt": "2026-05-05T17:23:48Z",
+    "lastUpdatedAt": "2026-08-13T14:38:24Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "clue-details",
+    "firstAddedAt": "2024-07-09T18:02:18Z",
+    "lastUpdatedAt": "2026-08-13T09:43:47Z",
+    "updateCount": 38,
+    "prCount": 39,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "loot-case-opening",
+    "firstAddedAt": "2026-08-13T07:02:42Z",
+    "lastUpdatedAt": "2026-08-13T07:02:42Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "compass-quadrants",
+    "firstAddedAt": "2026-08-13T06:16:52Z",
+    "lastUpdatedAt": "2026-08-13T06:16:52Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "glamourer",
+    "firstAddedAt": "2026-02-14T02:58:55Z",
+    "lastUpdatedAt": "2026-08-13T04:47:07Z",
+    "updateCount": 16,
+    "prCount": 17,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
     "id": "skill-rank-tooltip",
     "firstAddedAt": "2026-08-13T00:21:33Z",
-    "lastUpdatedAt": "2026-08-13T00:21:33Z",
+    "lastUpdatedAt": "2026-08-13T02:38:37Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "wyrm-agility-afk-progress",
+    "firstAddedAt": "2026-07-26T20:39:38Z",
+    "lastUpdatedAt": "2026-08-13T01:52:53Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "camera-restore",
+    "firstAddedAt": "2026-08-13T01:02:09Z",
+    "lastUpdatedAt": "2026-08-13T01:02:09Z",
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
@@ -357,7 +456,7 @@
     "updateCount": 8,
     "prCount": 9,
     "status": "active",
-    "prsLast90d": 9
+    "prsLast90d": 7
   },
   {
     "id": "blert",
@@ -861,7 +960,7 @@
     "updateCount": 17,
     "prCount": 18,
     "status": "active",
-    "prsLast90d": 15
+    "prsLast90d": 14
   },
   {
     "id": "quetzal-whistle-charges",
@@ -1638,15 +1737,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "object-marker-plus",
-    "firstAddedAt": "2026-05-05T17:23:48Z",
-    "lastUpdatedAt": "2026-08-02T07:07:45Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "compass-camera-control",
     "firstAddedAt": "2024-10-20T19:14:23Z",
     "lastUpdatedAt": "2026-08-02T06:47:20Z",
@@ -1662,7 +1752,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 8
+    "prsLast90d": 7
   },
   {
     "id": "configurable-slayer-task-overlay",
@@ -1680,7 +1770,7 @@
     "updateCount": 10,
     "prCount": 11,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "gotr-rune-tracker",
@@ -2349,15 +2439,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "custom-hp-bar",
-    "firstAddedAt": "2026-07-21T13:53:57Z",
-    "lastUpdatedAt": "2026-07-28T03:54:20Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
     "id": "bingo-team-helper",
     "firstAddedAt": "2026-07-16T01:30:26Z",
     "lastUpdatedAt": "2026-07-28T01:22:58Z",
@@ -2541,15 +2622,6 @@
     "id": "hide-others-barrows",
     "firstAddedAt": "2026-07-27T00:12:00Z",
     "lastUpdatedAt": "2026-07-27T00:12:00Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "wyrm-agility-afk-progress",
-    "firstAddedAt": "2026-07-26T20:39:38Z",
-    "lastUpdatedAt": "2026-07-26T20:39:38Z",
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
@@ -2769,7 +2841,7 @@
     "updateCount": 9,
     "prCount": 10,
     "status": "active",
-    "prsLast90d": 10
+    "prsLast90d": 9
   },
   {
     "id": "choice-man-helper",
@@ -3039,7 +3111,7 @@
     "updateCount": 70,
     "prCount": 71,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "raids-death-indicator",
@@ -3319,15 +3391,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "map-decorator",
-    "firstAddedAt": "2026-07-03T10:58:20Z",
-    "lastUpdatedAt": "2026-07-17T13:30:42Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "tictac7x-motherlode",
@@ -4059,15 +4122,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "monster-hp-percentage",
-    "firstAddedAt": "2022-07-05T17:18:11Z",
-    "lastUpdatedAt": "2026-07-10T18:16:43Z",
-    "updateCount": 19,
-    "prCount": 20,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "lootlette",
     "firstAddedAt": "2026-06-16T02:42:40Z",
     "lastUpdatedAt": "2026-07-10T16:24:57Z",
@@ -4284,15 +4338,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "glamourer",
-    "firstAddedAt": "2026-02-14T02:58:55Z",
-    "lastUpdatedAt": "2026-07-08T01:10:11Z",
-    "updateCount": 15,
-    "prCount": 16,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "pianoqueen-music",
     "firstAddedAt": "2026-07-07T22:07:48Z",
     "lastUpdatedAt": "2026-07-08T00:39:27Z",
@@ -4479,7 +4524,7 @@
     "updateCount": 21,
     "prCount": 22,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "movable-orbs",
@@ -4776,7 +4821,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "npc-tracker",
@@ -6342,7 +6387,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "rune-hero",
@@ -6567,7 +6612,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "boat-hider",
@@ -6675,7 +6720,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "tan-leather-cast-tracker",
@@ -6999,7 +7044,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 2
   },
   {
     "id": "crafting-guild-bank-helper",
@@ -7152,7 +7197,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "ge-iq-sync",
@@ -7458,7 +7503,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "drop-trainer",
@@ -7467,7 +7512,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "fire-timer-plus",
@@ -7476,7 +7521,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "afk-sandstone",
@@ -7485,7 +7530,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "ship-combat",
@@ -7494,7 +7539,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "looting-bag-tracker",
@@ -7503,7 +7548,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "dialogue-fonts",
@@ -7512,7 +7557,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "captains-log",
@@ -7521,7 +7566,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "party-link",
@@ -7530,7 +7575,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "take-me-there",
@@ -7539,7 +7584,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "osrs-profit-tracker",
@@ -7548,7 +7593,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "character-export",
@@ -7557,7 +7602,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "aioeventlog",
@@ -7566,7 +7611,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "data-exporter",
@@ -7575,7 +7620,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "better-notes",
@@ -7584,7 +7629,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "ticksync-music",
@@ -7593,16 +7638,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "clue-details",
-    "firstAddedAt": "2024-07-09T18:02:18Z",
-    "lastUpdatedAt": "2026-05-15T14:41:59Z",
-    "updateCount": 37,
-    "prCount": 38,
-    "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "moon-overlay",
@@ -7611,7 +7647,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "visual-timer",
