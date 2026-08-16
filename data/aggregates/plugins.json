@@ -1,5 +1,95 @@
 [
   {
+    "id": "farming-patch-advisor",
+    "firstAddedAt": "2026-08-16T00:02:13Z",
+    "lastUpdatedAt": "2026-08-16T00:02:13Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "alimorrisanevalues",
+    "firstAddedAt": "2026-08-15T22:45:31Z",
+    "lastUpdatedAt": "2026-08-15T22:45:31Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "gauntlet-chest-popup",
+    "firstAddedAt": "2025-03-30T06:24:30Z",
+    "lastUpdatedAt": "2026-08-15T20:58:47Z",
+    "updateCount": 15,
+    "prCount": 16,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "better-slayer",
+    "firstAddedAt": "2026-08-15T17:00:40Z",
+    "lastUpdatedAt": "2026-08-15T17:00:40Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "creators-kit",
+    "firstAddedAt": "2023-09-07T05:26:23Z",
+    "lastUpdatedAt": "2026-08-15T16:21:47Z",
+    "updateCount": 86,
+    "prCount": 87,
+    "status": "active",
+    "prsLast90d": 12
+  },
+  {
+    "id": "bryophyta-staff-helper",
+    "firstAddedAt": "2026-08-15T16:09:44Z",
+    "lastUpdatedAt": "2026-08-15T16:09:44Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "mute-magic-trees",
+    "firstAddedAt": "2026-08-15T14:13:04Z",
+    "lastUpdatedAt": "2026-08-15T14:13:04Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "mouse-button-drop",
+    "firstAddedAt": "2026-08-15T11:45:45Z",
+    "lastUpdatedAt": "2026-08-15T11:45:45Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "osrs-best-in-slot",
+    "firstAddedAt": "2026-07-01T01:36:50Z",
+    "lastUpdatedAt": "2026-08-15T11:25:18Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "gear-upgrade",
+    "firstAddedAt": "2026-08-11T21:16:37Z",
+    "lastUpdatedAt": "2026-08-15T04:24:48Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
     "id": "keybind-tile-highlight",
     "firstAddedAt": "2026-08-12T02:07:17Z",
     "lastUpdatedAt": "2026-08-14T22:34:23Z",
@@ -135,15 +225,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "osrs-best-in-slot",
-    "firstAddedAt": "2026-07-01T01:36:50Z",
-    "lastUpdatedAt": "2026-08-14T13:07:22Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
-  },
-  {
     "id": "real-loot-key-value",
     "firstAddedAt": "2026-06-05T16:26:22Z",
     "lastUpdatedAt": "2026-08-14T11:15:44Z",
@@ -249,7 +330,7 @@
     "updateCount": 16,
     "prCount": 17,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "skill-rank-tooltip",
@@ -468,15 +549,6 @@
     "prsLast90d": 17
   },
   {
-    "id": "gear-upgrade",
-    "firstAddedAt": "2026-08-11T21:16:37Z",
-    "lastUpdatedAt": "2026-08-12T01:46:55Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "cardcore-party",
     "firstAddedAt": "2026-08-07T22:08:31Z",
     "lastUpdatedAt": "2026-08-12T00:50:00Z",
@@ -681,7 +753,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "idle-familiar",
@@ -1104,7 +1176,7 @@
     "updateCount": 44,
     "prCount": 45,
     "status": "active",
-    "prsLast90d": 19
+    "prsLast90d": 18
   },
   {
     "id": "discord-loot-streamer",
@@ -1131,7 +1203,7 @@
     "updateCount": 28,
     "prCount": 29,
     "status": "active",
-    "prsLast90d": 8
+    "prsLast90d": 7
   },
   {
     "id": "ge-companion",
@@ -1248,7 +1320,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "goat-pit-indicators",
@@ -1375,15 +1447,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 5
-  },
-  {
-    "id": "creators-kit",
-    "firstAddedAt": "2023-09-07T05:26:23Z",
-    "lastUpdatedAt": "2026-08-05T20:38:16Z",
-    "updateCount": 85,
-    "prCount": 86,
-    "status": "active",
-    "prsLast90d": 11
   },
   {
     "id": "stash-tracker",
@@ -1941,7 +2004,7 @@
     "updateCount": 14,
     "prCount": 15,
     "status": "active",
-    "prsLast90d": 15
+    "prsLast90d": 14
   },
   {
     "id": "ospulse",
@@ -1959,7 +2022,7 @@
     "updateCount": 15,
     "prCount": 16,
     "status": "active",
-    "prsLast90d": 12
+    "prsLast90d": 11
   },
   {
     "id": "osparty",
@@ -2031,7 +2094,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "irc",
@@ -2076,7 +2139,7 @@
     "updateCount": 29,
     "prCount": 30,
     "status": "active",
-    "prsLast90d": 19
+    "prsLast90d": 18
   },
   {
     "id": "pet-battles",
@@ -2283,7 +2346,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "farming-contract-helper",
@@ -2310,7 +2373,7 @@
     "updateCount": 4,
     "prCount": 5,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "ge-trends-portfolio",
@@ -2607,7 +2670,7 @@
     "updateCount": 15,
     "prCount": 16,
     "status": "active",
-    "prsLast90d": 11
+    "prsLast90d": 10
   },
   {
     "id": "hunllef-expected-value",
@@ -2904,7 +2967,7 @@
     "updateCount": 9,
     "prCount": 10,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 6
   },
   {
     "id": "choice-man-helper",
@@ -2976,7 +3039,7 @@
     "updateCount": 38,
     "prCount": 39,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 5
   },
   {
     "id": "grape-expectations",
@@ -3156,7 +3219,7 @@
     "updateCount": 25,
     "prCount": 26,
     "status": "active",
-    "prsLast90d": 16
+    "prsLast90d": 15
   },
   {
     "id": "aio-bingo",
@@ -3201,7 +3264,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 8
+    "prsLast90d": 6
   },
   {
     "id": "music-tracker",
@@ -3525,7 +3588,7 @@
     "updateCount": 28,
     "prCount": 29,
     "status": "active",
-    "prsLast90d": 13
+    "prsLast90d": 12
   },
   {
     "id": "bloodwood-status",
@@ -3552,7 +3615,7 @@
     "updateCount": 11,
     "prCount": 12,
     "status": "active",
-    "prsLast90d": 8
+    "prsLast90d": 7
   },
   {
     "id": "auto-entity-hider",
@@ -3921,7 +3984,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "scroll-behavior",
@@ -3966,7 +4029,7 @@
     "updateCount": 13,
     "prCount": 14,
     "status": "active",
-    "prsLast90d": 14
+    "prsLast90d": 12
   },
   {
     "id": "specatator-oculus",
@@ -4299,7 +4362,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 8
+    "prsLast90d": 7
   },
   {
     "id": "cursor-trail",
@@ -4767,7 +4830,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "party-panel",
@@ -4857,7 +4920,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 5
+    "prsLast90d": 4
   },
   {
     "id": "heal-indicators",
@@ -5487,7 +5550,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 4
   },
   {
     "id": "osrs-wealth-tracker-by-ge-hound",
@@ -5757,7 +5820,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "first-person",
@@ -5865,7 +5928,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "session-tracker",
@@ -6009,7 +6072,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "herblorerecipes",
@@ -6585,7 +6648,7 @@
     "updateCount": 13,
     "prCount": 14,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "sawmill-basket-helper",
@@ -6621,7 +6684,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "easy-bagging",
@@ -6639,7 +6702,7 @@
     "updateCount": 12,
     "prCount": 13,
     "status": "active",
-    "prsLast90d": 12
+    "prsLast90d": 9
   },
   {
     "id": "womclanplugin",
@@ -6648,7 +6711,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 1
   },
   {
     "id": "boat-hider",
@@ -6801,7 +6864,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "darkwintertodt",
@@ -7008,7 +7071,7 @@
     "updateCount": 16,
     "prCount": 17,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 1
   },
   {
     "id": "world-recolor",
@@ -7197,7 +7260,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "tile-overlay-indicators",
@@ -7206,7 +7269,7 @@
     "updateCount": 6,
     "prCount": 7,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "bruhsailor",
@@ -7224,7 +7287,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "chroma-tick",
@@ -7242,7 +7305,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "specbar-utilities",
@@ -7287,7 +7350,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "runewatch-sa",
@@ -7296,7 +7359,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "questpath",
@@ -7305,7 +7368,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "hide-ground-item-examine",
@@ -7314,7 +7377,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "follow-cam",
@@ -7323,7 +7386,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 0
   },
   {
     "id": "forestry-banking-helper",
@@ -7332,7 +7395,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 0
   },
   {
     "id": "wow-hud",
@@ -7341,7 +7404,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "fire-at-will-timer",
@@ -7350,7 +7413,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "wealth-evaluator",
@@ -7359,7 +7422,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "true-tile-renderer",
@@ -7368,7 +7431,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "kill-clips",
@@ -7377,7 +7440,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "clan-applicants-webhook",
@@ -7386,7 +7449,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "puzzle-hunt",
@@ -7395,7 +7458,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "gauntlet-history",
@@ -7404,7 +7467,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "sorted-bank",
@@ -7413,7 +7476,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "dorgesh-kaan-chests",
@@ -7422,7 +7485,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "personalized-friend-sounds",
@@ -8078,15 +8141,6 @@
     "lastUpdatedAt": "2026-05-07T13:34:46Z",
     "updateCount": 2,
     "prCount": 3,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "gauntlet-chest-popup",
-    "firstAddedAt": "2025-03-30T06:24:30Z",
-    "lastUpdatedAt": "2026-05-07T12:48:19Z",
-    "updateCount": 14,
-    "prCount": 15,
     "status": "active",
     "prsLast90d": 0
   },
