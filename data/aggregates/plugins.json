@@ -1,17 +1,62 @@
 [
   {
-    "id": "unachievements",
-    "firstAddedAt": "2026-08-16T23:26:17Z",
-    "lastUpdatedAt": "2026-08-16T23:26:17Z",
+    "id": "slayer-task-loot",
+    "firstAddedAt": "2026-08-05T12:49:14Z",
+    "lastUpdatedAt": "2026-08-17T07:19:07Z",
+    "updateCount": 6,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "bank-tab-organizer",
+    "firstAddedAt": "2026-05-16T04:55:28Z",
+    "lastUpdatedAt": "2026-08-17T06:07:59Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "poh-teleport-counter",
+    "firstAddedAt": "2026-08-17T04:56:48Z",
+    "lastUpdatedAt": "2026-08-17T04:56:48Z",
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
   },
   {
+    "id": "farming-patch-advisor",
+    "firstAddedAt": "2026-08-16T00:02:13Z",
+    "lastUpdatedAt": "2026-08-17T04:51:33Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "mystix",
+    "firstAddedAt": "2026-04-09T20:44:07Z",
+    "lastUpdatedAt": "2026-08-17T02:29:18Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
     "id": "combatglance",
     "firstAddedAt": "2026-08-16T22:50:30Z",
-    "lastUpdatedAt": "2026-08-16T22:50:30Z",
+    "lastUpdatedAt": "2026-08-17T01:38:22Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "unachievements",
+    "firstAddedAt": "2026-08-16T23:26:17Z",
+    "lastUpdatedAt": "2026-08-16T23:26:17Z",
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
@@ -25,15 +70,6 @@
     "prCount": 23,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "bank-tab-organizer",
-    "firstAddedAt": "2026-05-16T04:55:28Z",
-    "lastUpdatedAt": "2026-08-16T22:45:11Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 2
   },
   {
     "id": "alimorrisanevalues",
@@ -117,15 +153,6 @@
     "prsLast90d": 4
   },
   {
-    "id": "slayer-task-loot",
-    "firstAddedAt": "2026-08-05T12:49:14Z",
-    "lastUpdatedAt": "2026-08-16T08:20:29Z",
-    "updateCount": 5,
-    "prCount": 6,
-    "status": "active",
-    "prsLast90d": 6
-  },
-  {
     "id": "pet-battles",
     "firstAddedAt": "2026-07-28T13:16:50Z",
     "lastUpdatedAt": "2026-08-16T05:37:54Z",
@@ -160,15 +187,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "farming-patch-advisor",
-    "firstAddedAt": "2026-08-16T00:02:13Z",
-    "lastUpdatedAt": "2026-08-16T00:02:13Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "gauntlet-chest-popup",
@@ -978,7 +996,7 @@
     "updateCount": 21,
     "prCount": 22,
     "status": "active",
-    "prsLast90d": 17
+    "prsLast90d": 15
   },
   {
     "id": "quest-helper",
@@ -2133,15 +2151,6 @@
     "prsLast90d": 9
   },
   {
-    "id": "mystix",
-    "firstAddedAt": "2026-04-09T20:44:07Z",
-    "lastUpdatedAt": "2026-08-01T07:40:06Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 6
-  },
-  {
     "id": "quick-wiki",
     "firstAddedAt": "2026-07-11T02:22:33Z",
     "lastUpdatedAt": "2026-08-01T07:34:55Z",
@@ -2661,7 +2670,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "smithing-tracker",
@@ -6495,7 +6504,7 @@
     "updateCount": 10,
     "prCount": 11,
     "status": "active",
-    "prsLast90d": 5
+    "prsLast90d": 4
   },
   {
     "id": "runecrafting-tracker",
@@ -6603,7 +6612,7 @@
     "updateCount": 9,
     "prCount": 10,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "boss-respawn-notifier",
@@ -6918,7 +6927,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 5
+    "prsLast90d": 4
   },
   {
     "id": "darkwintertodt",
@@ -7170,7 +7179,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "mxeaez-shop",
@@ -7278,7 +7287,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "startierindicator",
@@ -7314,7 +7323,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "tile-overlay-indicators",
@@ -7323,7 +7332,7 @@
     "updateCount": 6,
     "prCount": 7,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "bruhsailor",
@@ -7332,7 +7341,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "hueyhelper",
@@ -7341,7 +7350,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "chroma-tick",
