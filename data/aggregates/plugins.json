@@ -1,5 +1,140 @@
 [
   {
+    "id": "voiced-dialogue",
+    "firstAddedAt": "2026-07-01T21:16:55Z",
+    "lastUpdatedAt": "2026-08-18T23:21:04Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "gearforge",
+    "firstAddedAt": "2026-08-08T07:21:33Z",
+    "lastUpdatedAt": "2026-08-18T23:00:33Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "better-slayer",
+    "firstAddedAt": "2026-08-15T17:00:40Z",
+    "lastUpdatedAt": "2026-08-18T22:34:55Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "the-birdhouse",
+    "firstAddedAt": "2026-06-09T23:48:14Z",
+    "lastUpdatedAt": "2026-08-18T22:04:13Z",
+    "updateCount": 21,
+    "prCount": 22,
+    "status": "active",
+    "prsLast90d": 22
+  },
+  {
+    "id": "unachievements",
+    "firstAddedAt": "2026-08-16T23:26:17Z",
+    "lastUpdatedAt": "2026-08-18T21:28:25Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "better-clan-broadcasts",
+    "firstAddedAt": "2026-08-18T16:52:22Z",
+    "lastUpdatedAt": "2026-08-18T20:32:22Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "green-log-reorder",
+    "firstAddedAt": "2026-06-27T17:06:36Z",
+    "lastUpdatedAt": "2026-08-18T19:26:09Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "combatglance",
+    "firstAddedAt": "2026-08-16T22:50:30Z",
+    "lastUpdatedAt": "2026-08-18T18:55:08Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "dvd-bounce",
+    "firstAddedAt": "2026-07-11T11:32:53Z",
+    "lastUpdatedAt": "2026-08-18T18:44:49Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 6
+  },
+  {
+    "id": "portrobertsthievinghelper",
+    "firstAddedAt": "2025-12-08T01:30:31Z",
+    "lastUpdatedAt": "2026-08-18T18:03:40Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "charged-ring-reminder",
+    "firstAddedAt": "2026-08-18T17:58:27Z",
+    "lastUpdatedAt": "2026-08-18T17:58:27Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "golems-dont-die",
+    "firstAddedAt": "2026-08-18T13:43:50Z",
+    "lastUpdatedAt": "2026-08-18T13:43:50Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "chatboxescapeblocker",
+    "firstAddedAt": "2026-07-24T17:04:25Z",
+    "lastUpdatedAt": "2026-08-18T07:18:17Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 6
+  },
+  {
+    "id": "stations-afk-button",
+    "firstAddedAt": "2026-08-18T02:29:08Z",
+    "lastUpdatedAt": "2026-08-18T02:29:08Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "unpotted-reminder",
+    "firstAddedAt": "2022-11-13T17:56:45Z",
+    "lastUpdatedAt": "2026-08-18T01:43:13Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
     "id": "slayer-task-loot",
     "firstAddedAt": "2026-08-05T12:49:14Z",
     "lastUpdatedAt": "2026-08-17T07:19:07Z",
@@ -45,24 +180,6 @@
     "prsLast90d": 7
   },
   {
-    "id": "combatglance",
-    "firstAddedAt": "2026-08-16T22:50:30Z",
-    "lastUpdatedAt": "2026-08-17T01:38:22Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
-    "id": "unachievements",
-    "firstAddedAt": "2026-08-16T23:26:17Z",
-    "lastUpdatedAt": "2026-08-16T23:26:17Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "twitch-live-loadout",
     "firstAddedAt": "2020-10-28T17:06:23Z",
     "lastUpdatedAt": "2026-08-16T22:48:26Z",
@@ -97,15 +214,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "the-birdhouse",
-    "firstAddedAt": "2026-06-09T23:48:14Z",
-    "lastUpdatedAt": "2026-08-16T15:08:03Z",
-    "updateCount": 20,
-    "prCount": 21,
-    "status": "active",
-    "prsLast90d": 21
   },
   {
     "id": "semantic-bank-search",
@@ -194,15 +302,6 @@
     "lastUpdatedAt": "2026-08-15T20:58:47Z",
     "updateCount": 15,
     "prCount": 16,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "better-slayer",
-    "firstAddedAt": "2026-08-15T17:00:40Z",
-    "lastUpdatedAt": "2026-08-15T17:00:40Z",
-    "updateCount": 0,
-    "prCount": 1,
     "status": "active",
     "prsLast90d": 1
   },
@@ -340,15 +439,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "chatboxescapeblocker",
-    "firstAddedAt": "2026-07-24T17:04:25Z",
-    "lastUpdatedAt": "2026-08-14T14:19:07Z",
-    "updateCount": 4,
-    "prCount": 5,
-    "status": "active",
-    "prsLast90d": 5
   },
   {
     "id": "tictac7x-motherlode",
@@ -531,15 +621,6 @@
     "prsLast90d": 4
   },
   {
-    "id": "dvd-bounce",
-    "firstAddedAt": "2026-07-11T11:32:53Z",
-    "lastUpdatedAt": "2026-08-12T19:36:30Z",
-    "updateCount": 4,
-    "prCount": 5,
-    "status": "active",
-    "prsLast90d": 5
-  },
-  {
     "id": "golem-crafting",
     "firstAddedAt": "2026-07-30T05:06:18Z",
     "lastUpdatedAt": "2026-08-12T18:24:59Z",
@@ -718,15 +799,6 @@
     "prCount": 4,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "green-log-reorder",
-    "firstAddedAt": "2026-06-27T17:06:36Z",
-    "lastUpdatedAt": "2026-08-11T18:44:13Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "rancour-pvm",
@@ -996,7 +1068,7 @@
     "updateCount": 21,
     "prCount": 22,
     "status": "active",
-    "prsLast90d": 15
+    "prsLast90d": 14
   },
   {
     "id": "quest-helper",
@@ -1078,15 +1150,6 @@
     "prCount": 3,
     "status": "active",
     "prsLast90d": 3
-  },
-  {
-    "id": "gearforge",
-    "firstAddedAt": "2026-08-08T07:21:33Z",
-    "lastUpdatedAt": "2026-08-10T09:01:26Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "groupstoragetracker",
@@ -1995,7 +2058,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "configurable-slayer-task-overlay",
@@ -2238,7 +2301,7 @@
     "updateCount": 29,
     "prCount": 30,
     "status": "active",
-    "prsLast90d": 18
+    "prsLast90d": 17
   },
   {
     "id": "tcg-locked",
@@ -2408,15 +2471,6 @@
     "lastUpdatedAt": "2026-07-29T19:08:13Z",
     "updateCount": 7,
     "prCount": 8,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
-    "id": "voiced-dialogue",
-    "firstAddedAt": "2026-07-01T21:16:55Z",
-    "lastUpdatedAt": "2026-07-29T18:52:52Z",
-    "updateCount": 3,
-    "prCount": 4,
     "status": "active",
     "prsLast90d": 4
   },
@@ -2751,7 +2805,7 @@
     "updateCount": 15,
     "prCount": 16,
     "status": "active",
-    "prsLast90d": 9
+    "prsLast90d": 8
   },
   {
     "id": "hunllef-expected-value",
@@ -3300,7 +3354,7 @@
     "updateCount": 25,
     "prCount": 26,
     "status": "active",
-    "prsLast90d": 14
+    "prsLast90d": 13
   },
   {
     "id": "aio-bingo",
@@ -3579,7 +3633,7 @@
     "updateCount": 14,
     "prCount": 15,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "clan-chat-country-flags",
@@ -5109,7 +5163,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "ping-grapher",
@@ -5847,7 +5901,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "region-locker",
@@ -6504,7 +6558,7 @@
     "updateCount": 10,
     "prCount": 11,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "runecrafting-tracker",
@@ -6783,7 +6837,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "wheel-of-fate",
@@ -6828,7 +6882,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "tasks-tracker",
@@ -6846,7 +6900,7 @@
     "updateCount": 12,
     "prCount": 13,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "disable-prayer-right-click",
@@ -6927,7 +6981,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "darkwintertodt",
@@ -7269,7 +7323,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "spec-regen-timer",
@@ -7278,7 +7332,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "runesocial",
@@ -7287,7 +7341,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 0
   },
   {
     "id": "startierindicator",
@@ -7296,7 +7350,7 @@
     "updateCount": 19,
     "prCount": 20,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "valuable-drops-party",
@@ -7305,7 +7359,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "wilderness-player-alarm",
@@ -7314,7 +7368,7 @@
     "updateCount": 9,
     "prCount": 10,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "kick-history",
@@ -10328,15 +10382,6 @@
     "lastUpdatedAt": "2026-02-07T17:48:39Z",
     "updateCount": 0,
     "prCount": 1,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "portrobertsthievinghelper",
-    "firstAddedAt": "2025-12-08T01:30:31Z",
-    "lastUpdatedAt": "2026-02-07T17:46:37Z",
-    "updateCount": 3,
-    "prCount": 4,
     "status": "active",
     "prsLast90d": 0
   },
@@ -15467,15 +15512,6 @@
     "lastUpdatedAt": "2024-07-27T22:04:13Z",
     "updateCount": 2,
     "prCount": 3,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "unpotted-reminder",
-    "firstAddedAt": "2022-11-13T17:56:45Z",
-    "lastUpdatedAt": "2024-07-27T22:02:13Z",
-    "updateCount": 4,
-    "prCount": 5,
     "status": "active",
     "prsLast90d": 0
   },
