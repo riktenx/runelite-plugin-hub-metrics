@@ -27,7 +27,7 @@
   {
     "login": "TicTac7x",
     "prCount": 149,
-    "mergedCount": 139
+    "mergedCount": 140
   },
   {
     "login": "aHooder",
@@ -51,8 +51,8 @@
   },
   {
     "login": "pwatts6060",
-    "prCount": 109,
-    "mergedCount": 95
+    "prCount": 110,
+    "mergedCount": 96
   },
   {
     "login": "riktenx",
@@ -61,8 +61,8 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 97,
-    "mergedCount": 95
+    "prCount": 98,
+    "mergedCount": 96
   },
   {
     "login": "Cyborger1",
@@ -86,8 +86,8 @@
   },
   {
     "login": "ChunkyAtlas",
-    "prCount": 83,
-    "mergedCount": 76
+    "prCount": 84,
+    "mergedCount": 77
   },
   {
     "login": "zumaad",
@@ -165,6 +165,11 @@
     "mergedCount": 51
   },
   {
+    "login": "1Defence",
+    "prCount": 50,
+    "mergedCount": 49
+  },
+  {
     "login": "equirs",
     "prCount": 50,
     "mergedCount": 50
@@ -173,11 +178,6 @@
     "login": "Fiffers",
     "prCount": 50,
     "mergedCount": 43
-  },
-  {
-    "login": "1Defence",
-    "prCount": 49,
-    "mergedCount": 48
   },
   {
     "login": "andmcadams",
@@ -197,7 +197,7 @@
   {
     "login": "mablack01",
     "prCount": 48,
-    "mergedCount": 45
+    "mergedCount": 46
   },
   {
     "login": "rorro",
@@ -210,6 +210,11 @@
     "mergedCount": 45
   },
   {
+    "login": "Hannah-GBS",
+    "prCount": 44,
+    "mergedCount": 42
+  },
+  {
     "login": "vikke1234",
     "prCount": 44,
     "mergedCount": 42
@@ -220,9 +225,9 @@
     "mergedCount": 39
   },
   {
-    "login": "Hannah-GBS",
+    "login": "TheSpryt",
     "prCount": 43,
-    "mergedCount": 41
+    "mergedCount": 37
   },
   {
     "login": "Bram91",
@@ -242,11 +247,6 @@
   {
     "login": "UserD40",
     "prCount": 42,
-    "mergedCount": 30
-  },
-  {
-    "login": "TheSpryt",
-    "prCount": 42,
-    "mergedCount": 35
+    "mergedCount": 31
   }
 ]
