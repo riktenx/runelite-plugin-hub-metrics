@@ -2817,10 +2817,10 @@
   },
   {
     "week": "2026-09-07",
-    "opened": 4,
-    "merged": 5,
-    "closedUnmerged": 0,
-    "pluginsAdded": 0,
+    "opened": 44,
+    "merged": 30,
+    "closedUnmerged": 4,
+    "pluginsAdded": 3,
     "pluginsRemoved": 0
   }
 ]
