@@ -1,5 +1,257 @@
 [
   {
+    "id": "time-served",
+    "firstAddedAt": "2026-08-27T19:08:08Z",
+    "lastUpdatedAt": "2026-09-11T01:21:39Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "the-other-half",
+    "firstAddedAt": "2026-09-09T12:39:04Z",
+    "lastUpdatedAt": "2026-09-10T22:23:13Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "groupscape",
+    "firstAddedAt": "2026-08-23T22:57:32Z",
+    "lastUpdatedAt": "2026-09-10T22:17:54Z",
+    "updateCount": 10,
+    "prCount": 11,
+    "status": "active",
+    "prsLast90d": 11
+  },
+  {
+    "id": "dry-streak-tracker",
+    "firstAddedAt": "2026-09-03T00:39:36Z",
+    "lastUpdatedAt": "2026-09-10T22:12:20Z",
+    "updateCount": 10,
+    "prCount": 11,
+    "status": "active",
+    "prsLast90d": 11
+  },
+  {
+    "id": "camera-restore",
+    "firstAddedAt": "2026-08-13T01:02:09Z",
+    "lastUpdatedAt": "2026-09-10T20:36:15Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "catastrophic-events",
+    "firstAddedAt": "2026-08-25T01:07:33Z",
+    "lastUpdatedAt": "2026-09-10T20:10:49Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "chat-regex-filter",
+    "firstAddedAt": "2026-09-10T19:25:07Z",
+    "lastUpdatedAt": "2026-09-10T19:25:07Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "loot-inside",
+    "firstAddedAt": "2026-09-10T19:19:50Z",
+    "lastUpdatedAt": "2026-09-10T19:19:50Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "healthy-stray-varrock-dogs",
+    "firstAddedAt": "2026-09-10T17:58:41Z",
+    "lastUpdatedAt": "2026-09-10T17:58:41Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "efficient-mortimer",
+    "firstAddedAt": "2026-09-10T17:22:56Z",
+    "lastUpdatedAt": "2026-09-10T17:22:56Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "teleport-blocker",
+    "firstAddedAt": "2026-08-30T17:54:30Z",
+    "lastUpdatedAt": "2026-09-10T17:12:25Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "drop-rate-properties",
+    "firstAddedAt": "2026-03-14T12:45:15Z",
+    "lastUpdatedAt": "2026-09-10T16:46:49Z",
+    "updateCount": 15,
+    "prCount": 16,
+    "status": "active",
+    "prsLast90d": 11
+  },
+  {
+    "id": "yippeebluetears",
+    "firstAddedAt": "2026-09-10T03:36:34Z",
+    "lastUpdatedAt": "2026-09-10T16:41:27Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "racecar",
+    "firstAddedAt": "2026-09-10T15:25:22Z",
+    "lastUpdatedAt": "2026-09-10T15:25:22Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "aura-tracker",
+    "firstAddedAt": "2026-08-25T14:29:57Z",
+    "lastUpdatedAt": "2026-09-10T14:04:13Z",
+    "updateCount": 8,
+    "prCount": 9,
+    "status": "active",
+    "prsLast90d": 9
+  },
+  {
+    "id": "compass-camera-control",
+    "firstAddedAt": "2024-10-20T19:14:23Z",
+    "lastUpdatedAt": "2026-09-10T13:43:40Z",
+    "updateCount": 16,
+    "prCount": 17,
+    "status": "active",
+    "prsLast90d": 6
+  },
+  {
+    "id": "lucky-log",
+    "firstAddedAt": "2026-06-21T12:28:49Z",
+    "lastUpdatedAt": "2026-09-10T12:27:01Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "tombs-of-amascut",
+    "firstAddedAt": "2022-08-26T15:24:37Z",
+    "lastUpdatedAt": "2026-09-10T12:20:08Z",
+    "updateCount": 62,
+    "prCount": 63,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "dutch-nations-events",
+    "firstAddedAt": "2026-08-24T01:55:41Z",
+    "lastUpdatedAt": "2026-09-10T11:51:20Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "poh-cosmetic-transmogs",
+    "firstAddedAt": "2026-09-09T22:40:37Z",
+    "lastUpdatedAt": "2026-09-10T10:29:17Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "loot-finder",
+    "firstAddedAt": "2026-09-10T08:26:49Z",
+    "lastUpdatedAt": "2026-09-10T08:26:49Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "sixth-degree",
+    "firstAddedAt": "2026-09-04T02:06:26Z",
+    "lastUpdatedAt": "2026-09-10T06:55:26Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "fairy-ring-map",
+    "firstAddedAt": "2026-09-10T03:51:56Z",
+    "lastUpdatedAt": "2026-09-10T06:34:45Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "scapepath",
+    "firstAddedAt": "2026-08-30T05:37:20Z",
+    "lastUpdatedAt": "2026-09-10T05:43:43Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "dog-hider",
+    "firstAddedAt": "2026-09-10T05:13:05Z",
+    "lastUpdatedAt": "2026-09-10T05:13:05Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "slayerplus",
+    "firstAddedAt": "2026-08-31T03:43:09Z",
+    "lastUpdatedAt": "2026-09-10T02:45:11Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "true-tile-movement-animation",
+    "firstAddedAt": "2026-07-08T03:31:46Z",
+    "lastUpdatedAt": "2026-09-10T02:29:48Z",
+    "updateCount": 23,
+    "prCount": 24,
+    "status": "active",
+    "prsLast90d": 24
+  },
+  {
+    "id": "lucky-penny-unfiltered",
+    "firstAddedAt": "2026-09-10T02:24:25Z",
+    "lastUpdatedAt": "2026-09-10T02:24:25Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
     "id": "folders-for-bank-tags",
     "firstAddedAt": "2026-09-08T06:11:10Z",
     "lastUpdatedAt": "2026-09-09T23:51:56Z",
@@ -16,15 +268,6 @@
     "prCount": 19,
     "status": "active",
     "prsLast90d": 15
-  },
-  {
-    "id": "poh-cosmetic-transmogs",
-    "firstAddedAt": "2026-09-09T22:40:37Z",
-    "lastUpdatedAt": "2026-09-09T22:40:37Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "clog-companion",
@@ -79,15 +322,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 5
-  },
-  {
-    "id": "dry-streak-tracker",
-    "firstAddedAt": "2026-09-03T00:39:36Z",
-    "lastUpdatedAt": "2026-09-09T19:14:30Z",
-    "updateCount": 9,
-    "prCount": 10,
-    "status": "active",
-    "prsLast90d": 10
   },
   {
     "id": "looting-bag-organizer",
@@ -153,15 +387,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "compass-camera-control",
-    "firstAddedAt": "2024-10-20T19:14:23Z",
-    "lastUpdatedAt": "2026-09-09T16:49:24Z",
-    "updateCount": 15,
-    "prCount": 16,
-    "status": "active",
-    "prsLast90d": 5
-  },
-  {
     "id": "trueclueareas",
     "firstAddedAt": "2026-05-08T21:17:39Z",
     "lastUpdatedAt": "2026-09-09T16:33:15Z",
@@ -207,15 +432,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "dutch-nations-events",
-    "firstAddedAt": "2026-08-24T01:55:41Z",
-    "lastUpdatedAt": "2026-09-09T13:56:47Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
     "id": "osrs-fliphub",
     "firstAddedAt": "2026-08-24T02:16:50Z",
     "lastUpdatedAt": "2026-09-09T13:31:02Z",
@@ -241,15 +457,6 @@
     "prCount": 12,
     "status": "active",
     "prsLast90d": 12
-  },
-  {
-    "id": "the-other-half",
-    "firstAddedAt": "2026-09-09T12:39:04Z",
-    "lastUpdatedAt": "2026-09-09T12:39:04Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "clanhq",
@@ -357,16 +564,7 @@
     "updateCount": 46,
     "prCount": 47,
     "status": "active",
-    "prsLast90d": 4
-  },
-  {
-    "id": "aura-tracker",
-    "firstAddedAt": "2026-08-25T14:29:57Z",
-    "lastUpdatedAt": "2026-09-09T03:34:10Z",
-    "updateCount": 7,
-    "prCount": 8,
-    "status": "active",
-    "prsLast90d": 8
+    "prsLast90d": 3
   },
   {
     "id": "gauntlet-chest-popup",
@@ -486,15 +684,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "drop-rate-properties",
-    "firstAddedAt": "2026-03-14T12:45:15Z",
-    "lastUpdatedAt": "2026-09-08T17:18:03Z",
-    "updateCount": 14,
-    "prCount": 15,
-    "status": "active",
-    "prsLast90d": 10
-  },
-  {
     "id": "bank-stack-values",
     "firstAddedAt": "2026-09-08T15:22:43Z",
     "lastUpdatedAt": "2026-09-08T17:02:36Z",
@@ -520,15 +709,6 @@
     "prCount": 90,
     "status": "active",
     "prsLast90d": 15
-  },
-  {
-    "id": "groupscape",
-    "firstAddedAt": "2026-08-23T22:57:32Z",
-    "lastUpdatedAt": "2026-09-08T13:19:27Z",
-    "updateCount": 9,
-    "prCount": 10,
-    "status": "active",
-    "prsLast90d": 10
   },
   {
     "id": "gim-hub",
@@ -601,15 +781,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "slayerplus",
-    "firstAddedAt": "2026-08-31T03:43:09Z",
-    "lastUpdatedAt": "2026-09-08T04:48:26Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "ironscape-optimal",
@@ -756,15 +927,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "time-served",
-    "firstAddedAt": "2026-08-27T19:08:08Z",
-    "lastUpdatedAt": "2026-09-07T11:19:19Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
     "id": "slayer-simplified",
     "firstAddedAt": "2026-05-15T17:06:35Z",
     "lastUpdatedAt": "2026-09-07T06:20:15Z",
@@ -880,15 +1042,6 @@
     "prCount": 7,
     "status": "active",
     "prsLast90d": 6
-  },
-  {
-    "id": "teleport-blocker",
-    "firstAddedAt": "2026-08-30T17:54:30Z",
-    "lastUpdatedAt": "2026-09-06T19:01:05Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "jams-solo-tempoross",
@@ -1089,15 +1242,6 @@
     "prsLast90d": 5
   },
   {
-    "id": "sixth-degree",
-    "firstAddedAt": "2026-09-04T02:06:26Z",
-    "lastUpdatedAt": "2026-09-05T10:05:21Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "flati-boss-tracker",
     "firstAddedAt": "2026-08-25T02:05:25Z",
     "lastUpdatedAt": "2026-09-05T08:28:39Z",
@@ -1167,7 +1311,7 @@
     "updateCount": 36,
     "prCount": 37,
     "status": "active",
-    "prsLast90d": 13
+    "prsLast90d": 12
   },
   {
     "id": "better-clan-broadcasts",
@@ -1393,15 +1537,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "scapepath",
-    "firstAddedAt": "2026-08-30T05:37:20Z",
-    "lastUpdatedAt": "2026-09-03T13:27:06Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "discord-loot-boxer",
@@ -2214,15 +2349,6 @@
     "prsLast90d": 5
   },
   {
-    "id": "lucky-log",
-    "firstAddedAt": "2026-06-21T12:28:49Z",
-    "lastUpdatedAt": "2026-08-31T15:05:06Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
     "id": "item-id-overlay",
     "firstAddedAt": "2026-08-31T12:52:29Z",
     "lastUpdatedAt": "2026-08-31T12:52:29Z",
@@ -2481,7 +2607,7 @@
     "updateCount": 52,
     "prCount": 53,
     "status": "active",
-    "prsLast90d": 14
+    "prsLast90d": 13
   },
   {
     "id": "clan-companion",
@@ -2687,15 +2813,6 @@
     "lastUpdatedAt": "2026-08-28T01:44:17Z",
     "updateCount": 1,
     "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
-    "id": "tombs-of-amascut",
-    "firstAddedAt": "2022-08-26T15:24:37Z",
-    "lastUpdatedAt": "2026-08-28T01:37:42Z",
-    "updateCount": 61,
-    "prCount": 62,
     "status": "active",
     "prsLast90d": 2
   },
@@ -3021,7 +3138,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "recipe-tracker",
@@ -3084,7 +3201,7 @@
     "updateCount": 15,
     "prCount": 16,
     "status": "active",
-    "prsLast90d": 5
+    "prsLast90d": 4
   },
   {
     "id": "ai-pvp-coach",
@@ -3558,15 +3675,6 @@
     "id": "gmc-flip-tracker",
     "firstAddedAt": "2026-08-25T01:12:48Z",
     "lastUpdatedAt": "2026-08-25T01:12:48Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "catastrophic-events",
-    "firstAddedAt": "2026-08-25T01:07:33Z",
-    "lastUpdatedAt": "2026-08-25T01:07:33Z",
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
@@ -4228,15 +4336,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "camera-restore",
-    "firstAddedAt": "2026-08-13T01:02:09Z",
-    "lastUpdatedAt": "2026-08-22T03:49:12Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
   },
   {
     "id": "wilderness-loadouts",
@@ -5337,15 +5436,6 @@
     "prsLast90d": 14
   },
   {
-    "id": "true-tile-movement-animation",
-    "firstAddedAt": "2026-07-08T03:31:46Z",
-    "lastUpdatedAt": "2026-08-11T15:29:25Z",
-    "updateCount": 22,
-    "prCount": 23,
-    "status": "active",
-    "prsLast90d": 23
-  },
-  {
     "id": "timers-ca",
     "firstAddedAt": "2024-05-23T00:04:33Z",
     "lastUpdatedAt": "2026-08-11T15:26:18Z",
@@ -5694,7 +5784,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "goat-pit-indicators",
@@ -8835,7 +8925,7 @@
     "updateCount": 4,
     "prCount": 5,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "overhead-overload",
