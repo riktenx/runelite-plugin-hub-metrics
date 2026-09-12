@@ -97,6 +97,19 @@ function buildBacklog(weeklyFilled) {
   });
 }
 
+// Cumulative plugins added, from merged PRs' ADDED file changeType (rename pairs already
+// excluded from `pluginsAdded` upstream in buildWeekly). Deliberately not net of `pluginsRemoved`
+// — real file deletions are rare (a handful, ever) and don't reflect how plugins actually get
+// taken out of rotation upstream (a `disabled=true` flag in the manifest, which isn't tracked
+// here at all) — see CLAUDE.md §5. So this is "plugins ever added," a close proxy for "available."
+function buildAvailable(weeklyFilled) {
+  let availableCount = 0;
+  return weeklyFilled.map((w) => {
+    availableCount += w.pluginsAdded;
+    return { week: w.week, availableCount };
+  });
+}
+
 function buildLatency(records) {
   const buckets = new Map(); // week -> hours[]
   for (const r of records) {
@@ -219,6 +232,7 @@ function main() {
 
   const weekly = fillWeekGaps(buildWeekly(records));
   const backlog = buildBacklog(weekly);
+  const available = buildAvailable(weekly);
   const latency = buildLatency(records);
   const plugins = buildPlugins(records);
   const authors = buildAuthors(records);
@@ -226,6 +240,7 @@ function main() {
   mkdirSync(AGG_DIR, { recursive: true });
   writeFileSync(AGG_DIR + "weekly.json", JSON.stringify(weekly, null, 2) + "\n");
   writeFileSync(AGG_DIR + "backlog.json", JSON.stringify(backlog, null, 2) + "\n");
+  writeFileSync(AGG_DIR + "available.json", JSON.stringify(available, null, 2) + "\n");
   writeFileSync(AGG_DIR + "latency.json", JSON.stringify(latency, null, 2) + "\n");
   writeFileSync(AGG_DIR + "plugins.json", JSON.stringify(plugins, null, 2) + "\n");
   writeFileSync(AGG_DIR + "authors.json", JSON.stringify(authors, null, 2) + "\n");

@@ -57,13 +57,6 @@ function weekOf(date) {
   return utc.toISOString().slice(0, 10);
 }
 
-const MONTH_ABBR = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-function formatMonthLabel(ym) {
-  const [y, m] = ym.split("-").map(Number);
-  return `${MONTH_ABBR[m - 1]} '${String(y).slice(2)}`;
-}
-
 function niceMax(raw) {
   if (raw <= 0) return 1;
   const pow = Math.pow(10, Math.floor(Math.log10(raw)));
@@ -96,11 +89,9 @@ function evenTicks(n, max) {
   return ticks.reverse();
 }
 
-// Weekly samples ('YYYY-MM-DD') get mm/dd/yy; monthly samples ('YYYY-MM', from the added/removed
-// bar chart) are already one point per month, so just mm/yy.
 function formatAxisLabel(dateStr) {
   const [y, m, d] = dateStr.split("-");
-  return d ? `${m}/${d}/${y.slice(2)}` : `${m}/${y.slice(2)}`;
+  return `${m}/${d}/${y.slice(2)}`;
 }
 
 // ---- Chart card scaffold: title/subtitle + chart<->table toggle -------------------------
@@ -288,85 +279,6 @@ function lineChart(host, { weeks, series, height = 260, yStep }) {
   overlay.addEventListener("pointerleave", hide);
 }
 
-// ---- Diverging bar chart (monthly added vs removed) --------------------------------------
-
-function roundedBarPath(x, width, yFrom, yTo, roundTop) {
-  const r = Math.min(4, Math.abs(yTo - yFrom), width / 2);
-  const top = Math.min(yFrom, yTo);
-  const bottom = Math.max(yFrom, yTo);
-  if (roundTop) {
-    return `M${x},${bottom} L${x},${top + r} Q${x},${top} ${x + r},${top} L${x + width - r},${top} Q${x + width},${top} ${x + width},${top + r} L${x + width},${bottom} Z`;
-  }
-  return `M${x},${top} L${x},${bottom - r} Q${x},${bottom} ${x + r},${bottom} L${x + width - r},${bottom} Q${x + width},${bottom} ${x + width},${bottom - r} L${x + width},${top} Z`;
-}
-
-function divergingBarChart(host, { months, pos, neg, posColor, negColor, height = 260 }) {
-  const W = 960, H = height;
-  const margin = { top: 12, right: 16, bottom: 48, left: 46 };
-  const plotW = W - margin.left - margin.right;
-  const plotH = H - margin.top - margin.bottom;
-  const n = months.length;
-
-  if (n === 0) {
-    host.appendChild(el("div", { class: "empty-range" }, "No data in this range."));
-    return;
-  }
-
-  const rawMax = Math.max(1, ...pos, ...neg);
-  const yMax = niceMax(rawMax * 1.15);
-  const mid = margin.top + plotH / 2;
-  const half = plotH / 2;
-  const y = (v) => mid - (v / yMax) * half;
-
-  const slot = plotW / n;
-  const barWidth = Math.min(18, slot * 0.6);
-
-  const root = svg("svg", { viewBox: `0 0 ${W} ${H}` });
-
-  root.appendChild(svg("line", { x1: margin.left, x2: W - margin.right, y1: mid, y2: mid, stroke: "var(--baseline)", "stroke-width": 1 }));
-
-  const xTicks = evenTicks(n, MAX_AXIS_TICKS);
-  for (const i of xTicks) {
-    const cx = margin.left + slot * (i + 0.5);
-    const ty = margin.top + plotH + 10;
-    const label = svg("text", {
-      x: cx, y: ty, "text-anchor": "end", "font-size": 11, fill: "var(--text-muted)",
-      transform: `rotate(-40 ${cx} ${ty})`,
-    });
-    label.textContent = formatAxisLabel(months[i]);
-    root.appendChild(label);
-  }
-
-  const tooltip = el("div", { class: "tooltip" });
-  host.style.position = "relative";
-
-  for (let i = 0; i < n; i++) {
-    const cx = margin.left + slot * (i + 0.5) - barWidth / 2;
-    if (pos[i] > 0) {
-      const bar = svg("path", { d: roundedBarPath(cx, barWidth, mid, y(pos[i]), true), fill: `var(--${posColor})` });
-      root.appendChild(wireBarTooltip(bar, tooltip, host, `${formatMonthLabel(months[i])} · added ${pos[i]}`));
-    }
-    if (neg[i] > 0) {
-      const bar = svg("path", { d: roundedBarPath(cx, barWidth, mid, y(-neg[i]), false), fill: `var(--${negColor})` });
-      root.appendChild(wireBarTooltip(bar, tooltip, host, `${formatMonthLabel(months[i])} · removed ${neg[i]}`));
-    }
-  }
-
-  host.append(root, tooltip);
-}
-
-function wireBarTooltip(bar, tooltip, host, text) {
-  bar.addEventListener("pointermove", (evt) => {
-    tooltip.textContent = text;
-    const hostRect = host.getBoundingClientRect();
-    tooltip.style.left = `${evt.clientX - hostRect.left}px`;
-    tooltip.style.top = `${evt.clientY - hostRect.top - 10}px`;
-    tooltip.style.visibility = "visible";
-  });
-  bar.addEventListener("pointerleave", () => { tooltip.style.visibility = "hidden"; });
-  return bar;
-}
-
 function legendRow(host, items) {
   const legend = el("div", { class: "legend" }, items.map((it) => {
     const swatch = el("span", { class: `legend-swatch ${it.bar ? "bar" : ""}` });
@@ -487,22 +399,11 @@ function statTile(parent, { label, value, delta }) {
 
 // ---- Main ------------------------------------------------------------------------------
 
-function monthlyRollup(weekly) {
-  const byMonth = new Map();
-  for (const w of weekly) {
-    const month = w.week.slice(0, 7);
-    if (!byMonth.has(month)) byMonth.set(month, { month, pluginsAdded: 0, pluginsRemoved: 0 });
-    const m = byMonth.get(month);
-    m.pluginsAdded += w.pluginsAdded;
-    m.pluginsRemoved += w.pluginsRemoved;
-  }
-  return [...byMonth.values()].sort((a, b) => (a.month < b.month ? -1 : 1));
-}
-
 async function main() {
-  const [weekly, backlog, latency, plugins, authors, state] = await Promise.all([
+  const [weekly, backlog, available, latency, plugins, authors, state] = await Promise.all([
     fetchJSON("data/aggregates/weekly.json"),
     fetchJSON("data/aggregates/backlog.json"),
+    fetchJSON("data/aggregates/available.json"),
     fetchJSON("data/aggregates/latency.json"),
     fetchJSON("data/aggregates/plugins.json"),
     fetchJSON("data/aggregates/authors.json"),
@@ -514,6 +415,7 @@ async function main() {
   const currentWeek = weekOf(new Date());
   const weeklyComplete = weekly.filter((w) => w.week < currentWeek);
   const backlogComplete = backlog.filter((w) => w.week < currentWeek);
+  const availableComplete = available.filter((w) => w.week < currentWeek);
   const latencyComplete = latency.filter((w) => w.week < currentWeek);
 
   // --- stat tiles ---
@@ -546,8 +448,8 @@ async function main() {
     chartsHost.innerHTML = "";
     const weeklyR = filterByRange(weeklyComplete, "week", range.start, range.end);
     const backlogR = filterByRange(backlogComplete, "week", range.start, range.end);
+    const availableR = filterByRange(availableComplete, "week", range.start, range.end);
     const latencyR = filterByRange(latencyComplete, "week", range.start, range.end);
-    const monthlyR = monthlyRollup(weeklyR);
 
     // --- PR activity (opened / merged / closed-unmerged) ---
     chartCard(chartsHost, {
@@ -604,31 +506,23 @@ async function main() {
       },
     });
 
-    // --- plugins added/removed ---
+    // --- plugins available ---
     chartCard(chartsHost, {
-      title: "Plugins added vs. removed",
-      subtitle: "By month, from merged PRs that added or deleted a plugins/ file",
+      title: "Plugins available over time",
+      subtitle: "Cumulative plugins added via merged PRs (rename pairs excluded; removals not tracked)",
       buildChart(host) {
-        divergingBarChart(host, {
-          months: monthlyR.map((m) => m.month),
-          pos: monthlyR.map((m) => m.pluginsAdded),
-          neg: monthlyR.map((m) => m.pluginsRemoved),
-          posColor: "blue",
-          negColor: "red",
+        lineChart(host, {
+          weeks: availableR.map((w) => w.week),
+          series: [{ key: "available", label: "Plugins available", color: "blue", values: availableR.map((w) => w.availableCount) }],
         });
-        legendRow(host, [
-          { label: "Added", color: "blue", bar: true },
-          { label: "Removed", color: "red", bar: true },
-        ]);
       },
       buildTable(host) {
         dataTable(host, {
           columns: [
-            { label: "Month", value: (r) => formatMonthLabel(r.month) },
-            { label: "Added", num: true, value: (r) => r.pluginsAdded },
-            { label: "Removed", num: true, value: (r) => r.pluginsRemoved },
+            { label: "Week of", value: (r) => formatWeekLabel(r.week) },
+            { label: "Plugins available", num: true, value: (r) => r.availableCount },
           ],
-          rows: monthlyR,
+          rows: availableR,
         });
       },
     });

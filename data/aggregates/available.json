@@ -1,0 +1,1414 @@
+[
+  {
+    "week": "2019-12-09",
+    "availableCount": 1
+  },
+  {
+    "week": "2019-12-16",
+    "availableCount": 13
+  },
+  {
+    "week": "2019-12-23",
+    "availableCount": 17
+  },
+  {
+    "week": "2019-12-30",
+    "availableCount": 21
+  },
+  {
+    "week": "2020-01-06",
+    "availableCount": 24
+  },
+  {
+    "week": "2020-01-13",
+    "availableCount": 26
+  },
+  {
+    "week": "2020-01-20",
+    "availableCount": 29
+  },
+  {
+    "week": "2020-01-27",
+    "availableCount": 31
+  },
+  {
+    "week": "2020-02-03",
+    "availableCount": 32
+  },
+  {
+    "week": "2020-02-10",
+    "availableCount": 35
+  },
+  {
+    "week": "2020-02-17",
+    "availableCount": 41
+  },
+  {
+    "week": "2020-02-24",
+    "availableCount": 45
+  },
+  {
+    "week": "2020-03-02",
+    "availableCount": 49
+  },
+  {
+    "week": "2020-03-09",
+    "availableCount": 54
+  },
+  {
+    "week": "2020-03-16",
+    "availableCount": 57
+  },
+  {
+    "week": "2020-03-23",
+    "availableCount": 60
+  },
+  {
+    "week": "2020-03-30",
+    "availableCount": 64
+  },
+  {
+    "week": "2020-04-06",
+    "availableCount": 66
+  },
+  {
+    "week": "2020-04-13",
+    "availableCount": 72
+  },
+  {
+    "week": "2020-04-20",
+    "availableCount": 76
+  },
+  {
+    "week": "2020-04-27",
+    "availableCount": 80
+  },
+  {
+    "week": "2020-05-04",
+    "availableCount": 89
+  },
+  {
+    "week": "2020-05-11",
+    "availableCount": 92
+  },
+  {
+    "week": "2020-05-18",
+    "availableCount": 93
+  },
+  {
+    "week": "2020-05-25",
+    "availableCount": 96
+  },
+  {
+    "week": "2020-06-01",
+    "availableCount": 103
+  },
+  {
+    "week": "2020-06-08",
+    "availableCount": 109
+  },
+  {
+    "week": "2020-06-15",
+    "availableCount": 114
+  },
+  {
+    "week": "2020-06-22",
+    "availableCount": 117
+  },
+  {
+    "week": "2020-06-29",
+    "availableCount": 121
+  },
+  {
+    "week": "2020-07-06",
+    "availableCount": 121
+  },
+  {
+    "week": "2020-07-13",
+    "availableCount": 125
+  },
+  {
+    "week": "2020-07-20",
+    "availableCount": 136
+  },
+  {
+    "week": "2020-07-27",
+    "availableCount": 142
+  },
+  {
+    "week": "2020-08-03",
+    "availableCount": 142
+  },
+  {
+    "week": "2020-08-10",
+    "availableCount": 146
+  },
+  {
+    "week": "2020-08-17",
+    "availableCount": 150
+  },
+  {
+    "week": "2020-08-24",
+    "availableCount": 152
+  },
+  {
+    "week": "2020-08-31",
+    "availableCount": 158
+  },
+  {
+    "week": "2020-09-07",
+    "availableCount": 164
+  },
+  {
+    "week": "2020-09-14",
+    "availableCount": 165
+  },
+  {
+    "week": "2020-09-21",
+    "availableCount": 167
+  },
+  {
+    "week": "2020-09-28",
+    "availableCount": 174
+  },
+  {
+    "week": "2020-10-05",
+    "availableCount": 176
+  },
+  {
+    "week": "2020-10-12",
+    "availableCount": 177
+  },
+  {
+    "week": "2020-10-19",
+    "availableCount": 184
+  },
+  {
+    "week": "2020-10-26",
+    "availableCount": 190
+  },
+  {
+    "week": "2020-11-02",
+    "availableCount": 196
+  },
+  {
+    "week": "2020-11-09",
+    "availableCount": 202
+  },
+  {
+    "week": "2020-11-16",
+    "availableCount": 204
+  },
+  {
+    "week": "2020-11-23",
+    "availableCount": 206
+  },
+  {
+    "week": "2020-11-30",
+    "availableCount": 209
+  },
+  {
+    "week": "2020-12-07",
+    "availableCount": 214
+  },
+  {
+    "week": "2020-12-14",
+    "availableCount": 219
+  },
+  {
+    "week": "2020-12-21",
+    "availableCount": 221
+  },
+  {
+    "week": "2020-12-28",
+    "availableCount": 226
+  },
+  {
+    "week": "2021-01-04",
+    "availableCount": 228
+  },
+  {
+    "week": "2021-01-11",
+    "availableCount": 234
+  },
+  {
+    "week": "2021-01-18",
+    "availableCount": 242
+  },
+  {
+    "week": "2021-01-25",
+    "availableCount": 245
+  },
+  {
+    "week": "2021-02-01",
+    "availableCount": 249
+  },
+  {
+    "week": "2021-02-08",
+    "availableCount": 253
+  },
+  {
+    "week": "2021-02-15",
+    "availableCount": 254
+  },
+  {
+    "week": "2021-02-22",
+    "availableCount": 259
+  },
+  {
+    "week": "2021-03-01",
+    "availableCount": 269
+  },
+  {
+    "week": "2021-03-08",
+    "availableCount": 274
+  },
+  {
+    "week": "2021-03-15",
+    "availableCount": 282
+  },
+  {
+    "week": "2021-03-22",
+    "availableCount": 284
+  },
+  {
+    "week": "2021-03-29",
+    "availableCount": 291
+  },
+  {
+    "week": "2021-04-05",
+    "availableCount": 294
+  },
+  {
+    "week": "2021-04-12",
+    "availableCount": 296
+  },
+  {
+    "week": "2021-04-19",
+    "availableCount": 301
+  },
+  {
+    "week": "2021-04-26",
+    "availableCount": 303
+  },
+  {
+    "week": "2021-05-03",
+    "availableCount": 306
+  },
+  {
+    "week": "2021-05-10",
+    "availableCount": 309
+  },
+  {
+    "week": "2021-05-17",
+    "availableCount": 313
+  },
+  {
+    "week": "2021-05-24",
+    "availableCount": 316
+  },
+  {
+    "week": "2021-05-31",
+    "availableCount": 318
+  },
+  {
+    "week": "2021-06-07",
+    "availableCount": 325
+  },
+  {
+    "week": "2021-06-14",
+    "availableCount": 329
+  },
+  {
+    "week": "2021-06-21",
+    "availableCount": 334
+  },
+  {
+    "week": "2021-06-28",
+    "availableCount": 336
+  },
+  {
+    "week": "2021-07-05",
+    "availableCount": 341
+  },
+  {
+    "week": "2021-07-12",
+    "availableCount": 346
+  },
+  {
+    "week": "2021-07-19",
+    "availableCount": 351
+  },
+  {
+    "week": "2021-07-26",
+    "availableCount": 353
+  },
+  {
+    "week": "2021-08-02",
+    "availableCount": 356
+  },
+  {
+    "week": "2021-08-09",
+    "availableCount": 358
+  },
+  {
+    "week": "2021-08-16",
+    "availableCount": 363
+  },
+  {
+    "week": "2021-08-23",
+    "availableCount": 365
+  },
+  {
+    "week": "2021-08-30",
+    "availableCount": 365
+  },
+  {
+    "week": "2021-09-06",
+    "availableCount": 374
+  },
+  {
+    "week": "2021-09-13",
+    "availableCount": 377
+  },
+  {
+    "week": "2021-09-20",
+    "availableCount": 378
+  },
+  {
+    "week": "2021-09-27",
+    "availableCount": 381
+  },
+  {
+    "week": "2021-10-04",
+    "availableCount": 387
+  },
+  {
+    "week": "2021-10-11",
+    "availableCount": 392
+  },
+  {
+    "week": "2021-10-18",
+    "availableCount": 401
+  },
+  {
+    "week": "2021-10-25",
+    "availableCount": 408
+  },
+  {
+    "week": "2021-11-01",
+    "availableCount": 412
+  },
+  {
+    "week": "2021-11-08",
+    "availableCount": 415
+  },
+  {
+    "week": "2021-11-15",
+    "availableCount": 416
+  },
+  {
+    "week": "2021-11-22",
+    "availableCount": 421
+  },
+  {
+    "week": "2021-11-29",
+    "availableCount": 427
+  },
+  {
+    "week": "2021-12-06",
+    "availableCount": 427
+  },
+  {
+    "week": "2021-12-13",
+    "availableCount": 433
+  },
+  {
+    "week": "2021-12-20",
+    "availableCount": 434
+  },
+  {
+    "week": "2021-12-27",
+    "availableCount": 436
+  },
+  {
+    "week": "2022-01-03",
+    "availableCount": 445
+  },
+  {
+    "week": "2022-01-10",
+    "availableCount": 445
+  },
+  {
+    "week": "2022-01-17",
+    "availableCount": 447
+  },
+  {
+    "week": "2022-01-24",
+    "availableCount": 451
+  },
+  {
+    "week": "2022-01-31",
+    "availableCount": 462
+  },
+  {
+    "week": "2022-02-07",
+    "availableCount": 462
+  },
+  {
+    "week": "2022-02-14",
+    "availableCount": 462
+  },
+  {
+    "week": "2022-02-21",
+    "availableCount": 465
+  },
+  {
+    "week": "2022-02-28",
+    "availableCount": 465
+  },
+  {
+    "week": "2022-03-07",
+    "availableCount": 465
+  },
+  {
+    "week": "2022-03-14",
+    "availableCount": 466
+  },
+  {
+    "week": "2022-03-21",
+    "availableCount": 484
+  },
+  {
+    "week": "2022-03-28",
+    "availableCount": 490
+  },
+  {
+    "week": "2022-04-04",
+    "availableCount": 494
+  },
+  {
+    "week": "2022-04-11",
+    "availableCount": 496
+  },
+  {
+    "week": "2022-04-18",
+    "availableCount": 499
+  },
+  {
+    "week": "2022-04-25",
+    "availableCount": 503
+  },
+  {
+    "week": "2022-05-02",
+    "availableCount": 506
+  },
+  {
+    "week": "2022-05-09",
+    "availableCount": 506
+  },
+  {
+    "week": "2022-05-16",
+    "availableCount": 515
+  },
+  {
+    "week": "2022-05-23",
+    "availableCount": 521
+  },
+  {
+    "week": "2022-05-30",
+    "availableCount": 527
+  },
+  {
+    "week": "2022-06-06",
+    "availableCount": 530
+  },
+  {
+    "week": "2022-06-13",
+    "availableCount": 537
+  },
+  {
+    "week": "2022-06-20",
+    "availableCount": 544
+  },
+  {
+    "week": "2022-06-27",
+    "availableCount": 555
+  },
+  {
+    "week": "2022-07-04",
+    "availableCount": 560
+  },
+  {
+    "week": "2022-07-11",
+    "availableCount": 570
+  },
+  {
+    "week": "2022-07-18",
+    "availableCount": 578
+  },
+  {
+    "week": "2022-07-25",
+    "availableCount": 578
+  },
+  {
+    "week": "2022-08-01",
+    "availableCount": 581
+  },
+  {
+    "week": "2022-08-08",
+    "availableCount": 595
+  },
+  {
+    "week": "2022-08-15",
+    "availableCount": 599
+  },
+  {
+    "week": "2022-08-22",
+    "availableCount": 601
+  },
+  {
+    "week": "2022-08-29",
+    "availableCount": 604
+  },
+  {
+    "week": "2022-09-05",
+    "availableCount": 604
+  },
+  {
+    "week": "2022-09-12",
+    "availableCount": 606
+  },
+  {
+    "week": "2022-09-19",
+    "availableCount": 613
+  },
+  {
+    "week": "2022-09-26",
+    "availableCount": 620
+  },
+  {
+    "week": "2022-10-03",
+    "availableCount": 635
+  },
+  {
+    "week": "2022-10-10",
+    "availableCount": 637
+  },
+  {
+    "week": "2022-10-17",
+    "availableCount": 640
+  },
+  {
+    "week": "2022-10-24",
+    "availableCount": 642
+  },
+  {
+    "week": "2022-10-31",
+    "availableCount": 651
+  },
+  {
+    "week": "2022-11-07",
+    "availableCount": 666
+  },
+  {
+    "week": "2022-11-14",
+    "availableCount": 670
+  },
+  {
+    "week": "2022-11-21",
+    "availableCount": 672
+  },
+  {
+    "week": "2022-11-28",
+    "availableCount": 673
+  },
+  {
+    "week": "2022-12-05",
+    "availableCount": 676
+  },
+  {
+    "week": "2022-12-12",
+    "availableCount": 684
+  },
+  {
+    "week": "2022-12-19",
+    "availableCount": 684
+  },
+  {
+    "week": "2022-12-26",
+    "availableCount": 685
+  },
+  {
+    "week": "2023-01-02",
+    "availableCount": 685
+  },
+  {
+    "week": "2023-01-09",
+    "availableCount": 712
+  },
+  {
+    "week": "2023-01-16",
+    "availableCount": 714
+  },
+  {
+    "week": "2023-01-23",
+    "availableCount": 714
+  },
+  {
+    "week": "2023-01-30",
+    "availableCount": 714
+  },
+  {
+    "week": "2023-02-06",
+    "availableCount": 716
+  },
+  {
+    "week": "2023-02-13",
+    "availableCount": 716
+  },
+  {
+    "week": "2023-02-20",
+    "availableCount": 726
+  },
+  {
+    "week": "2023-02-27",
+    "availableCount": 738
+  },
+  {
+    "week": "2023-03-06",
+    "availableCount": 748
+  },
+  {
+    "week": "2023-03-13",
+    "availableCount": 753
+  },
+  {
+    "week": "2023-03-20",
+    "availableCount": 759
+  },
+  {
+    "week": "2023-03-27",
+    "availableCount": 765
+  },
+  {
+    "week": "2023-04-03",
+    "availableCount": 777
+  },
+  {
+    "week": "2023-04-10",
+    "availableCount": 786
+  },
+  {
+    "week": "2023-04-17",
+    "availableCount": 790
+  },
+  {
+    "week": "2023-04-24",
+    "availableCount": 794
+  },
+  {
+    "week": "2023-05-01",
+    "availableCount": 802
+  },
+  {
+    "week": "2023-05-08",
+    "availableCount": 804
+  },
+  {
+    "week": "2023-05-15",
+    "availableCount": 806
+  },
+  {
+    "week": "2023-05-22",
+    "availableCount": 811
+  },
+  {
+    "week": "2023-05-29",
+    "availableCount": 820
+  },
+  {
+    "week": "2023-06-05",
+    "availableCount": 823
+  },
+  {
+    "week": "2023-06-12",
+    "availableCount": 825
+  },
+  {
+    "week": "2023-06-19",
+    "availableCount": 825
+  },
+  {
+    "week": "2023-06-26",
+    "availableCount": 835
+  },
+  {
+    "week": "2023-07-03",
+    "availableCount": 841
+  },
+  {
+    "week": "2023-07-10",
+    "availableCount": 845
+  },
+  {
+    "week": "2023-07-17",
+    "availableCount": 849
+  },
+  {
+    "week": "2023-07-24",
+    "availableCount": 852
+  },
+  {
+    "week": "2023-07-31",
+    "availableCount": 867
+  },
+  {
+    "week": "2023-08-07",
+    "availableCount": 868
+  },
+  {
+    "week": "2023-08-14",
+    "availableCount": 868
+  },
+  {
+    "week": "2023-08-21",
+    "availableCount": 869
+  },
+  {
+    "week": "2023-08-28",
+    "availableCount": 874
+  },
+  {
+    "week": "2023-09-04",
+    "availableCount": 876
+  },
+  {
+    "week": "2023-09-11",
+    "availableCount": 881
+  },
+  {
+    "week": "2023-09-18",
+    "availableCount": 882
+  },
+  {
+    "week": "2023-09-25",
+    "availableCount": 891
+  },
+  {
+    "week": "2023-10-02",
+    "availableCount": 900
+  },
+  {
+    "week": "2023-10-09",
+    "availableCount": 911
+  },
+  {
+    "week": "2023-10-16",
+    "availableCount": 919
+  },
+  {
+    "week": "2023-10-23",
+    "availableCount": 919
+  },
+  {
+    "week": "2023-10-30",
+    "availableCount": 920
+  },
+  {
+    "week": "2023-11-06",
+    "availableCount": 923
+  },
+  {
+    "week": "2023-11-13",
+    "availableCount": 924
+  },
+  {
+    "week": "2023-11-20",
+    "availableCount": 925
+  },
+  {
+    "week": "2023-11-27",
+    "availableCount": 926
+  },
+  {
+    "week": "2023-12-04",
+    "availableCount": 926
+  },
+  {
+    "week": "2023-12-11",
+    "availableCount": 926
+  },
+  {
+    "week": "2023-12-18",
+    "availableCount": 926
+  },
+  {
+    "week": "2023-12-25",
+    "availableCount": 926
+  },
+  {
+    "week": "2024-01-01",
+    "availableCount": 934
+  },
+  {
+    "week": "2024-01-08",
+    "availableCount": 936
+  },
+  {
+    "week": "2024-01-15",
+    "availableCount": 937
+  },
+  {
+    "week": "2024-01-22",
+    "availableCount": 939
+  },
+  {
+    "week": "2024-01-29",
+    "availableCount": 954
+  },
+  {
+    "week": "2024-02-05",
+    "availableCount": 959
+  },
+  {
+    "week": "2024-02-12",
+    "availableCount": 960
+  },
+  {
+    "week": "2024-02-19",
+    "availableCount": 974
+  },
+  {
+    "week": "2024-02-26",
+    "availableCount": 974
+  },
+  {
+    "week": "2024-03-04",
+    "availableCount": 979
+  },
+  {
+    "week": "2024-03-11",
+    "availableCount": 988
+  },
+  {
+    "week": "2024-03-18",
+    "availableCount": 990
+  },
+  {
+    "week": "2024-03-25",
+    "availableCount": 992
+  },
+  {
+    "week": "2024-04-01",
+    "availableCount": 999
+  },
+  {
+    "week": "2024-04-08",
+    "availableCount": 1017
+  },
+  {
+    "week": "2024-04-15",
+    "availableCount": 1017
+  },
+  {
+    "week": "2024-04-22",
+    "availableCount": 1018
+  },
+  {
+    "week": "2024-04-29",
+    "availableCount": 1018
+  },
+  {
+    "week": "2024-05-06",
+    "availableCount": 1019
+  },
+  {
+    "week": "2024-05-13",
+    "availableCount": 1030
+  },
+  {
+    "week": "2024-05-20",
+    "availableCount": 1037
+  },
+  {
+    "week": "2024-05-27",
+    "availableCount": 1037
+  },
+  {
+    "week": "2024-06-03",
+    "availableCount": 1037
+  },
+  {
+    "week": "2024-06-10",
+    "availableCount": 1041
+  },
+  {
+    "week": "2024-06-17",
+    "availableCount": 1041
+  },
+  {
+    "week": "2024-06-24",
+    "availableCount": 1044
+  },
+  {
+    "week": "2024-07-01",
+    "availableCount": 1046
+  },
+  {
+    "week": "2024-07-08",
+    "availableCount": 1053
+  },
+  {
+    "week": "2024-07-15",
+    "availableCount": 1067
+  },
+  {
+    "week": "2024-07-22",
+    "availableCount": 1070
+  },
+  {
+    "week": "2024-07-29",
+    "availableCount": 1078
+  },
+  {
+    "week": "2024-08-05",
+    "availableCount": 1078
+  },
+  {
+    "week": "2024-08-12",
+    "availableCount": 1079
+  },
+  {
+    "week": "2024-08-19",
+    "availableCount": 1080
+  },
+  {
+    "week": "2024-08-26",
+    "availableCount": 1081
+  },
+  {
+    "week": "2024-09-02",
+    "availableCount": 1081
+  },
+  {
+    "week": "2024-09-09",
+    "availableCount": 1081
+  },
+  {
+    "week": "2024-09-16",
+    "availableCount": 1091
+  },
+  {
+    "week": "2024-09-23",
+    "availableCount": 1094
+  },
+  {
+    "week": "2024-09-30",
+    "availableCount": 1099
+  },
+  {
+    "week": "2024-10-07",
+    "availableCount": 1104
+  },
+  {
+    "week": "2024-10-14",
+    "availableCount": 1122
+  },
+  {
+    "week": "2024-10-21",
+    "availableCount": 1131
+  },
+  {
+    "week": "2024-10-28",
+    "availableCount": 1136
+  },
+  {
+    "week": "2024-11-04",
+    "availableCount": 1140
+  },
+  {
+    "week": "2024-11-11",
+    "availableCount": 1141
+  },
+  {
+    "week": "2024-11-18",
+    "availableCount": 1147
+  },
+  {
+    "week": "2024-11-25",
+    "availableCount": 1153
+  },
+  {
+    "week": "2024-12-02",
+    "availableCount": 1156
+  },
+  {
+    "week": "2024-12-09",
+    "availableCount": 1157
+  },
+  {
+    "week": "2024-12-16",
+    "availableCount": 1161
+  },
+  {
+    "week": "2024-12-23",
+    "availableCount": 1165
+  },
+  {
+    "week": "2024-12-30",
+    "availableCount": 1165
+  },
+  {
+    "week": "2025-01-06",
+    "availableCount": 1169
+  },
+  {
+    "week": "2025-01-13",
+    "availableCount": 1169
+  },
+  {
+    "week": "2025-01-20",
+    "availableCount": 1174
+  },
+  {
+    "week": "2025-01-27",
+    "availableCount": 1182
+  },
+  {
+    "week": "2025-02-03",
+    "availableCount": 1185
+  },
+  {
+    "week": "2025-02-10",
+    "availableCount": 1187
+  },
+  {
+    "week": "2025-02-17",
+    "availableCount": 1187
+  },
+  {
+    "week": "2025-02-24",
+    "availableCount": 1192
+  },
+  {
+    "week": "2025-03-03",
+    "availableCount": 1200
+  },
+  {
+    "week": "2025-03-10",
+    "availableCount": 1204
+  },
+  {
+    "week": "2025-03-17",
+    "availableCount": 1209
+  },
+  {
+    "week": "2025-03-24",
+    "availableCount": 1211
+  },
+  {
+    "week": "2025-03-31",
+    "availableCount": 1215
+  },
+  {
+    "week": "2025-04-07",
+    "availableCount": 1220
+  },
+  {
+    "week": "2025-04-14",
+    "availableCount": 1228
+  },
+  {
+    "week": "2025-04-21",
+    "availableCount": 1231
+  },
+  {
+    "week": "2025-04-28",
+    "availableCount": 1238
+  },
+  {
+    "week": "2025-05-05",
+    "availableCount": 1243
+  },
+  {
+    "week": "2025-05-12",
+    "availableCount": 1245
+  },
+  {
+    "week": "2025-05-19",
+    "availableCount": 1254
+  },
+  {
+    "week": "2025-05-26",
+    "availableCount": 1255
+  },
+  {
+    "week": "2025-06-02",
+    "availableCount": 1255
+  },
+  {
+    "week": "2025-06-09",
+    "availableCount": 1255
+  },
+  {
+    "week": "2025-06-16",
+    "availableCount": 1262
+  },
+  {
+    "week": "2025-06-23",
+    "availableCount": 1275
+  },
+  {
+    "week": "2025-06-30",
+    "availableCount": 1286
+  },
+  {
+    "week": "2025-07-07",
+    "availableCount": 1290
+  },
+  {
+    "week": "2025-07-14",
+    "availableCount": 1293
+  },
+  {
+    "week": "2025-07-21",
+    "availableCount": 1307
+  },
+  {
+    "week": "2025-07-28",
+    "availableCount": 1315
+  },
+  {
+    "week": "2025-08-04",
+    "availableCount": 1317
+  },
+  {
+    "week": "2025-08-11",
+    "availableCount": 1325
+  },
+  {
+    "week": "2025-08-18",
+    "availableCount": 1325
+  },
+  {
+    "week": "2025-08-25",
+    "availableCount": 1329
+  },
+  {
+    "week": "2025-09-01",
+    "availableCount": 1339
+  },
+  {
+    "week": "2025-09-08",
+    "availableCount": 1340
+  },
+  {
+    "week": "2025-09-15",
+    "availableCount": 1340
+  },
+  {
+    "week": "2025-09-22",
+    "availableCount": 1341
+  },
+  {
+    "week": "2025-09-29",
+    "availableCount": 1341
+  },
+  {
+    "week": "2025-10-06",
+    "availableCount": 1342
+  },
+  {
+    "week": "2025-10-13",
+    "availableCount": 1343
+  },
+  {
+    "week": "2025-10-20",
+    "availableCount": 1343
+  },
+  {
+    "week": "2025-10-27",
+    "availableCount": 1355
+  },
+  {
+    "week": "2025-11-03",
+    "availableCount": 1366
+  },
+  {
+    "week": "2025-11-10",
+    "availableCount": 1370
+  },
+  {
+    "week": "2025-11-17",
+    "availableCount": 1371
+  },
+  {
+    "week": "2025-11-24",
+    "availableCount": 1379
+  },
+  {
+    "week": "2025-12-01",
+    "availableCount": 1400
+  },
+  {
+    "week": "2025-12-08",
+    "availableCount": 1413
+  },
+  {
+    "week": "2025-12-15",
+    "availableCount": 1428
+  },
+  {
+    "week": "2025-12-22",
+    "availableCount": 1450
+  },
+  {
+    "week": "2025-12-29",
+    "availableCount": 1462
+  },
+  {
+    "week": "2026-01-05",
+    "availableCount": 1478
+  },
+  {
+    "week": "2026-01-12",
+    "availableCount": 1495
+  },
+  {
+    "week": "2026-01-19",
+    "availableCount": 1506
+  },
+  {
+    "week": "2026-01-26",
+    "availableCount": 1518
+  },
+  {
+    "week": "2026-02-02",
+    "availableCount": 1529
+  },
+  {
+    "week": "2026-02-09",
+    "availableCount": 1539
+  },
+  {
+    "week": "2026-02-16",
+    "availableCount": 1541
+  },
+  {
+    "week": "2026-02-23",
+    "availableCount": 1571
+  },
+  {
+    "week": "2026-03-02",
+    "availableCount": 1584
+  },
+  {
+    "week": "2026-03-09",
+    "availableCount": 1597
+  },
+  {
+    "week": "2026-03-16",
+    "availableCount": 1606
+  },
+  {
+    "week": "2026-03-23",
+    "availableCount": 1607
+  },
+  {
+    "week": "2026-03-30",
+    "availableCount": 1608
+  },
+  {
+    "week": "2026-04-06",
+    "availableCount": 1615
+  },
+  {
+    "week": "2026-04-13",
+    "availableCount": 1619
+  },
+  {
+    "week": "2026-04-20",
+    "availableCount": 1639
+  },
+  {
+    "week": "2026-04-27",
+    "availableCount": 1672
+  },
+  {
+    "week": "2026-05-04",
+    "availableCount": 1692
+  },
+  {
+    "week": "2026-05-11",
+    "availableCount": 1802
+  },
+  {
+    "week": "2026-05-18",
+    "availableCount": 1836
+  },
+  {
+    "week": "2026-05-25",
+    "availableCount": 1855
+  },
+  {
+    "week": "2026-06-01",
+    "availableCount": 1870
+  },
+  {
+    "week": "2026-06-08",
+    "availableCount": 1890
+  },
+  {
+    "week": "2026-06-15",
+    "availableCount": 1922
+  },
+  {
+    "week": "2026-06-22",
+    "availableCount": 1975
+  },
+  {
+    "week": "2026-06-29",
+    "availableCount": 2026
+  },
+  {
+    "week": "2026-07-06",
+    "availableCount": 2096
+  },
+  {
+    "week": "2026-07-13",
+    "availableCount": 2145
+  },
+  {
+    "week": "2026-07-20",
+    "availableCount": 2173
+  },
+  {
+    "week": "2026-07-27",
+    "availableCount": 2219
+  },
+  {
+    "week": "2026-08-03",
+    "availableCount": 2252
+  },
+  {
+    "week": "2026-08-10",
+    "availableCount": 2283
+  },
+  {
+    "week": "2026-08-17",
+    "availableCount": 2349
+  },
+  {
+    "week": "2026-08-24",
+    "availableCount": 2503
+  },
+  {
+    "week": "2026-08-31",
+    "availableCount": 2559
+  },
+  {
+    "week": "2026-09-07",
+    "availableCount": 2595
+  }
+]
