@@ -1,5 +1,32 @@
 [
   {
+    "id": "harrisun-mystic-ui",
+    "firstAddedAt": "2026-09-12T04:32:52Z",
+    "lastUpdatedAt": "2026-09-12T04:32:52Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "group-ironmen-tracker-ingame-companion",
+    "firstAddedAt": "2026-09-11T19:49:35Z",
+    "lastUpdatedAt": "2026-09-12T03:21:41Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "ge-companion",
+    "firstAddedAt": "2026-07-09T03:29:33Z",
+    "lastUpdatedAt": "2026-09-12T02:20:53Z",
+    "updateCount": 9,
+    "prCount": 10,
+    "status": "active",
+    "prsLast90d": 10
+  },
+  {
     "id": "dutch-nations-events",
     "firstAddedAt": "2026-08-24T01:55:41Z",
     "lastUpdatedAt": "2026-09-12T01:29:57Z",
@@ -88,15 +115,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 3
-  },
-  {
-    "id": "group-ironmen-tracker-ingame-companion",
-    "firstAddedAt": "2026-09-11T19:49:35Z",
-    "lastUpdatedAt": "2026-09-11T19:49:35Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "tile-layers",
@@ -4309,15 +4327,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 5
-  },
-  {
-    "id": "ge-companion",
-    "firstAddedAt": "2026-07-09T03:29:33Z",
-    "lastUpdatedAt": "2026-08-23T06:30:19Z",
-    "updateCount": 8,
-    "prCount": 9,
-    "status": "active",
-    "prsLast90d": 9
   },
   {
     "id": "hitsplat-customizer",
