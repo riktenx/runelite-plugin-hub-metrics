@@ -61,8 +61,8 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 105,
-    "mergedCount": 103
+    "prCount": 106,
+    "mergedCount": 104
   },
   {
     "login": "dekvall",
@@ -96,8 +96,8 @@
   },
   {
     "login": "Endrit-alt",
-    "prCount": 66,
-    "mergedCount": 57
+    "prCount": 67,
+    "mergedCount": 58
   },
   {
     "login": "dillydill123",
@@ -117,6 +117,11 @@
   {
     "login": "iProdigy",
     "prCount": 62,
+    "mergedCount": 60
+  },
+  {
+    "login": "1Defence",
+    "prCount": 60,
     "mergedCount": 59
   },
   {
@@ -133,11 +138,6 @@
     "login": "bopsec",
     "prCount": 60,
     "mergedCount": 57
-  },
-  {
-    "login": "1Defence",
-    "prCount": 59,
-    "mergedCount": 58
   },
   {
     "login": "m0bilebtw",
@@ -240,13 +240,13 @@
     "mergedCount": 40
   },
   {
-    "login": "stenjansarv",
+    "login": "pajlada",
     "prCount": 43,
-    "mergedCount": 41
+    "mergedCount": 42
   },
   {
-    "login": "Bram91",
-    "prCount": 42,
+    "login": "stenjansarv",
+    "prCount": 43,
     "mergedCount": 41
   }
 ]
