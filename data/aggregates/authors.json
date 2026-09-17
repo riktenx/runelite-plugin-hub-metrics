@@ -61,8 +61,8 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 107,
-    "mergedCount": 105
+    "prCount": 108,
+    "mergedCount": 106
   },
   {
     "login": "dekvall",
@@ -87,7 +87,7 @@
   {
     "login": "ChunkyAtlas",
     "prCount": 86,
-    "mergedCount": 78
+    "mergedCount": 79
   },
   {
     "login": "zumaad",
@@ -230,23 +230,23 @@
     "mergedCount": 42
   },
   {
+    "login": "pajlada",
+    "prCount": 44,
+    "mergedCount": 43
+  },
+  {
     "login": "vikke1234",
     "prCount": 44,
     "mergedCount": 42
   },
   {
+    "login": "stenjansarv",
+    "prCount": 44,
+    "mergedCount": 43
+  },
+  {
     "login": "ReinhardtR",
     "prCount": 43,
     "mergedCount": 40
-  },
-  {
-    "login": "pajlada",
-    "prCount": 43,
-    "mergedCount": 42
-  },
-  {
-    "login": "stenjansarv",
-    "prCount": 43,
-    "mergedCount": 42
   }
 ]
