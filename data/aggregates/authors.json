@@ -61,8 +61,8 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 108,
-    "mergedCount": 106
+    "prCount": 109,
+    "mergedCount": 107
   },
   {
     "login": "dekvall",
@@ -122,7 +122,12 @@
   {
     "login": "1Defence",
     "prCount": 61,
-    "mergedCount": 59
+    "mergedCount": 60
+  },
+  {
+    "login": "bopsec",
+    "prCount": 61,
+    "mergedCount": 58
   },
   {
     "login": "InfernoStats",
@@ -133,11 +138,6 @@
     "login": "guillaume009",
     "prCount": 60,
     "mergedCount": 59
-  },
-  {
-    "login": "bopsec",
-    "prCount": 60,
-    "mergedCount": 57
   },
   {
     "login": "m0bilebtw",
@@ -212,7 +212,7 @@
   {
     "login": "TheSpryt",
     "prCount": 49,
-    "mergedCount": 41
+    "mergedCount": 42
   },
   {
     "login": "rorro",
