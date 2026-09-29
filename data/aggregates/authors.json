@@ -1,8 +1,8 @@
 [
   {
     "login": "geheur",
-    "prCount": 246,
-    "mergedCount": 242
+    "prCount": 249,
+    "mergedCount": 245
   },
   {
     "login": "Zoinkwiz",
@@ -31,8 +31,8 @@
   },
   {
     "login": "aHooder",
-    "prCount": 129,
-    "mergedCount": 128
+    "prCount": 130,
+    "mergedCount": 129
   },
   {
     "login": "ScreteMonge",
@@ -41,8 +41,8 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 116,
-    "mergedCount": 114
+    "prCount": 117,
+    "mergedCount": 115
   },
   {
     "login": "Enriath",
@@ -81,8 +81,8 @@
   },
   {
     "login": "l2-",
-    "prCount": 88,
-    "mergedCount": 88
+    "prCount": 89,
+    "mergedCount": 89
   },
   {
     "login": "ChunkyAtlas",
@@ -107,7 +107,7 @@
   {
     "login": "Thource",
     "prCount": 65,
-    "mergedCount": 61
+    "mergedCount": 62
   },
   {
     "login": "1Defence",
@@ -225,28 +225,28 @@
     "mergedCount": 45
   },
   {
+    "login": "pajlada",
+    "prCount": 46,
+    "mergedCount": 45
+  },
+  {
+    "login": "birdandworm",
+    "prCount": 46,
+    "mergedCount": 42
+  },
+  {
     "login": "Hampo",
     "prCount": 46,
     "mergedCount": 46
   },
   {
-    "login": "pajlada",
-    "prCount": 45,
-    "mergedCount": 44
-  },
-  {
-    "login": "birdandworm",
-    "prCount": 45,
-    "mergedCount": 41
-  },
-  {
     "login": "Hannah-GBS",
-    "prCount": 44,
-    "mergedCount": 42
+    "prCount": 45,
+    "mergedCount": 43
   },
   {
     "login": "ReinhardtR",
-    "prCount": 44,
-    "mergedCount": 41
+    "prCount": 45,
+    "mergedCount": 42
   }
 ]
