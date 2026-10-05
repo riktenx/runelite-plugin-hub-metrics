@@ -2125,8 +2125,14 @@
   },
   {
     "week": "2026-09-28",
-    "medianHours": 0.9,
-    "p90Hours": 75.5,
-    "n": 546
+    "medianHours": 0.8,
+    "p90Hours": 70.4,
+    "n": 620
+  },
+  {
+    "week": "2026-10-05",
+    "medianHours": 0.7,
+    "p90Hours": 189.9,
+    "n": 10
   }
 ]

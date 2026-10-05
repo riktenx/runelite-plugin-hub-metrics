@@ -110,6 +110,11 @@
     "mergedCount": 62
   },
   {
+    "login": "bopsec",
+    "prCount": 63,
+    "mergedCount": 59
+  },
+  {
     "login": "1Defence",
     "prCount": 62,
     "mergedCount": 61
@@ -123,11 +128,6 @@
     "login": "iProdigy",
     "prCount": 62,
     "mergedCount": 60
-  },
-  {
-    "login": "bopsec",
-    "prCount": 62,
-    "mergedCount": 59
   },
   {
     "login": "InfernoStats",
@@ -235,6 +235,11 @@
     "mergedCount": 46
   },
   {
+    "login": "vividflash",
+    "prCount": 47,
+    "mergedCount": 45
+  },
+  {
     "login": "birdandworm",
     "prCount": 46,
     "mergedCount": 42
@@ -243,10 +248,5 @@
     "login": "Hannah-GBS",
     "prCount": 45,
     "mergedCount": 43
-  },
-  {
-    "login": "ReinhardtR",
-    "prCount": 45,
-    "mergedCount": 42
   }
 ]
