@@ -1,5 +1,14 @@
 [
   {
+    "id": "lively-fishing-spots",
+    "firstAddedAt": "2026-10-06T20:12:19Z",
+    "lastUpdatedAt": "2026-10-10T04:49:30Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
     "id": "triglav-clan",
     "firstAddedAt": "2026-09-29T10:41:08Z",
     "lastUpdatedAt": "2026-10-10T04:34:08Z",
@@ -664,15 +673,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "lively-fishing-spots",
-    "firstAddedAt": "2026-10-06T20:12:19Z",
-    "lastUpdatedAt": "2026-10-09T04:58:11Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
   },
   {
     "id": "creators-kit",
