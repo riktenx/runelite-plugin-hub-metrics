@@ -78,12 +78,20 @@ const PLUGIN_PATH_RE = /^plugins\/([^/]+)$/;
 
 function toRecord(node) {
   // changedFiles is the PR's true total file count; files.nodes is capped at FILES_PER_PR.
-  // If they disagree, the connection was truncated and we'd silently lose plugin events for
-  // this PR — abort instead (nothing gets written/committed on a thrown error, see main()).
+  // If they disagree, the connection was truncated. That only risks corrupting an aggregate
+  // for a MERGED PR — aggregate.mjs's add/remove/plugin-timeline logic reads `files` exclusively
+  // off state === "MERGED" records (unmerged PRs never touched the live tree, so their file
+  // list isn't consumed anywhere). So: abort for a merged PR (nothing gets written/committed on
+  // a thrown error, see main()), but just log and truncate for OPEN/CLOSED — e.g. a stale-branch
+  // PR opened against a long-diverged fork can show thousands of bogus changed files despite
+  // never being merged (seen live: PR #17898, "Update Pet Mounts", closed unmerged with 2883
+  // changed files spanning nearly the whole repo — a stale fork's diff, not a real batch edit).
   if (node.changedFiles !== node.files.nodes.length) {
-    throw new Error(
-      `PR #${node.number} has ${node.changedFiles} changed files but only ${node.files.nodes.length} were fetched (FILES_PER_PR=${FILES_PER_PR}). Raise FILES_PER_PR or add real pagination for this PR.`,
-    );
+    const msg = `PR #${node.number} (${node.state}) has ${node.changedFiles} changed files but only ${node.files.nodes.length} were fetched (FILES_PER_PR=${FILES_PER_PR}).`;
+    if (node.state === "MERGED") {
+      throw new Error(`${msg} Raise FILES_PER_PR or add real pagination for this PR.`);
+    }
+    console.warn(`${msg} Not MERGED, so its files list isn't used by any aggregate — truncating and continuing.`);
   }
   const files = [];
   for (const f of node.files.nodes) {

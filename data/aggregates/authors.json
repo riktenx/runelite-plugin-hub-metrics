@@ -1,8 +1,8 @@
 [
   {
     "login": "geheur",
-    "prCount": 251,
-    "mergedCount": 247
+    "prCount": 252,
+    "mergedCount": 248
   },
   {
     "login": "Zoinkwiz",
@@ -30,14 +30,14 @@
     "mergedCount": 144
   },
   {
+    "login": "ScreteMonge",
+    "prCount": 132,
+    "mergedCount": 127
+  },
+  {
     "login": "aHooder",
     "prCount": 130,
     "mergedCount": 129
-  },
-  {
-    "login": "ScreteMonge",
-    "prCount": 130,
-    "mergedCount": 125
   },
   {
     "login": "ldavid432",
@@ -86,8 +86,8 @@
   },
   {
     "login": "ChunkyAtlas",
-    "prCount": 86,
-    "mergedCount": 79
+    "prCount": 87,
+    "mergedCount": 80
   },
   {
     "login": "zumaad",
@@ -100,29 +100,29 @@
     "mergedCount": 64
   },
   {
+    "login": "Thource",
+    "prCount": 67,
+    "mergedCount": 64
+  },
+  {
     "login": "dillydill123",
     "prCount": 65,
     "mergedCount": 65
   },
   {
-    "login": "Thource",
-    "prCount": 65,
-    "mergedCount": 62
+    "login": "Mrnice98",
+    "prCount": 63,
+    "mergedCount": 51
   },
   {
     "login": "bopsec",
     "prCount": 63,
-    "mergedCount": 59
+    "mergedCount": 60
   },
   {
     "login": "1Defence",
     "prCount": 62,
     "mergedCount": 61
-  },
-  {
-    "login": "Mrnice98",
-    "prCount": 62,
-    "mergedCount": 51
   },
   {
     "login": "iProdigy",
@@ -165,6 +165,11 @@
     "mergedCount": 53
   },
   {
+    "login": "equirs",
+    "prCount": 54,
+    "mergedCount": 54
+  },
+  {
     "login": "Fiffers",
     "prCount": 54,
     "mergedCount": 48
@@ -173,6 +178,11 @@
     "login": "SuperNerdEric",
     "prCount": 54,
     "mergedCount": 52
+  },
+  {
+    "login": "DapperMickie",
+    "prCount": 54,
+    "mergedCount": 53
   },
   {
     "login": "Matsyir",
@@ -185,24 +195,14 @@
     "mergedCount": 51
   },
   {
-    "login": "equirs",
+    "login": "TheSpryt",
     "prCount": 52,
-    "mergedCount": 52
-  },
-  {
-    "login": "DapperMickie",
-    "prCount": 52,
-    "mergedCount": 51
+    "mergedCount": 45
   },
   {
     "login": "UserD40",
     "prCount": 51,
     "mergedCount": 40
-  },
-  {
-    "login": "TheSpryt",
-    "prCount": 51,
-    "mergedCount": 44
   },
   {
     "login": "Trevor159",
@@ -220,24 +220,24 @@
     "mergedCount": 47
   },
   {
+    "login": "Hampo",
+    "prCount": 49,
+    "mergedCount": 48
+  },
+  {
     "login": "rorro",
     "prCount": 48,
     "mergedCount": 48
   },
   {
-    "login": "Hampo",
+    "login": "vividflash",
     "prCount": 48,
-    "mergedCount": 48
+    "mergedCount": 46
   },
   {
     "login": "pajlada",
     "prCount": 47,
     "mergedCount": 46
-  },
-  {
-    "login": "vividflash",
-    "prCount": 47,
-    "mergedCount": 45
   },
   {
     "login": "birdandworm",
