@@ -2849,10 +2849,18 @@
   },
   {
     "week": "2026-10-05",
-    "opened": 437,
-    "merged": 390,
-    "closedUnmerged": 42,
-    "pluginsAdded": 64,
+    "opened": 515,
+    "merged": 452,
+    "closedUnmerged": 49,
+    "pluginsAdded": 77,
+    "pluginsRemoved": 0
+  },
+  {
+    "week": "2026-10-12",
+    "opened": 10,
+    "merged": 16,
+    "closedUnmerged": 1,
+    "pluginsAdded": 3,
     "pluginsRemoved": 0
   }
 ]
