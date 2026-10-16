@@ -110,14 +110,14 @@
     "mergedCount": 65
   },
   {
+    "login": "1Defence",
+    "prCount": 65,
+    "mergedCount": 63
+  },
+  {
     "login": "bopsec",
     "prCount": 65,
     "mergedCount": 62
-  },
-  {
-    "login": "1Defence",
-    "prCount": 63,
-    "mergedCount": 61
   },
   {
     "login": "Mrnice98",
@@ -138,6 +138,11 @@
     "login": "guillaume009",
     "prCount": 60,
     "mergedCount": 59
+  },
+  {
+    "login": "vividflash",
+    "prCount": 59,
+    "mergedCount": 56
   },
   {
     "login": "mablack01",
@@ -195,14 +200,14 @@
     "mergedCount": 51
   },
   {
+    "login": "1504681",
+    "prCount": 52,
+    "mergedCount": 44
+  },
+  {
     "login": "TheSpryt",
     "prCount": 52,
     "mergedCount": 45
-  },
-  {
-    "login": "vividflash",
-    "prCount": 52,
-    "mergedCount": 50
   },
   {
     "login": "UserD40",
@@ -216,8 +221,8 @@
   },
   {
     "login": "andmcadams",
-    "prCount": 49,
-    "mergedCount": 48
+    "prCount": 50,
+    "mergedCount": 49
   },
   {
     "login": "Broooklyn",
@@ -240,13 +245,8 @@
     "mergedCount": 46
   },
   {
-    "login": "1504681",
+    "login": "420kc",
     "prCount": 46,
-    "mergedCount": 38
-  },
-  {
-    "login": "birdandworm",
-    "prCount": 46,
-    "mergedCount": 42
+    "mergedCount": 39
   }
 ]
