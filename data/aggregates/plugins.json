@@ -1,12 +1,777 @@
 [
   {
+    "id": "maxhitplugin",
+    "firstAddedAt": "2020-08-13T06:35:11Z",
+    "lastUpdatedAt": "2026-10-20T02:43:48Z",
+    "updateCount": 21,
+    "prCount": 22,
+    "status": "active",
+    "prsLast90d": 9
+  },
+  {
+    "id": "spec-regen-completed",
+    "firstAddedAt": "2026-09-17T21:42:29Z",
+    "lastUpdatedAt": "2026-10-20T02:38:31Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "lightbearer-helper",
+    "firstAddedAt": "2026-09-08T08:20:16Z",
+    "lastUpdatedAt": "2026-10-20T02:33:16Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "glamourer",
+    "firstAddedAt": "2026-02-14T02:58:55Z",
+    "lastUpdatedAt": "2026-10-20T02:27:59Z",
+    "updateCount": 23,
+    "prCount": 24,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "beep-deep",
+    "firstAddedAt": "2026-07-03T13:35:40Z",
+    "lastUpdatedAt": "2026-10-20T02:11:56Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "improved-chat",
+    "firstAddedAt": "2026-09-17T23:10:16Z",
+    "lastUpdatedAt": "2026-10-20T01:35:49Z",
+    "updateCount": 14,
+    "prCount": 15,
+    "status": "active",
+    "prsLast90d": 15
+  },
+  {
+    "id": "autumngarden",
+    "firstAddedAt": "2022-03-22T05:09:25Z",
+    "lastUpdatedAt": "2026-10-20T01:25:16Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "watchdog",
+    "firstAddedAt": "2022-03-22T03:26:12Z",
+    "lastUpdatedAt": "2026-10-20T01:24:29Z",
+    "updateCount": 51,
+    "prCount": 52,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "chat-overlay",
+    "firstAddedAt": "2026-05-13T19:34:04Z",
+    "lastUpdatedAt": "2026-10-20T00:49:35Z",
+    "updateCount": 21,
+    "prCount": 22,
+    "status": "active",
+    "prsLast90d": 9
+  },
+  {
+    "id": "slayer-bis",
+    "firstAddedAt": "2026-10-20T00:44:13Z",
+    "lastUpdatedAt": "2026-10-20T00:44:13Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "trailsocial",
+    "firstAddedAt": "2026-09-17T19:02:58Z",
+    "lastUpdatedAt": "2026-10-20T00:33:50Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "slayer-task-odds",
+    "firstAddedAt": "2026-10-03T04:46:23Z",
+    "lastUpdatedAt": "2026-10-20T00:23:16Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 6
+  },
+  {
+    "id": "codex-pest-control-pilot",
+    "firstAddedAt": "2026-10-20T00:17:57Z",
+    "lastUpdatedAt": "2026-10-20T00:17:57Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "codex-provisioner",
+    "firstAddedAt": "2026-10-20T00:07:28Z",
+    "lastUpdatedAt": "2026-10-20T00:07:28Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "codex-plunder-pilot",
+    "firstAddedAt": "2026-10-19T15:40:16Z",
+    "lastUpdatedAt": "2026-10-20T00:02:10Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "shortest-path",
+    "firstAddedAt": "2020-10-28T03:30:03Z",
+    "lastUpdatedAt": "2026-10-19T23:56:46Z",
+    "updateCount": 96,
+    "prCount": 98,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "triglav-clan",
+    "firstAddedAt": "2026-09-29T10:41:08Z",
+    "lastUpdatedAt": "2026-10-19T23:40:54Z",
+    "updateCount": 10,
+    "prCount": 11,
+    "status": "active",
+    "prsLast90d": 11
+  },
+  {
+    "id": "f2p-star-assist",
+    "firstAddedAt": "2022-03-22T05:05:02Z",
+    "lastUpdatedAt": "2026-10-19T23:38:15Z",
+    "updateCount": 9,
+    "prCount": 10,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "sound-ider",
+    "firstAddedAt": "2026-10-14T00:23:13Z",
+    "lastUpdatedAt": "2026-10-19T23:35:34Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "itemrarity",
+    "firstAddedAt": "2020-11-14T01:17:33Z",
+    "lastUpdatedAt": "2026-10-19T23:30:19Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "grindstone",
+    "firstAddedAt": "2026-10-19T23:19:58Z",
+    "lastUpdatedAt": "2026-10-19T23:19:58Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "gp-manager",
+    "firstAddedAt": "2026-10-07T19:15:42Z",
+    "lastUpdatedAt": "2026-10-19T23:14:37Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "2dscape",
+    "firstAddedAt": "2026-10-02T23:29:32Z",
+    "lastUpdatedAt": "2026-10-19T23:04:09Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 6
+  },
+  {
+    "id": "sol-survivor",
+    "firstAddedAt": "2026-10-19T18:48:31Z",
+    "lastUpdatedAt": "2026-10-19T22:23:13Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "coffer",
+    "firstAddedAt": "2026-08-28T18:13:47Z",
+    "lastUpdatedAt": "2026-10-19T22:02:35Z",
+    "updateCount": 24,
+    "prCount": 25,
+    "status": "active",
+    "prsLast90d": 25
+  },
+  {
+    "id": "atlas",
+    "firstAddedAt": "2026-10-19T21:57:06Z",
+    "lastUpdatedAt": "2026-10-19T21:57:06Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "personal-space",
+    "firstAddedAt": "2026-09-17T22:13:36Z",
+    "lastUpdatedAt": "2026-10-19T21:51:45Z",
+    "updateCount": 9,
+    "prCount": 10,
+    "status": "active",
+    "prsLast90d": 10
+  },
+  {
+    "id": "compact-orbs",
+    "firstAddedAt": "2025-10-29T03:34:39Z",
+    "lastUpdatedAt": "2026-10-19T21:36:05Z",
+    "updateCount": 34,
+    "prCount": 35,
+    "status": "active",
+    "prsLast90d": 13
+  },
+  {
+    "id": "boss-bank-filter",
+    "firstAddedAt": "2026-10-19T20:44:17Z",
+    "lastUpdatedAt": "2026-10-19T20:44:17Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "pet-mounts",
+    "firstAddedAt": "2026-09-27T03:40:46Z",
+    "lastUpdatedAt": "2026-10-19T20:28:52Z",
+    "updateCount": 10,
+    "prCount": 11,
+    "status": "active",
+    "prsLast90d": 11
+  },
+  {
+    "id": "sail-painter",
+    "firstAddedAt": "2026-10-03T00:16:45Z",
+    "lastUpdatedAt": "2026-10-19T20:18:00Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "limit-keeper",
+    "firstAddedAt": "2026-09-08T05:54:56Z",
+    "lastUpdatedAt": "2026-10-19T20:12:36Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "inventory-tiles",
+    "firstAddedAt": "2026-02-21T21:29:17Z",
+    "lastUpdatedAt": "2026-10-19T19:57:07Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "the-anchor-cc",
+    "firstAddedAt": "2026-08-24T23:27:37Z",
+    "lastUpdatedAt": "2026-10-19T19:35:38Z",
+    "updateCount": 15,
+    "prCount": 16,
+    "status": "active",
+    "prsLast90d": 16
+  },
+  {
+    "id": "reimagined-world-map",
+    "firstAddedAt": "2026-10-13T23:30:55Z",
+    "lastUpdatedAt": "2026-10-19T19:24:47Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "cargo-hold-alert",
+    "firstAddedAt": "2026-09-27T04:21:09Z",
+    "lastUpdatedAt": "2026-10-19T18:53:53Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "hd-world-markers",
+    "firstAddedAt": "2026-10-11T22:04:40Z",
+    "lastUpdatedAt": "2026-10-19T18:17:38Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "forestry-spawn-helper",
+    "firstAddedAt": "2025-05-03T21:27:56Z",
+    "lastUpdatedAt": "2026-10-19T17:34:32Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "retro-npc-swapper",
+    "firstAddedAt": "2026-09-03T16:51:26Z",
+    "lastUpdatedAt": "2026-10-19T17:26:12Z",
+    "updateCount": 10,
+    "prCount": 11,
+    "status": "active",
+    "prsLast90d": 11
+  },
+  {
+    "id": "chat-fade",
+    "firstAddedAt": "2026-03-03T23:10:54Z",
+    "lastUpdatedAt": "2026-10-19T17:05:33Z",
+    "updateCount": 27,
+    "prCount": 28,
+    "status": "active",
+    "prsLast90d": 15
+  },
+  {
+    "id": "farm-run-planner",
+    "firstAddedAt": "2026-10-19T16:44:21Z",
+    "lastUpdatedAt": "2026-10-19T16:44:21Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "placeholder-click-blocker",
+    "firstAddedAt": "2026-10-19T16:33:19Z",
+    "lastUpdatedAt": "2026-10-19T16:33:19Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "varrock-stray-cats",
+    "firstAddedAt": "2026-10-04T14:44:18Z",
+    "lastUpdatedAt": "2026-10-19T16:27:58Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "trippy-mode",
+    "firstAddedAt": "2026-10-05T22:27:26Z",
+    "lastUpdatedAt": "2026-10-19T16:22:37Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "ultimate-bank",
+    "firstAddedAt": "2026-10-19T16:06:39Z",
+    "lastUpdatedAt": "2026-10-19T16:06:39Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "ground-marker-variables",
+    "firstAddedAt": "2026-09-24T18:29:28Z",
+    "lastUpdatedAt": "2026-10-19T16:01:16Z",
+    "updateCount": 11,
+    "prCount": 12,
+    "status": "active",
+    "prsLast90d": 12
+  },
+  {
+    "id": "battle-mage-mode",
+    "firstAddedAt": "2026-10-09T19:14:34Z",
+    "lastUpdatedAt": "2026-10-19T15:55:52Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "codex-rounds",
+    "firstAddedAt": "2026-10-19T15:34:54Z",
+    "lastUpdatedAt": "2026-10-19T15:34:54Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "alch-aligner",
+    "firstAddedAt": "2026-10-19T14:48:48Z",
+    "lastUpdatedAt": "2026-10-19T14:48:48Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "cooldown-overlays",
+    "firstAddedAt": "2026-10-19T14:18:07Z",
+    "lastUpdatedAt": "2026-10-19T14:18:07Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "deep-delve-pacer",
+    "firstAddedAt": "2025-11-08T19:26:56Z",
+    "lastUpdatedAt": "2026-10-19T14:12:50Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "chat-wiki-links",
+    "firstAddedAt": "2026-10-15T14:07:33Z",
+    "lastUpdatedAt": "2026-10-19T14:02:14Z",
+    "updateCount": 6,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "117hd",
+    "firstAddedAt": "2021-09-13T19:16:36Z",
+    "lastUpdatedAt": "2026-10-19T13:54:15Z",
+    "updateCount": 128,
+    "prCount": 128,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "kill-clog",
+    "firstAddedAt": "2026-04-29T00:41:39Z",
+    "lastUpdatedAt": "2026-10-19T13:46:42Z",
+    "updateCount": 35,
+    "prCount": 36,
+    "status": "active",
+    "prsLast90d": 22
+  },
+  {
+    "id": "gieligotchi",
+    "firstAddedAt": "2026-09-15T22:40:09Z",
+    "lastUpdatedAt": "2026-10-19T13:41:13Z",
+    "updateCount": 10,
+    "prCount": 11,
+    "status": "active",
+    "prsLast90d": 11
+  },
+  {
+    "id": "snake-weed-helper",
+    "firstAddedAt": "2026-10-19T13:35:47Z",
+    "lastUpdatedAt": "2026-10-19T13:35:47Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "mixology-belt-runner",
+    "firstAddedAt": "2026-10-19T13:30:25Z",
+    "lastUpdatedAt": "2026-10-19T13:30:25Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "anvil",
+    "firstAddedAt": "2026-05-17T05:42:17Z",
+    "lastUpdatedAt": "2026-10-19T13:24:59Z",
+    "updateCount": 27,
+    "prCount": 28,
+    "status": "active",
+    "prsLast90d": 15
+  },
+  {
+    "id": "clue-details",
+    "firstAddedAt": "2024-07-09T18:02:18Z",
+    "lastUpdatedAt": "2026-10-19T13:19:37Z",
+    "updateCount": 42,
+    "prCount": 43,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "b0aty-hcim-guide-v3",
+    "firstAddedAt": "2026-09-02T20:31:07Z",
+    "lastUpdatedAt": "2026-10-19T13:14:14Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "on-rate",
+    "firstAddedAt": "2026-10-18T15:09:12Z",
+    "lastUpdatedAt": "2026-10-19T13:03:36Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "ironman-quest-prep",
+    "firstAddedAt": "2026-09-29T17:03:26Z",
+    "lastUpdatedAt": "2026-10-19T12:58:20Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "random-world-hopper",
+    "firstAddedAt": "2026-09-29T12:23:09Z",
+    "lastUpdatedAt": "2026-10-19T12:55:09Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "flipping-utilities",
+    "firstAddedAt": "2020-03-21T13:15:40Z",
+    "lastUpdatedAt": "2026-10-19T12:47:25Z",
+    "updateCount": 89,
+    "prCount": 90,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "crop-circle-tracker",
+    "firstAddedAt": "2022-11-15T19:15:56Z",
+    "lastUpdatedAt": "2026-10-19T12:45:24Z",
+    "updateCount": 10,
+    "prCount": 11,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "loot-pop",
+    "firstAddedAt": "2026-10-09T05:08:42Z",
+    "lastUpdatedAt": "2026-10-19T12:36:49Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "world-finder",
+    "firstAddedAt": "2023-03-10T22:21:46Z",
+    "lastUpdatedAt": "2026-10-19T12:36:30Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "combat-xp-tracker",
+    "firstAddedAt": "2026-07-24T22:26:53Z",
+    "lastUpdatedAt": "2026-10-19T12:31:31Z",
+    "updateCount": 24,
+    "prCount": 25,
+    "status": "active",
+    "prsLast90d": 25
+  },
+  {
+    "id": "hungry-pet-hider",
+    "firstAddedAt": "2026-10-19T09:20:32Z",
+    "lastUpdatedAt": "2026-10-19T11:55:45Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "tsg-hub",
+    "firstAddedAt": "2026-09-27T20:52:55Z",
+    "lastUpdatedAt": "2026-10-19T10:43:58Z",
+    "updateCount": 17,
+    "prCount": 18,
+    "status": "active",
+    "prsLast90d": 18
+  },
+  {
+    "id": "route-planner",
+    "firstAddedAt": "2026-06-24T16:43:19Z",
+    "lastUpdatedAt": "2026-10-19T10:07:43Z",
+    "updateCount": 14,
+    "prCount": 15,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "runejourney",
+    "firstAddedAt": "2026-09-30T20:48:12Z",
+    "lastUpdatedAt": "2026-10-19T09:51:42Z",
+    "updateCount": 6,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "modern-books",
+    "firstAddedAt": "2026-10-19T09:05:04Z",
+    "lastUpdatedAt": "2026-10-19T09:05:04Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "runeglass",
+    "firstAddedAt": "2026-08-27T17:13:01Z",
+    "lastUpdatedAt": "2026-10-19T08:39:31Z",
+    "updateCount": 6,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "kebbit-tracker",
+    "firstAddedAt": "2026-10-19T08:34:10Z",
+    "lastUpdatedAt": "2026-10-19T08:34:10Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "seed-vault-memory",
+    "firstAddedAt": "2026-10-19T08:08:31Z",
+    "lastUpdatedAt": "2026-10-19T08:08:31Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "blert",
+    "firstAddedAt": "2026-01-13T23:00:34Z",
+    "lastUpdatedAt": "2026-10-19T05:45:59Z",
+    "updateCount": 34,
+    "prCount": 35,
+    "status": "active",
+    "prsLast90d": 11
+  },
+  {
+    "id": "boss-hit-tracker",
+    "firstAddedAt": "2026-10-19T03:01:58Z",
+    "lastUpdatedAt": "2026-10-19T05:15:10Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "item-value-fluctuation",
+    "firstAddedAt": "2026-10-12T15:34:11Z",
+    "lastUpdatedAt": "2026-10-19T04:54:36Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "chat-font",
+    "firstAddedAt": "2026-10-18T07:42:18Z",
+    "lastUpdatedAt": "2026-10-19T04:34:04Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "fortis-colosseum",
+    "firstAddedAt": "2024-03-20T15:34:09Z",
+    "lastUpdatedAt": "2026-10-19T04:12:06Z",
+    "updateCount": 27,
+    "prCount": 28,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "pvp-hud",
+    "firstAddedAt": "2026-09-17T18:20:39Z",
+    "lastUpdatedAt": "2026-10-19T03:22:45Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "wintertodt-autopilot",
+    "firstAddedAt": "2026-10-13T19:29:47Z",
+    "lastUpdatedAt": "2026-10-19T03:12:23Z",
+    "updateCount": 6,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "goat-pit-indicators",
+    "firstAddedAt": "2026-07-30T03:13:10Z",
+    "lastUpdatedAt": "2026-10-19T02:51:16Z",
+    "updateCount": 9,
+    "prCount": 10,
+    "status": "active",
+    "prsLast90d": 10
+  },
+  {
+    "id": "green-log-reorder",
+    "firstAddedAt": "2026-06-27T17:06:36Z",
+    "lastUpdatedAt": "2026-10-19T02:46:02Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
     "id": "log-adviser",
     "firstAddedAt": "2026-05-16T18:57:40Z",
     "lastUpdatedAt": "2026-10-19T02:20:30Z",
     "updateCount": 25,
     "prCount": 26,
     "status": "active",
-    "prsLast90d": 8
+    "prsLast90d": 6
   },
   {
     "id": "slayer-sensei",
@@ -25,24 +790,6 @@
     "prCount": 47,
     "status": "active",
     "prsLast90d": 22
-  },
-  {
-    "id": "on-rate",
-    "firstAddedAt": "2026-10-18T15:09:12Z",
-    "lastUpdatedAt": "2026-10-19T00:58:09Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
-    "id": "b0aty-hcim-guide-v3",
-    "firstAddedAt": "2026-09-02T20:31:07Z",
-    "lastUpdatedAt": "2026-10-19T00:37:38Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
   },
   {
     "id": "hcim-progression-companion",
@@ -99,15 +846,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "improved-chat",
-    "firstAddedAt": "2026-09-17T23:10:16Z",
-    "lastUpdatedAt": "2026-10-18T22:23:39Z",
-    "updateCount": 13,
-    "prCount": 14,
-    "status": "active",
-    "prsLast90d": 14
-  },
-  {
     "id": "all-in-one-reminders",
     "firstAddedAt": "2026-10-14T00:12:41Z",
     "lastUpdatedAt": "2026-10-18T21:35:34Z",
@@ -142,24 +880,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 5
-  },
-  {
-    "id": "wintertodt-autopilot",
-    "firstAddedAt": "2026-10-13T19:29:47Z",
-    "lastUpdatedAt": "2026-10-18T20:08:08Z",
-    "updateCount": 5,
-    "prCount": 6,
-    "status": "active",
-    "prsLast90d": 6
-  },
-  {
-    "id": "shortest-path",
-    "firstAddedAt": "2020-10-28T03:30:03Z",
-    "lastUpdatedAt": "2026-10-18T19:32:27Z",
-    "updateCount": 95,
-    "prCount": 97,
-    "status": "active",
-    "prsLast90d": 7
   },
   {
     "id": "inventory-setups-picker",
@@ -288,15 +1008,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "chat-wiki-links",
-    "firstAddedAt": "2026-10-15T14:07:33Z",
-    "lastUpdatedAt": "2026-10-18T15:14:27Z",
-    "updateCount": 5,
-    "prCount": 6,
-    "status": "active",
-    "prsLast90d": 6
-  },
-  {
     "id": "command-palette",
     "firstAddedAt": "2026-10-18T15:03:57Z",
     "lastUpdatedAt": "2026-10-18T15:03:57Z",
@@ -304,15 +1015,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "combat-xp-tracker",
-    "firstAddedAt": "2026-07-24T22:26:53Z",
-    "lastUpdatedAt": "2026-10-18T14:58:38Z",
-    "updateCount": 23,
-    "prCount": 24,
-    "status": "active",
-    "prsLast90d": 24
   },
   {
     "id": "scythe-crush-warning",
@@ -333,24 +1035,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "hd-world-markers",
-    "firstAddedAt": "2026-10-11T22:04:40Z",
-    "lastUpdatedAt": "2026-10-18T13:31:40Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
-    "id": "pet-mounts",
-    "firstAddedAt": "2026-09-27T03:40:46Z",
-    "lastUpdatedAt": "2026-10-18T13:05:50Z",
-    "updateCount": 8,
-    "prCount": 9,
-    "status": "active",
-    "prsLast90d": 9
-  },
-  {
     "id": "caroadmap",
     "firstAddedAt": "2026-08-28T13:39:32Z",
     "lastUpdatedAt": "2026-10-18T10:37:37Z",
@@ -360,15 +1044,6 @@
     "prsLast90d": 4
   },
   {
-    "id": "117hd",
-    "firstAddedAt": "2021-09-13T19:16:36Z",
-    "lastUpdatedAt": "2026-10-18T10:29:17Z",
-    "updateCount": 127,
-    "prCount": 127,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "jumpscare",
     "firstAddedAt": "2026-07-11T11:27:36Z",
     "lastUpdatedAt": "2026-10-18T09:56:14Z",
@@ -376,24 +1051,6 @@
     "prCount": 13,
     "status": "active",
     "prsLast90d": 9
-  },
-  {
-    "id": "personal-space",
-    "firstAddedAt": "2026-09-17T22:13:36Z",
-    "lastUpdatedAt": "2026-10-18T09:25:30Z",
-    "updateCount": 7,
-    "prCount": 8,
-    "status": "active",
-    "prsLast90d": 8
-  },
-  {
-    "id": "tsg-hub",
-    "firstAddedAt": "2026-09-27T20:52:55Z",
-    "lastUpdatedAt": "2026-10-18T09:10:02Z",
-    "updateCount": 16,
-    "prCount": 17,
-    "status": "active",
-    "prsLast90d": 17
   },
   {
     "id": "flipping-rs",
@@ -421,24 +1078,6 @@
     "prCount": 27,
     "status": "active",
     "prsLast90d": 12
-  },
-  {
-    "id": "anvil",
-    "firstAddedAt": "2026-05-17T05:42:17Z",
-    "lastUpdatedAt": "2026-10-18T07:47:43Z",
-    "updateCount": 26,
-    "prCount": 27,
-    "status": "active",
-    "prsLast90d": 14
-  },
-  {
-    "id": "chat-font",
-    "firstAddedAt": "2026-10-18T07:42:18Z",
-    "lastUpdatedAt": "2026-10-18T07:42:18Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "ape-atoll-encouragement",
@@ -474,7 +1113,7 @@
     "updateCount": 55,
     "prCount": 56,
     "status": "active",
-    "prsLast90d": 15
+    "prsLast90d": 14
   },
   {
     "id": "fairy-magic-trail",
@@ -495,15 +1134,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "coffer",
-    "firstAddedAt": "2026-08-28T18:13:47Z",
-    "lastUpdatedAt": "2026-10-18T01:45:17Z",
-    "updateCount": 23,
-    "prCount": 24,
-    "status": "active",
-    "prsLast90d": 24
-  },
-  {
     "id": "chat-regex-filter",
     "firstAddedAt": "2026-09-10T19:25:07Z",
     "lastUpdatedAt": "2026-10-18T01:40:00Z",
@@ -522,15 +1152,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "spec-regen-completed",
-    "firstAddedAt": "2026-09-17T21:42:29Z",
-    "lastUpdatedAt": "2026-10-18T01:09:04Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
     "id": "bank-standing",
     "firstAddedAt": "2026-10-14T22:46:35Z",
     "lastUpdatedAt": "2026-10-17T23:52:29Z",
@@ -540,22 +1161,13 @@
     "prsLast90d": 7
   },
   {
-    "id": "route-planner",
-    "firstAddedAt": "2026-06-24T16:43:19Z",
-    "lastUpdatedAt": "2026-10-17T23:47:06Z",
-    "updateCount": 13,
-    "prCount": 14,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "tempoross-solo-helper",
     "firstAddedAt": "2026-07-09T19:29:16Z",
     "lastUpdatedAt": "2026-10-17T23:31:31Z",
     "updateCount": 4,
     "prCount": 5,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "dvd-bounce",
@@ -574,15 +1186,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 5
-  },
-  {
-    "id": "slayer-task-odds",
-    "firstAddedAt": "2026-10-03T04:46:23Z",
-    "lastUpdatedAt": "2026-10-17T22:29:13Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "runite-rocks",
@@ -657,24 +1260,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "gp-manager",
-    "firstAddedAt": "2026-10-07T19:15:42Z",
-    "lastUpdatedAt": "2026-10-17T17:55:37Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
-  },
-  {
-    "id": "goat-pit-indicators",
-    "firstAddedAt": "2026-07-30T03:13:10Z",
-    "lastUpdatedAt": "2026-10-17T17:45:07Z",
-    "updateCount": 8,
-    "prCount": 9,
-    "status": "active",
-    "prsLast90d": 9
-  },
-  {
     "id": "imajs-events",
     "firstAddedAt": "2026-10-17T09:35:17Z",
     "lastUpdatedAt": "2026-10-17T17:34:45Z",
@@ -682,15 +1267,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "reimagined-world-map",
-    "firstAddedAt": "2026-10-13T23:30:55Z",
-    "lastUpdatedAt": "2026-10-17T16:32:49Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "gp-per-hour",
@@ -729,15 +1305,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "battle-mage-mode",
-    "firstAddedAt": "2026-10-09T19:14:34Z",
-    "lastUpdatedAt": "2026-10-17T14:54:34Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "instant-inventory",
     "firstAddedAt": "2022-11-21T18:49:35Z",
     "lastUpdatedAt": "2026-10-17T14:39:05Z",
@@ -763,15 +1330,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "cargo-hold-alert",
-    "firstAddedAt": "2026-09-27T04:21:09Z",
-    "lastUpdatedAt": "2026-10-17T12:56:59Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
   },
   {
     "id": "task-checker",
@@ -972,15 +1530,6 @@
     "prsLast90d": 13
   },
   {
-    "id": "runeglass",
-    "firstAddedAt": "2026-08-27T17:13:01Z",
-    "lastUpdatedAt": "2026-10-17T01:18:33Z",
-    "updateCount": 5,
-    "prCount": 6,
-    "status": "active",
-    "prsLast90d": 6
-  },
-  {
     "id": "player-tracker",
     "firstAddedAt": "2026-10-13T23:46:30Z",
     "lastUpdatedAt": "2026-10-17T00:10:53Z",
@@ -988,15 +1537,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "sound-ider",
-    "firstAddedAt": "2026-10-14T00:23:13Z",
-    "lastUpdatedAt": "2026-10-16T23:35:13Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "what-pet-is-that-anyway",
@@ -1194,7 +1734,7 @@
     "updateCount": 9,
     "prCount": 10,
     "status": "active",
-    "prsLast90d": 5
+    "prsLast90d": 4
   },
   {
     "id": "fbclan-plugin",
@@ -1287,15 +1827,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "maxhitplugin",
-    "firstAddedAt": "2020-08-13T06:35:11Z",
-    "lastUpdatedAt": "2026-10-16T00:42:41Z",
-    "updateCount": 20,
-    "prCount": 21,
-    "status": "active",
-    "prsLast90d": 8
-  },
-  {
     "id": "shooting-stars",
     "firstAddedAt": "2021-03-19T09:46:30Z",
     "lastUpdatedAt": "2026-10-15T23:51:39Z",
@@ -1339,15 +1870,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 5
-  },
-  {
-    "id": "kill-clog",
-    "firstAddedAt": "2026-04-29T00:41:39Z",
-    "lastUpdatedAt": "2026-10-15T20:31:41Z",
-    "updateCount": 34,
-    "prCount": 35,
-    "status": "active",
-    "prsLast90d": 21
   },
   {
     "id": "corp-boosting-qol",
@@ -1449,15 +1971,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "retro-npc-swapper",
-    "firstAddedAt": "2026-09-03T16:51:26Z",
-    "lastUpdatedAt": "2026-10-15T15:45:35Z",
-    "updateCount": 9,
-    "prCount": 10,
-    "status": "active",
-    "prsLast90d": 10
-  },
-  {
     "id": "rollbound",
     "firstAddedAt": "2026-10-14T15:13:59Z",
     "lastUpdatedAt": "2026-10-15T15:40:05Z",
@@ -1474,24 +1987,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "trailsocial",
-    "firstAddedAt": "2026-09-17T19:02:58Z",
-    "lastUpdatedAt": "2026-10-15T13:46:45Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
-  },
-  {
-    "id": "flipping-utilities",
-    "firstAddedAt": "2020-03-21T13:15:40Z",
-    "lastUpdatedAt": "2026-10-15T12:55:48Z",
-    "updateCount": 88,
-    "prCount": 89,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "better-slayer",
@@ -1602,15 +2097,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "compact-orbs",
-    "firstAddedAt": "2025-10-29T03:34:39Z",
-    "lastUpdatedAt": "2026-10-15T04:38:53Z",
-    "updateCount": 33,
-    "prCount": 34,
-    "status": "active",
-    "prsLast90d": 13
-  },
-  {
     "id": "rs-bingo",
     "firstAddedAt": "2026-08-25T17:53:53Z",
     "lastUpdatedAt": "2026-10-15T03:25:36Z",
@@ -1618,15 +2104,6 @@
     "prCount": 7,
     "status": "active",
     "prsLast90d": 7
-  },
-  {
-    "id": "world-finder",
-    "firstAddedAt": "2023-03-10T22:21:46Z",
-    "lastUpdatedAt": "2026-10-15T02:37:53Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "npc-health-regen-timer",
@@ -1719,15 +2196,6 @@
     "prsLast90d": 17
   },
   {
-    "id": "ground-marker-variables",
-    "firstAddedAt": "2026-09-24T18:29:28Z",
-    "lastUpdatedAt": "2026-10-14T13:00:40Z",
-    "updateCount": 10,
-    "prCount": 11,
-    "status": "active",
-    "prsLast90d": 11
-  },
-  {
     "id": "3d-recorder",
     "firstAddedAt": "2026-09-19T21:49:22Z",
     "lastUpdatedAt": "2026-10-14T12:39:45Z",
@@ -1789,15 +2257,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "sail-painter",
-    "firstAddedAt": "2026-10-03T00:16:45Z",
-    "lastUpdatedAt": "2026-10-14T04:17:58Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
   },
   {
     "id": "bank-resizer",
@@ -1923,7 +2382,7 @@
     "updateCount": 17,
     "prCount": 18,
     "status": "active",
-    "prsLast90d": 15
+    "prsLast90d": 14
   },
   {
     "id": "boss-helper-bank-sync",
@@ -1933,15 +2392,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "glamourer",
-    "firstAddedAt": "2026-02-14T02:58:55Z",
-    "lastUpdatedAt": "2026-10-13T21:35:01Z",
-    "updateCount": 22,
-    "prCount": 23,
-    "status": "active",
-    "prsLast90d": 7
   },
   {
     "id": "eternal-flame",
@@ -1995,7 +2445,7 @@
     "updateCount": 42,
     "prCount": 43,
     "status": "active",
-    "prsLast90d": 26
+    "prsLast90d": 24
   },
   {
     "id": "drop-luck-ledger",
@@ -2041,15 +2491,6 @@
     "prCount": 8,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "blert",
-    "firstAddedAt": "2026-01-13T23:00:34Z",
-    "lastUpdatedAt": "2026-10-13T15:01:54Z",
-    "updateCount": 33,
-    "prCount": 34,
-    "status": "active",
-    "prsLast90d": 10
   },
   {
     "id": "no-misclicks-in-bank",
@@ -2113,15 +2554,6 @@
     "prCount": 4,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "triglav-clan",
-    "firstAddedAt": "2026-09-29T10:41:08Z",
-    "lastUpdatedAt": "2026-10-13T04:51:39Z",
-    "updateCount": 8,
-    "prCount": 9,
-    "status": "active",
-    "prsLast90d": 9
   },
   {
     "id": "bank-tab-organizer",
@@ -2259,15 +2691,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "lightbearer-helper",
-    "firstAddedAt": "2026-09-08T08:20:16Z",
-    "lastUpdatedAt": "2026-10-12T19:22:06Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "ground-item-entity-hider",
     "firstAddedAt": "2026-10-12T19:01:19Z",
     "lastUpdatedAt": "2026-10-12T19:01:19Z",
@@ -2313,15 +2736,6 @@
     "prsLast90d": 9
   },
   {
-    "id": "item-value-fluctuation",
-    "firstAddedAt": "2026-10-12T15:34:11Z",
-    "lastUpdatedAt": "2026-10-12T15:34:11Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "overnight-flipper",
     "firstAddedAt": "2026-10-12T14:47:30Z",
     "lastUpdatedAt": "2026-10-12T14:47:30Z",
@@ -2334,24 +2748,6 @@
     "id": "super-object-marker",
     "firstAddedAt": "2026-10-10T21:11:54Z",
     "lastUpdatedAt": "2026-10-12T12:12:11Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
-    "id": "gieligotchi",
-    "firstAddedAt": "2026-09-15T22:40:09Z",
-    "lastUpdatedAt": "2026-10-12T11:59:38Z",
-    "updateCount": 9,
-    "prCount": 10,
-    "status": "active",
-    "prsLast90d": 10
-  },
-  {
-    "id": "loot-pop",
-    "firstAddedAt": "2026-10-09T05:08:42Z",
-    "lastUpdatedAt": "2026-10-12T11:54:15Z",
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
@@ -2553,7 +2949,7 @@
     "updateCount": 74,
     "prCount": 75,
     "status": "active",
-    "prsLast90d": 5
+    "prsLast90d": 4
   },
   {
     "id": "health-threshold-indicators",
@@ -2580,7 +2976,7 @@
     "updateCount": 23,
     "prCount": 24,
     "status": "active",
-    "prsLast90d": 16
+    "prsLast90d": 15
   },
   {
     "id": "mixology-plus",
@@ -2590,15 +2986,6 @@
     "prCount": 1,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "runejourney",
-    "firstAddedAt": "2026-09-30T20:48:12Z",
-    "lastUpdatedAt": "2026-10-11T13:36:07Z",
-    "updateCount": 5,
-    "prCount": 6,
-    "status": "active",
-    "prsLast90d": 6
   },
   {
     "id": "fairy-ring-map",
@@ -2727,15 +3114,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "beep-deep",
-    "firstAddedAt": "2026-07-03T13:35:40Z",
-    "lastUpdatedAt": "2026-10-11T01:30:09Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "emotes",
     "firstAddedAt": "2023-01-10T05:01:23Z",
     "lastUpdatedAt": "2026-10-11T01:24:54Z",
@@ -2842,15 +3220,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "2dscape",
-    "firstAddedAt": "2026-10-02T23:29:32Z",
-    "lastUpdatedAt": "2026-10-10T15:28:52Z",
-    "updateCount": 4,
-    "prCount": 5,
-    "status": "active",
-    "prsLast90d": 5
   },
   {
     "id": "skiller-guard",
@@ -3258,15 +3627,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "clue-details",
-    "firstAddedAt": "2024-07-09T18:02:18Z",
-    "lastUpdatedAt": "2026-10-08T23:00:15Z",
-    "updateCount": 41,
-    "prCount": 42,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
     "id": "irons-pub-bingo",
     "firstAddedAt": "2026-08-27T17:34:06Z",
     "lastUpdatedAt": "2026-10-08T22:54:53Z",
@@ -3492,15 +3852,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "ironman-quest-prep",
-    "firstAddedAt": "2026-09-29T17:03:26Z",
-    "lastUpdatedAt": "2026-10-07T21:30:36Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "fairy-ring-atlas",
     "firstAddedAt": "2026-10-04T05:31:37Z",
     "lastUpdatedAt": "2026-10-07T21:04:40Z",
@@ -3627,15 +3978,6 @@
     "prsLast90d": 5
   },
   {
-    "id": "itemrarity",
-    "firstAddedAt": "2020-11-14T01:17:33Z",
-    "lastUpdatedAt": "2026-10-07T06:05:58Z",
-    "updateCount": 4,
-    "prCount": 5,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "flip-goblin",
     "firstAddedAt": "2026-09-02T19:27:36Z",
     "lastUpdatedAt": "2026-10-07T05:50:59Z",
@@ -3760,15 +4102,6 @@
     "prCount": 4,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "chat-overlay",
-    "firstAddedAt": "2026-05-13T19:34:04Z",
-    "lastUpdatedAt": "2026-10-06T18:18:08Z",
-    "updateCount": 19,
-    "prCount": 20,
-    "status": "active",
-    "prsLast90d": 8
   },
   {
     "id": "collection-log-luck",
@@ -3987,15 +4320,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "varrock-stray-cats",
-    "firstAddedAt": "2026-10-04T14:44:18Z",
-    "lastUpdatedAt": "2026-10-06T00:05:14Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "afk-recap",
     "firstAddedAt": "2026-10-04T19:36:09Z",
     "lastUpdatedAt": "2026-10-05T23:13:31Z",
@@ -4003,24 +4327,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "trippy-mode",
-    "firstAddedAt": "2026-10-05T22:27:26Z",
-    "lastUpdatedAt": "2026-10-05T22:27:26Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "chat-fade",
-    "firstAddedAt": "2026-03-03T23:10:54Z",
-    "lastUpdatedAt": "2026-10-05T18:49:05Z",
-    "updateCount": 26,
-    "prCount": 27,
-    "status": "active",
-    "prsLast90d": 14
   },
   {
     "id": "barrows-brothers-randomizer",
@@ -4329,15 +4635,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "the-anchor-cc",
-    "firstAddedAt": "2026-08-24T23:27:37Z",
-    "lastUpdatedAt": "2026-10-04T03:39:00Z",
-    "updateCount": 14,
-    "prCount": 15,
-    "status": "active",
-    "prsLast90d": 15
-  },
-  {
     "id": "skill-bubbles",
     "firstAddedAt": "2026-09-17T20:22:37Z",
     "lastUpdatedAt": "2026-10-04T02:47:42Z",
@@ -4641,7 +4938,7 @@
     "updateCount": 14,
     "prCount": 15,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "ironwise",
@@ -4794,7 +5091,7 @@
     "updateCount": 16,
     "prCount": 17,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 6
   },
   {
     "id": "discord-chat",
@@ -4938,7 +5235,7 @@
     "updateCount": 11,
     "prCount": 12,
     "status": "active",
-    "prsLast90d": 9
+    "prsLast90d": 8
   },
   {
     "id": "skilling-toolkit",
@@ -5406,7 +5703,7 @@
     "updateCount": 18,
     "prCount": 19,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 6
   },
   {
     "id": "loot-bank-highlighter",
@@ -5607,15 +5904,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "limit-keeper",
-    "firstAddedAt": "2026-09-08T05:54:56Z",
-    "lastUpdatedAt": "2026-09-29T17:59:37Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "exchange-logger",
     "firstAddedAt": "2021-06-21T22:43:47Z",
     "lastUpdatedAt": "2026-09-29T16:32:25Z",
@@ -5668,15 +5956,6 @@
     "prCount": 11,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "random-world-hopper",
-    "firstAddedAt": "2026-09-29T12:23:09Z",
-    "lastUpdatedAt": "2026-09-29T12:23:09Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "item-wishlist",
@@ -5766,7 +6045,7 @@
     "updateCount": 13,
     "prCount": 14,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 6
   },
   {
     "id": "the-birdhouse",
@@ -6054,7 +6333,7 @@
     "updateCount": 20,
     "prCount": 21,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "dink",
@@ -6621,7 +6900,7 @@
     "updateCount": 4,
     "prCount": 5,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "slayer-clog-check",
@@ -6720,7 +6999,7 @@
     "updateCount": 4,
     "prCount": 5,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "obelisk-protection",
@@ -6792,7 +7071,7 @@
     "updateCount": 8,
     "prCount": 9,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "colossal-wyrm-agility",
@@ -6927,7 +7206,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "elywatch",
@@ -7371,15 +7650,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "pvp-hud",
-    "firstAddedAt": "2026-09-17T18:20:39Z",
-    "lastUpdatedAt": "2026-09-17T18:20:39Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "signpost",
     "firstAddedAt": "2026-09-17T17:49:17Z",
     "lastUpdatedAt": "2026-09-17T17:49:17Z",
@@ -7566,7 +7836,7 @@
     "updateCount": 5,
     "prCount": 6,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "spotify-controller",
@@ -7746,7 +8016,7 @@
     "updateCount": 30,
     "prCount": 31,
     "status": "active",
-    "prsLast90d": 6
+    "prsLast90d": 5
   },
   {
     "id": "vitality",
@@ -7863,7 +8133,7 @@
     "updateCount": 15,
     "prCount": 16,
     "status": "active",
-    "prsLast90d": 5
+    "prsLast90d": 4
   },
   {
     "id": "ca-export",
@@ -9375,7 +9645,7 @@
     "updateCount": 54,
     "prCount": 55,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "world-examine",
@@ -10611,15 +10881,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "watchdog",
-    "firstAddedAt": "2022-03-22T03:26:12Z",
-    "lastUpdatedAt": "2026-08-20T22:18:37Z",
-    "updateCount": 50,
-    "prCount": 51,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "wrong-prayer-warning",
     "firstAddedAt": "2026-08-20T20:01:24Z",
     "lastUpdatedAt": "2026-08-20T20:01:24Z",
@@ -10770,7 +11031,7 @@
     "updateCount": 33,
     "prCount": 34,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "stymphike-afk-timer",
@@ -10780,15 +11041,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "green-log-reorder",
-    "firstAddedAt": "2026-06-27T17:06:36Z",
-    "lastUpdatedAt": "2026-08-18T19:26:09Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "portrobertsthievinghelper",
@@ -11166,7 +11418,7 @@
     "updateCount": 6,
     "prCount": 7,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "idle-box",
@@ -11526,7 +11778,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 3
+    "prsLast90d": 2
   },
   {
     "id": "burthorpesellcalc",
@@ -11769,7 +12021,7 @@
     "updateCount": 8,
     "prCount": 9,
     "status": "active",
-    "prsLast90d": 5
+    "prsLast90d": 4
   },
   {
     "id": "visual-bloodwood",
@@ -12309,7 +12561,7 @@
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "skedpojkar",
@@ -12318,7 +12570,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "gotr-progress-bar",
@@ -12381,7 +12633,7 @@
     "updateCount": 86,
     "prCount": 87,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "ranked-duels",
@@ -12390,7 +12642,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "aio-bingo",
@@ -12399,7 +12651,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "improved-tears-of-guthix-interface",
@@ -16596,15 +16848,6 @@
     "prsLast90d": 0
   },
   {
-    "id": "forestry-spawn-helper",
-    "firstAddedAt": "2025-05-03T21:27:56Z",
-    "lastUpdatedAt": "2026-04-15T01:05:30Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
     "id": "warriors-guild-dummy-helper",
     "firstAddedAt": "2026-04-14T16:48:23Z",
     "lastUpdatedAt": "2026-04-14T16:48:23Z",
@@ -17069,15 +17312,6 @@
     "lastUpdatedAt": "2026-03-14T11:52:32Z",
     "updateCount": 5,
     "prCount": 6,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "deep-delve-pacer",
-    "firstAddedAt": "2025-11-08T19:26:56Z",
-    "lastUpdatedAt": "2026-03-14T04:53:23Z",
-    "updateCount": 1,
-    "prCount": 2,
     "status": "active",
     "prsLast90d": 0
   },
@@ -17550,15 +17784,6 @@
     "prsLast90d": 0
   },
   {
-    "id": "inventory-tiles",
-    "firstAddedAt": "2026-02-21T21:29:17Z",
-    "lastUpdatedAt": "2026-02-21T21:29:17Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
     "id": "cacheviewer",
     "firstAddedAt": "2026-02-21T21:27:59Z",
     "lastUpdatedAt": "2026-02-21T21:27:59Z",
@@ -17672,15 +17897,6 @@
     "lastUpdatedAt": "2026-02-12T17:39:00Z",
     "updateCount": 1,
     "prCount": 2,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "fortis-colosseum",
-    "firstAddedAt": "2024-03-20T15:34:09Z",
-    "lastUpdatedAt": "2026-02-10T18:10:22Z",
-    "updateCount": 26,
-    "prCount": 27,
     "status": "active",
     "prsLast90d": 0
   },
@@ -19166,15 +19382,6 @@
     "lastUpdatedAt": "2025-11-08T22:25:42Z",
     "updateCount": 0,
     "prCount": 1,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "f2p-star-assist",
-    "firstAddedAt": "2022-03-22T05:05:02Z",
-    "lastUpdatedAt": "2025-11-07T18:42:49Z",
-    "updateCount": 8,
-    "prCount": 9,
     "status": "active",
     "prsLast90d": 0
   },
@@ -21146,15 +21353,6 @@
     "lastUpdatedAt": "2025-02-26T21:20:52Z",
     "updateCount": 2,
     "prCount": 3,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "crop-circle-tracker",
-    "firstAddedAt": "2022-11-15T19:15:56Z",
-    "lastUpdatedAt": "2025-02-24T15:20:34Z",
-    "updateCount": 9,
-    "prCount": 10,
     "status": "active",
     "prsLast90d": 0
   },
@@ -25673,15 +25871,6 @@
     "lastUpdatedAt": "2022-03-30T21:49:12Z",
     "updateCount": 7,
     "prCount": 8,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "autumngarden",
-    "firstAddedAt": "2022-03-22T05:09:25Z",
-    "lastUpdatedAt": "2022-03-23T01:59:16Z",
-    "updateCount": 1,
-    "prCount": 2,
     "status": "active",
     "prsLast90d": 0
   },
