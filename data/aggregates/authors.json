@@ -11,8 +11,8 @@
   },
   {
     "login": "LlemonDuck",
-    "prCount": 193,
-    "mergedCount": 191
+    "prCount": 194,
+    "mergedCount": 192
   },
   {
     "login": "Skretzo",
@@ -41,13 +41,13 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 124,
-    "mergedCount": 121
+    "prCount": 125,
+    "mergedCount": 122
   },
   {
     "login": "raiyni",
-    "prCount": 115,
-    "mergedCount": 115
+    "prCount": 116,
+    "mergedCount": 116
   },
   {
     "login": "pwatts6060",
@@ -110,14 +110,14 @@
     "mergedCount": 65
   },
   {
+    "login": "bopsec",
+    "prCount": 67,
+    "mergedCount": 64
+  },
+  {
     "login": "vividflash",
     "prCount": 67,
     "mergedCount": 65
-  },
-  {
-    "login": "bopsec",
-    "prCount": 66,
-    "mergedCount": 63
   },
   {
     "login": "dillydill123",
@@ -140,14 +140,14 @@
     "mergedCount": 60
   },
   {
+    "login": "guillaume009",
+    "prCount": 61,
+    "mergedCount": 60
+  },
+  {
     "login": "InfernoStats",
     "prCount": 60,
     "mergedCount": 56
-  },
-  {
-    "login": "guillaume009",
-    "prCount": 60,
-    "mergedCount": 59
   },
   {
     "login": "mablack01",
@@ -158,6 +158,11 @@
     "login": "m0bilebtw",
     "prCount": 57,
     "mergedCount": 57
+  },
+  {
+    "login": "adamk33n3r",
+    "prCount": 57,
+    "mergedCount": 55
   },
   {
     "login": "leejt",
@@ -173,11 +178,6 @@
     "login": "equirs",
     "prCount": 56,
     "mergedCount": 56
-  },
-  {
-    "login": "adamk33n3r",
-    "prCount": 56,
-    "mergedCount": 54
   },
   {
     "login": "SuperNerdEric",
@@ -210,6 +210,11 @@
     "mergedCount": 45
   },
   {
+    "login": "stenjansarv",
+    "prCount": 51,
+    "mergedCount": 49
+  },
+  {
     "login": "UserD40",
     "prCount": 51,
     "mergedCount": 40
@@ -230,23 +235,18 @@
     "mergedCount": 50
   },
   {
+    "login": "Nubles",
+    "prCount": 50,
+    "mergedCount": 44
+  },
+  {
     "login": "Broooklyn",
     "prCount": 49,
     "mergedCount": 47
   },
   {
-    "login": "stenjansarv",
+    "login": "420kc",
     "prCount": 49,
-    "mergedCount": 48
-  },
-  {
-    "login": "Nubles",
-    "prCount": 49,
-    "mergedCount": 43
-  },
-  {
-    "login": "Hampo",
-    "prCount": 49,
-    "mergedCount": 48
+    "mergedCount": 42
   }
 ]
