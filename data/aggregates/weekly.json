@@ -2865,10 +2865,18 @@
   },
   {
     "week": "2026-10-19",
-    "opened": 471,
-    "merged": 438,
-    "closedUnmerged": 43,
-    "pluginsAdded": 87,
+    "opened": 533,
+    "merged": 480,
+    "closedUnmerged": 53,
+    "pluginsAdded": 94,
+    "pluginsRemoved": 0
+  },
+  {
+    "week": "2026-10-26",
+    "opened": 9,
+    "merged": 14,
+    "closedUnmerged": 0,
+    "pluginsAdded": 4,
     "pluginsRemoved": 0
   }
 ]
