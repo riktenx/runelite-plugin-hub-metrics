@@ -107,7 +107,7 @@
   {
     "login": "1Defence",
     "prCount": 70,
-    "mergedCount": 68
+    "mergedCount": 69
   },
   {
     "login": "Thource",
@@ -125,6 +125,11 @@
     "mergedCount": 65
   },
   {
+    "login": "Nubles",
+    "prCount": 65,
+    "mergedCount": 54
+  },
+  {
     "login": "Mrnice98",
     "prCount": 64,
     "mergedCount": 53
@@ -135,9 +140,9 @@
     "mergedCount": 57
   },
   {
-    "login": "Nubles",
-    "prCount": 63,
-    "mergedCount": 54
+    "login": "InfernoStats",
+    "prCount": 62,
+    "mergedCount": 58
   },
   {
     "login": "iProdigy",
@@ -148,11 +153,6 @@
     "login": "guillaume009",
     "prCount": 61,
     "mergedCount": 60
-  },
-  {
-    "login": "InfernoStats",
-    "prCount": 60,
-    "mergedCount": 56
   },
   {
     "login": "mablack01",
@@ -205,6 +205,11 @@
     "mergedCount": 53
   },
   {
+    "login": "wukuna",
+    "prCount": 54,
+    "mergedCount": 52
+  },
+  {
     "login": "Matsyir",
     "prCount": 53,
     "mergedCount": 52
@@ -243,10 +248,5 @@
     "login": "rorro",
     "prCount": 50,
     "mergedCount": 50
-  },
-  {
-    "login": "wukuna",
-    "prCount": 50,
-    "mergedCount": 46
   }
 ]
