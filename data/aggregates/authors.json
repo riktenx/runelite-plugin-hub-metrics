@@ -41,8 +41,8 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 127,
-    "mergedCount": 124
+    "prCount": 128,
+    "mergedCount": 125
   },
   {
     "login": "raiyni",
@@ -61,8 +61,8 @@
   },
   {
     "login": "riktenx",
-    "prCount": 111,
-    "mergedCount": 103
+    "prCount": 112,
+    "mergedCount": 104
   },
   {
     "login": "Cyborger1",
@@ -96,8 +96,13 @@
   },
   {
     "login": "vividflash",
-    "prCount": 75,
-    "mergedCount": 73
+    "prCount": 76,
+    "mergedCount": 74
+  },
+  {
+    "login": "wukuna",
+    "prCount": 74,
+    "mergedCount": 69
   },
   {
     "login": "zumaad",
@@ -116,23 +121,18 @@
   },
   {
     "login": "bopsec",
-    "prCount": 68,
-    "mergedCount": 65
+    "prCount": 69,
+    "mergedCount": 66
   },
   {
     "login": "1504681",
-    "prCount": 66,
+    "prCount": 67,
     "mergedCount": 59
   },
   {
     "login": "Nubles",
     "prCount": 66,
     "mergedCount": 54
-  },
-  {
-    "login": "wukuna",
-    "prCount": 66,
-    "mergedCount": 64
   },
   {
     "login": "dillydill123",
@@ -146,7 +146,7 @@
   },
   {
     "login": "InfernoStats",
-    "prCount": 62,
+    "prCount": 63,
     "mergedCount": 58
   },
   {
@@ -167,7 +167,7 @@
   {
     "login": "SuperNerdEric",
     "prCount": 58,
-    "mergedCount": 54
+    "mergedCount": 55
   },
   {
     "login": "m0bilebtw",
