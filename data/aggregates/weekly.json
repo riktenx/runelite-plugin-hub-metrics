@@ -2881,10 +2881,18 @@
   },
   {
     "week": "2026-11-02",
-    "opened": 390,
-    "merged": 315,
-    "closedUnmerged": 37,
-    "pluginsAdded": 70,
+    "opened": 443,
+    "merged": 365,
+    "closedUnmerged": 40,
+    "pluginsAdded": 76,
+    "pluginsRemoved": 0
+  },
+  {
+    "week": "2026-11-09",
+    "opened": 10,
+    "merged": 8,
+    "closedUnmerged": 1,
+    "pluginsAdded": 3,
     "pluginsRemoved": 0
   }
 ]
