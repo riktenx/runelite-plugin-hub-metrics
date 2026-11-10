@@ -2889,10 +2889,10 @@
   },
   {
     "week": "2026-11-09",
-    "opened": 10,
-    "merged": 8,
-    "closedUnmerged": 1,
-    "pluginsAdded": 3,
+    "opened": 59,
+    "merged": 52,
+    "closedUnmerged": 4,
+    "pluginsAdded": 9,
     "pluginsRemoved": 0
   }
 ]
