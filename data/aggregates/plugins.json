@@ -1,5 +1,446 @@
 [
   {
+    "id": "maxhitplugin",
+    "firstAddedAt": "2020-08-13T06:35:11Z",
+    "lastUpdatedAt": "2026-11-13T04:04:28Z",
+    "updateCount": 37,
+    "prCount": 38,
+    "status": "active",
+    "prsLast90d": 24
+  },
+  {
+    "id": "poh-loading-tips",
+    "firstAddedAt": "2026-11-07T01:32:15Z",
+    "lastUpdatedAt": "2026-11-13T03:54:02Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "slayer-task-odds",
+    "firstAddedAt": "2026-10-03T04:46:23Z",
+    "lastUpdatedAt": "2026-11-13T03:33:26Z",
+    "updateCount": 8,
+    "prCount": 9,
+    "status": "active",
+    "prsLast90d": 9
+  },
+  {
+    "id": "inventory-quick-check",
+    "firstAddedAt": "2026-11-10T16:03:16Z",
+    "lastUpdatedAt": "2026-11-13T03:28:07Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "gamemargins",
+    "firstAddedAt": "2026-10-29T22:55:29Z",
+    "lastUpdatedAt": "2026-11-13T03:22:50Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "larry-farming-runs",
+    "firstAddedAt": "2026-11-01T18:38:37Z",
+    "lastUpdatedAt": "2026-11-13T03:17:31Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "no-run-hotkey",
+    "firstAddedAt": "2025-06-28T19:41:10Z",
+    "lastUpdatedAt": "2026-11-13T03:01:44Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "bank-standing",
+    "firstAddedAt": "2026-10-14T22:46:35Z",
+    "lastUpdatedAt": "2026-11-13T02:51:00Z",
+    "updateCount": 13,
+    "prCount": 14,
+    "status": "active",
+    "prsLast90d": 14
+  },
+  {
+    "id": "interface-layout",
+    "firstAddedAt": "2026-10-07T13:21:37Z",
+    "lastUpdatedAt": "2026-11-13T02:24:38Z",
+    "updateCount": 21,
+    "prCount": 22,
+    "status": "active",
+    "prsLast90d": 22
+  },
+  {
+    "id": "chanced",
+    "firstAddedAt": "2026-11-08T23:03:00Z",
+    "lastUpdatedAt": "2026-11-13T02:09:01Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "customizable-xp-drops",
+    "firstAddedAt": "2021-07-12T05:20:52Z",
+    "lastUpdatedAt": "2026-11-13T02:03:36Z",
+    "updateCount": 94,
+    "prCount": 95,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "osrs-journal",
+    "firstAddedAt": "2026-08-24T01:45:03Z",
+    "lastUpdatedAt": "2026-11-13T01:58:15Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "bank-mode-text",
+    "firstAddedAt": "2026-04-26T18:19:28Z",
+    "lastUpdatedAt": "2026-11-13T00:41:09Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "how-many-more",
+    "firstAddedAt": "2026-11-07T04:33:30Z",
+    "lastUpdatedAt": "2026-11-13T00:25:41Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "the-fractured-archive",
+    "firstAddedAt": "2026-10-21T17:50:29Z",
+    "lastUpdatedAt": "2026-11-13T00:07:14Z",
+    "updateCount": 7,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "sol-survivor",
+    "firstAddedAt": "2026-10-19T18:48:31Z",
+    "lastUpdatedAt": "2026-11-12T23:29:03Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "asgardians-clan",
+    "firstAddedAt": "2026-11-04T14:35:15Z",
+    "lastUpdatedAt": "2026-11-12T23:23:38Z",
+    "updateCount": 6,
+    "prCount": 7,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "tsg-hub",
+    "firstAddedAt": "2026-09-27T20:52:55Z",
+    "lastUpdatedAt": "2026-11-12T23:18:10Z",
+    "updateCount": 32,
+    "prCount": 33,
+    "status": "active",
+    "prsLast90d": 33
+  },
+  {
+    "id": "stash-ledger",
+    "firstAddedAt": "2026-11-12T00:36:41Z",
+    "lastUpdatedAt": "2026-11-12T22:41:50Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "toa-pathwatch",
+    "firstAddedAt": "2026-11-12T01:46:39Z",
+    "lastUpdatedAt": "2026-11-12T20:52:49Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "slay-queen",
+    "firstAddedAt": "2026-09-26T21:15:36Z",
+    "lastUpdatedAt": "2026-11-12T19:35:10Z",
+    "updateCount": 2,
+    "prCount": 3,
+    "status": "active",
+    "prsLast90d": 3
+  },
+  {
+    "id": "equipment-preview",
+    "firstAddedAt": "2026-10-29T23:48:26Z",
+    "lastUpdatedAt": "2026-11-12T19:24:42Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "clue-teleport-helper",
+    "firstAddedAt": "2026-02-01T16:27:43Z",
+    "lastUpdatedAt": "2026-11-12T19:19:19Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "osrs-map-companion",
+    "firstAddedAt": "2026-10-27T23:19:34Z",
+    "lastUpdatedAt": "2026-11-12T18:58:41Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "rune-tags",
+    "firstAddedAt": "2026-09-19T03:22:03Z",
+    "lastUpdatedAt": "2026-11-12T18:42:39Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 6
+  },
+  {
+    "id": "fart-teleports",
+    "firstAddedAt": "2026-11-12T17:20:16Z",
+    "lastUpdatedAt": "2026-11-12T17:20:16Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "improved-chat",
+    "firstAddedAt": "2026-09-17T23:10:16Z",
+    "lastUpdatedAt": "2026-11-12T17:14:58Z",
+    "updateCount": 25,
+    "prCount": 26,
+    "status": "active",
+    "prsLast90d": 26
+  },
+  {
+    "id": "improved-banking",
+    "firstAddedAt": "2026-10-25T19:10:00Z",
+    "lastUpdatedAt": "2026-11-12T17:09:26Z",
+    "updateCount": 11,
+    "prCount": 12,
+    "status": "active",
+    "prsLast90d": 12
+  },
+  {
+    "id": "runeglass",
+    "firstAddedAt": "2026-08-27T17:13:01Z",
+    "lastUpdatedAt": "2026-11-12T17:04:01Z",
+    "updateCount": 7,
+    "prCount": 8,
+    "status": "active",
+    "prsLast90d": 8
+  },
+  {
+    "id": "loot-filters",
+    "firstAddedAt": "2025-01-28T21:19:17Z",
+    "lastUpdatedAt": "2026-11-12T16:59:40Z",
+    "updateCount": 75,
+    "prCount": 76,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "eggscape-pet-collection",
+    "firstAddedAt": "2026-11-12T12:13:35Z",
+    "lastUpdatedAt": "2026-11-12T16:48:18Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "item-atlas",
+    "firstAddedAt": "2026-11-02T21:24:30Z",
+    "lastUpdatedAt": "2026-11-12T16:42:58Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "compact-orbs",
+    "firstAddedAt": "2025-10-29T03:34:39Z",
+    "lastUpdatedAt": "2026-11-12T16:37:35Z",
+    "updateCount": 39,
+    "prCount": 40,
+    "status": "active",
+    "prsLast90d": 14
+  },
+  {
+    "id": "drago-pet",
+    "firstAddedAt": "2026-11-12T13:05:34Z",
+    "lastUpdatedAt": "2026-11-12T16:16:55Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "trailsocial",
+    "firstAddedAt": "2026-09-17T19:02:58Z",
+    "lastUpdatedAt": "2026-11-12T15:46:00Z",
+    "updateCount": 12,
+    "prCount": 13,
+    "status": "active",
+    "prsLast90d": 13
+  },
+  {
+    "id": "tzhaar-hp-tracker",
+    "firstAddedAt": "2024-01-07T00:24:44Z",
+    "lastUpdatedAt": "2026-11-12T15:40:31Z",
+    "updateCount": 14,
+    "prCount": 15,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "on-rate",
+    "firstAddedAt": "2026-10-18T15:09:12Z",
+    "lastUpdatedAt": "2026-11-12T15:35:10Z",
+    "updateCount": 14,
+    "prCount": 15,
+    "status": "active",
+    "prsLast90d": 15
+  },
+  {
+    "id": "asset-manager",
+    "firstAddedAt": "2026-11-01T09:28:37Z",
+    "lastUpdatedAt": "2026-11-12T14:53:42Z",
+    "updateCount": 5,
+    "prCount": 6,
+    "status": "active",
+    "prsLast90d": 6
+  },
+  {
+    "id": "flipping-copilot",
+    "firstAddedAt": "2024-04-24T07:53:40Z",
+    "lastUpdatedAt": "2026-11-12T14:33:02Z",
+    "updateCount": 59,
+    "prCount": 60,
+    "status": "active",
+    "prsLast90d": 7
+  },
+  {
+    "id": "thieving-stalls-loot-tracker",
+    "firstAddedAt": "2026-09-26T09:54:09Z",
+    "lastUpdatedAt": "2026-11-12T14:12:03Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
+    "id": "iron-herblore",
+    "firstAddedAt": "2026-11-12T12:34:23Z",
+    "lastUpdatedAt": "2026-11-12T12:34:23Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "bis-bank-tabs",
+    "firstAddedAt": "2026-11-08T22:05:51Z",
+    "lastUpdatedAt": "2026-11-12T09:29:39Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "ca-boss-checklist",
+    "firstAddedAt": "2026-11-10T02:35:12Z",
+    "lastUpdatedAt": "2026-11-12T08:17:32Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "tfa-splits-tracker",
+    "firstAddedAt": "2026-11-12T07:25:50Z",
+    "lastUpdatedAt": "2026-11-12T07:25:50Z",
+    "updateCount": 0,
+    "prCount": 1,
+    "status": "active",
+    "prsLast90d": 1
+  },
+  {
+    "id": "grindset",
+    "firstAddedAt": "2026-10-23T01:38:22Z",
+    "lastUpdatedAt": "2026-11-12T06:29:10Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "quick-tiles",
+    "firstAddedAt": "2026-10-01T06:48:09Z",
+    "lastUpdatedAt": "2026-11-12T06:18:47Z",
+    "updateCount": 4,
+    "prCount": 5,
+    "status": "active",
+    "prsLast90d": 5
+  },
+  {
+    "id": "combat-xp-tracker",
+    "firstAddedAt": "2026-07-24T22:26:53Z",
+    "lastUpdatedAt": "2026-11-12T06:13:25Z",
+    "updateCount": 31,
+    "prCount": 32,
+    "status": "active",
+    "prsLast90d": 25
+  },
+  {
+    "id": "immersive-skilling",
+    "firstAddedAt": "2026-10-30T03:21:03Z",
+    "lastUpdatedAt": "2026-11-12T06:07:59Z",
+    "updateCount": 3,
+    "prCount": 4,
+    "status": "active",
+    "prsLast90d": 4
+  },
+  {
+    "id": "forgebingo",
+    "firstAddedAt": "2026-11-09T02:36:26Z",
+    "lastUpdatedAt": "2026-11-12T05:57:31Z",
+    "updateCount": 1,
+    "prCount": 2,
+    "status": "active",
+    "prsLast90d": 2
+  },
+  {
     "id": "trap-house-clan-plugin",
     "firstAddedAt": "2026-10-23T00:24:24Z",
     "lastUpdatedAt": "2026-11-12T04:04:57Z",
@@ -7,15 +448,6 @@
     "prCount": 17,
     "status": "active",
     "prsLast90d": 17
-  },
-  {
-    "id": "asgardians-clan",
-    "firstAddedAt": "2026-11-04T14:35:15Z",
-    "lastUpdatedAt": "2026-11-12T03:54:19Z",
-    "updateCount": 5,
-    "prCount": 6,
-    "status": "active",
-    "prsLast90d": 6
   },
   {
     "id": "ironkin-clan-plugin",
@@ -45,15 +477,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "asset-manager",
-    "firstAddedAt": "2026-11-01T09:28:37Z",
-    "lastUpdatedAt": "2026-11-12T02:51:01Z",
-    "updateCount": 4,
-    "prCount": 5,
-    "status": "active",
-    "prsLast90d": 5
-  },
-  {
     "id": "gear-upgrade",
     "firstAddedAt": "2026-08-11T21:16:37Z",
     "lastUpdatedAt": "2026-11-12T02:40:32Z",
@@ -70,15 +493,6 @@
     "prCount": 3,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "bis-bank-tabs",
-    "firstAddedAt": "2026-11-08T22:05:51Z",
-    "lastUpdatedAt": "2026-11-12T02:24:02Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "improved-looting",
@@ -99,15 +513,6 @@
     "prsLast90d": 6
   },
   {
-    "id": "toa-pathwatch",
-    "firstAddedAt": "2026-11-12T01:46:39Z",
-    "lastUpdatedAt": "2026-11-12T01:46:39Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "bank-portfolio-tracker",
     "firstAddedAt": "2026-09-25T23:32:34Z",
     "lastUpdatedAt": "2026-11-12T01:36:00Z",
@@ -115,24 +520,6 @@
     "prCount": 14,
     "status": "active",
     "prsLast90d": 14
-  },
-  {
-    "id": "ca-boss-checklist",
-    "firstAddedAt": "2026-11-10T02:35:12Z",
-    "lastUpdatedAt": "2026-11-12T01:30:33Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
-    "id": "clue-teleport-helper",
-    "firstAddedAt": "2026-02-01T16:27:43Z",
-    "lastUpdatedAt": "2026-11-12T01:19:59Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "atty-companion",
@@ -160,33 +547,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "slayer-task-odds",
-    "firstAddedAt": "2026-10-03T04:46:23Z",
-    "lastUpdatedAt": "2026-11-12T00:42:19Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
-  },
-  {
-    "id": "stash-ledger",
-    "firstAddedAt": "2026-11-12T00:36:41Z",
-    "lastUpdatedAt": "2026-11-12T00:36:41Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "tsg-hub",
-    "firstAddedAt": "2026-09-27T20:52:55Z",
-    "lastUpdatedAt": "2026-11-11T20:15:12Z",
-    "updateCount": 31,
-    "prCount": 32,
-    "status": "active",
-    "prsLast90d": 32
   },
   {
     "id": "best-gear-setup",
@@ -232,24 +592,6 @@
     "prCount": 11,
     "status": "active",
     "prsLast90d": 11
-  },
-  {
-    "id": "improved-banking",
-    "firstAddedAt": "2026-10-25T19:10:00Z",
-    "lastUpdatedAt": "2026-11-11T18:29:06Z",
-    "updateCount": 10,
-    "prCount": 11,
-    "status": "active",
-    "prsLast90d": 11
-  },
-  {
-    "id": "improved-chat",
-    "firstAddedAt": "2026-09-17T23:10:16Z",
-    "lastUpdatedAt": "2026-11-11T18:23:11Z",
-    "updateCount": 24,
-    "prCount": 25,
-    "status": "active",
-    "prsLast90d": 25
   },
   {
     "id": "improved-menus",
@@ -360,15 +702,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "on-rate",
-    "firstAddedAt": "2026-10-18T15:09:12Z",
-    "lastUpdatedAt": "2026-11-11T10:34:05Z",
-    "updateCount": 13,
-    "prCount": 14,
-    "status": "active",
-    "prsLast90d": 14
-  },
-  {
     "id": "now-what",
     "firstAddedAt": "2026-11-03T15:38:08Z",
     "lastUpdatedAt": "2026-11-11T10:23:21Z",
@@ -396,15 +729,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "inventory-quick-check",
-    "firstAddedAt": "2026-11-10T16:03:16Z",
-    "lastUpdatedAt": "2026-11-11T09:26:30Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "ocage",
     "firstAddedAt": "2026-10-09T21:20:48Z",
     "lastUpdatedAt": "2026-11-11T07:18:44Z",
@@ -412,15 +736,6 @@
     "prCount": 5,
     "status": "active",
     "prsLast90d": 5
-  },
-  {
-    "id": "osrs-map-companion",
-    "firstAddedAt": "2026-10-27T23:19:34Z",
-    "lastUpdatedAt": "2026-11-11T04:40:18Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
   },
   {
     "id": "grindstone",
@@ -441,15 +756,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "rune-tags",
-    "firstAddedAt": "2026-09-19T03:22:03Z",
-    "lastUpdatedAt": "2026-11-11T01:04:44Z",
-    "updateCount": 4,
-    "prCount": 5,
-    "status": "active",
-    "prsLast90d": 5
-  },
-  {
     "id": "vyrewatch-sentinel-helper",
     "firstAddedAt": "2026-11-11T00:53:45Z",
     "lastUpdatedAt": "2026-11-11T00:53:45Z",
@@ -466,15 +772,6 @@
     "prCount": 57,
     "status": "active",
     "prsLast90d": 29
-  },
-  {
-    "id": "maxhitplugin",
-    "firstAddedAt": "2020-08-13T06:35:11Z",
-    "lastUpdatedAt": "2026-11-11T00:21:50Z",
-    "updateCount": 36,
-    "prCount": 37,
-    "status": "active",
-    "prsLast90d": 23
   },
   {
     "id": "pvm-tools",
@@ -558,15 +855,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "interface-layout",
-    "firstAddedAt": "2026-10-07T13:21:37Z",
-    "lastUpdatedAt": "2026-11-10T21:46:33Z",
-    "updateCount": 20,
-    "prCount": 21,
-    "status": "active",
-    "prsLast90d": 21
-  },
-  {
     "id": "pink-lsz",
     "firstAddedAt": "2026-10-31T17:18:36Z",
     "lastUpdatedAt": "2026-11-10T21:15:36Z",
@@ -583,15 +871,6 @@
     "prCount": 7,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "equipment-preview",
-    "firstAddedAt": "2026-10-29T23:48:26Z",
-    "lastUpdatedAt": "2026-11-10T20:01:55Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "the-anchor-cc",
@@ -1026,15 +1305,6 @@
     "prsLast90d": 7
   },
   {
-    "id": "sol-survivor",
-    "firstAddedAt": "2026-10-19T18:48:31Z",
-    "lastUpdatedAt": "2026-11-09T13:20:36Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
-  },
-  {
     "id": "runejourney",
     "firstAddedAt": "2026-09-30T20:48:12Z",
     "lastUpdatedAt": "2026-11-09T12:23:53Z",
@@ -1051,15 +1321,6 @@
     "prCount": 8,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "compact-orbs",
-    "firstAddedAt": "2025-10-29T03:34:39Z",
-    "lastUpdatedAt": "2026-11-09T10:05:58Z",
-    "updateCount": 38,
-    "prCount": 39,
-    "status": "active",
-    "prsLast90d": 13
   },
   {
     "id": "wizalch",
@@ -1098,15 +1359,6 @@
     "prsLast90d": 4
   },
   {
-    "id": "bank-standing",
-    "firstAddedAt": "2026-10-14T22:46:35Z",
-    "lastUpdatedAt": "2026-11-09T06:13:26Z",
-    "updateCount": 12,
-    "prCount": 13,
-    "status": "active",
-    "prsLast90d": 13
-  },
-  {
     "id": "player-notepad",
     "firstAddedAt": "2026-11-04T02:45:57Z",
     "lastUpdatedAt": "2026-11-09T06:07:23Z",
@@ -1132,15 +1384,6 @@
     "prCount": 7,
     "status": "active",
     "prsLast90d": 7
-  },
-  {
-    "id": "forgebingo",
-    "firstAddedAt": "2026-11-09T02:36:26Z",
-    "lastUpdatedAt": "2026-11-09T02:36:26Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "chat-autoscroll",
@@ -1170,15 +1413,6 @@
     "prsLast90d": 5
   },
   {
-    "id": "grindset",
-    "firstAddedAt": "2026-10-23T01:38:22Z",
-    "lastUpdatedAt": "2026-11-08T23:49:56Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
     "id": "friendscape",
     "firstAddedAt": "2026-10-27T00:55:55Z",
     "lastUpdatedAt": "2026-11-08T23:23:49Z",
@@ -1186,24 +1420,6 @@
     "prCount": 9,
     "status": "active",
     "prsLast90d": 9
-  },
-  {
-    "id": "quick-tiles",
-    "firstAddedAt": "2026-10-01T06:48:09Z",
-    "lastUpdatedAt": "2026-11-08T23:18:28Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
-    "id": "chanced",
-    "firstAddedAt": "2026-11-08T23:03:00Z",
-    "lastUpdatedAt": "2026-11-08T23:03:00Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "speaker-time",
@@ -1218,15 +1434,6 @@
     "id": "dream-chasers-clan",
     "firstAddedAt": "2026-11-04T12:11:44Z",
     "lastUpdatedAt": "2026-11-08T22:42:15Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
-  },
-  {
-    "id": "immersive-skilling",
-    "firstAddedAt": "2026-10-30T03:21:03Z",
-    "lastUpdatedAt": "2026-11-08T22:36:48Z",
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
@@ -1258,15 +1465,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "combat-xp-tracker",
-    "firstAddedAt": "2026-07-24T22:26:53Z",
-    "lastUpdatedAt": "2026-11-08T18:47:04Z",
-    "updateCount": 30,
-    "prCount": 31,
-    "status": "active",
-    "prsLast90d": 24
   },
   {
     "id": "nib-tracker",
@@ -1312,15 +1510,6 @@
     "prCount": 3,
     "status": "active",
     "prsLast90d": 3
-  },
-  {
-    "id": "poh-loading-tips",
-    "firstAddedAt": "2026-11-07T01:32:15Z",
-    "lastUpdatedAt": "2026-11-08T07:07:51Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
   },
   {
     "id": "prayer-hover-sounds",
@@ -1374,7 +1563,7 @@
     "updateCount": 10,
     "prCount": 11,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "the-door-next-door",
@@ -1485,15 +1674,6 @@
     "prsLast90d": 14
   },
   {
-    "id": "how-many-more",
-    "firstAddedAt": "2026-11-07T04:33:30Z",
-    "lastUpdatedAt": "2026-11-07T04:33:30Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "wildy-agility",
     "firstAddedAt": "2026-08-21T20:03:56Z",
     "lastUpdatedAt": "2026-11-07T03:57:18Z",
@@ -1563,7 +1743,7 @@
     "updateCount": 23,
     "prCount": 24,
     "status": "active",
-    "prsLast90d": 18
+    "prsLast90d": 17
   },
   {
     "id": "daily-task-generator",
@@ -1851,7 +2031,7 @@
     "updateCount": 13,
     "prCount": 14,
     "status": "active",
-    "prsLast90d": 10
+    "prsLast90d": 9
   },
   {
     "id": "teleport-blocker",
@@ -1897,15 +2077,6 @@
     "prCount": 4,
     "status": "active",
     "prsLast90d": 4
-  },
-  {
-    "id": "larry-farming-runs",
-    "firstAddedAt": "2026-11-01T18:38:37Z",
-    "lastUpdatedAt": "2026-11-05T02:10:06Z",
-    "updateCount": 2,
-    "prCount": 3,
-    "status": "active",
-    "prsLast90d": 3
   },
   {
     "id": "death-message-tracker",
@@ -2077,15 +2248,6 @@
     "prCount": 2,
     "status": "active",
     "prsLast90d": 2
-  },
-  {
-    "id": "the-fractured-archive",
-    "firstAddedAt": "2026-10-21T17:50:29Z",
-    "lastUpdatedAt": "2026-11-04T02:09:03Z",
-    "updateCount": 5,
-    "prCount": 5,
-    "status": "active",
-    "prsLast90d": 5
   },
   {
     "id": "loadout-lab",
@@ -2401,15 +2563,6 @@
     "prCount": 29,
     "status": "active",
     "prsLast90d": 7
-  },
-  {
-    "id": "item-atlas",
-    "firstAddedAt": "2026-11-02T21:24:30Z",
-    "lastUpdatedAt": "2026-11-02T21:24:30Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
   },
   {
     "id": "lead-the-way",
@@ -3087,15 +3240,6 @@
     "prsLast90d": 29
   },
   {
-    "id": "trailsocial",
-    "firstAddedAt": "2026-09-17T19:02:58Z",
-    "lastUpdatedAt": "2026-10-30T03:26:28Z",
-    "updateCount": 11,
-    "prCount": 12,
-    "status": "active",
-    "prsLast90d": 12
-  },
-  {
     "id": "cinematic-ui",
     "firstAddedAt": "2026-10-30T01:22:30Z",
     "lastUpdatedAt": "2026-10-30T01:22:30Z",
@@ -3153,15 +3297,6 @@
     "id": "gim-companion",
     "firstAddedAt": "2026-10-29T23:16:37Z",
     "lastUpdatedAt": "2026-10-29T23:16:37Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "gamemargins",
-    "firstAddedAt": "2026-10-29T22:55:29Z",
-    "lastUpdatedAt": "2026-10-29T22:55:29Z",
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
@@ -3444,7 +3579,7 @@
     "updateCount": 11,
     "prCount": 12,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 6
   },
   {
     "id": "intelligence-gathering",
@@ -3859,15 +3994,6 @@
     "prCount": 4,
     "status": "active",
     "prsLast90d": 1
-  },
-  {
-    "id": "customizable-xp-drops",
-    "firstAddedAt": "2021-07-12T05:20:52Z",
-    "lastUpdatedAt": "2026-10-26T18:17:29Z",
-    "updateCount": 92,
-    "prCount": 93,
-    "status": "active",
-    "prsLast90d": 6
   },
   {
     "id": "loot-pop",
@@ -4707,15 +4833,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "flipping-copilot",
-    "firstAddedAt": "2024-04-24T07:53:40Z",
-    "lastUpdatedAt": "2026-10-23T16:39:13Z",
-    "updateCount": 58,
-    "prCount": 59,
-    "status": "active",
-    "prsLast90d": 6
-  },
-  {
     "id": "eggscape",
     "firstAddedAt": "2026-10-23T15:37:33Z",
     "lastUpdatedAt": "2026-10-23T15:37:33Z",
@@ -4992,7 +5109,7 @@
     "updateCount": 8,
     "prCount": 9,
     "status": "active",
-    "prsLast90d": 4
+    "prsLast90d": 3
   },
   {
     "id": "equipment-inspector",
@@ -5742,15 +5859,6 @@
     "prsLast90d": 1
   },
   {
-    "id": "runeglass",
-    "firstAddedAt": "2026-08-27T17:13:01Z",
-    "lastUpdatedAt": "2026-10-19T08:39:31Z",
-    "updateCount": 6,
-    "prCount": 7,
-    "status": "active",
-    "prsLast90d": 7
-  },
-  {
     "id": "kebbit-tracker",
     "firstAddedAt": "2026-10-19T08:34:10Z",
     "lastUpdatedAt": "2026-10-19T08:34:10Z",
@@ -6000,7 +6108,7 @@
     "updateCount": 26,
     "prCount": 27,
     "status": "active",
-    "prsLast90d": 9
+    "prsLast90d": 8
   },
   {
     "id": "ape-atoll-encouragement",
@@ -7137,15 +7245,6 @@
     "prsLast90d": 15
   },
   {
-    "id": "loot-filters",
-    "firstAddedAt": "2025-01-28T21:19:17Z",
-    "lastUpdatedAt": "2026-10-11T16:02:23Z",
-    "updateCount": 74,
-    "prCount": 75,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
     "id": "flexible-bank",
     "firstAddedAt": "2026-10-11T13:00:07Z",
     "lastUpdatedAt": "2026-10-11T14:47:58Z",
@@ -7431,7 +7530,7 @@
     "updateCount": 7,
     "prCount": 8,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "maple-xp-bar",
@@ -9027,15 +9126,6 @@
     "prsLast90d": 3
   },
   {
-    "id": "slay-queen",
-    "firstAddedAt": "2026-09-26T21:15:36Z",
-    "lastUpdatedAt": "2026-09-30T20:21:49Z",
-    "updateCount": 1,
-    "prCount": 2,
-    "status": "active",
-    "prsLast90d": 2
-  },
-  {
     "id": "load-out-helper",
     "firstAddedAt": "2026-09-21T01:36:58Z",
     "lastUpdatedAt": "2026-09-30T19:46:42Z",
@@ -9600,7 +9690,7 @@
     "updateCount": 16,
     "prCount": 17,
     "status": "active",
-    "prsLast90d": 7
+    "prsLast90d": 6
   },
   {
     "id": "scaper",
@@ -9891,15 +9981,6 @@
     "prsLast90d": 3
   },
   {
-    "id": "thieving-stalls-loot-tracker",
-    "firstAddedAt": "2026-09-26T09:54:09Z",
-    "lastUpdatedAt": "2026-09-26T09:54:09Z",
-    "updateCount": 0,
-    "prCount": 1,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
     "id": "qol-and-camera-info",
     "firstAddedAt": "2026-09-21T08:03:02Z",
     "lastUpdatedAt": "2026-09-26T06:47:04Z",
@@ -10013,15 +10094,6 @@
     "lastUpdatedAt": "2026-09-25T01:36:12Z",
     "updateCount": 7,
     "prCount": 8,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "bank-mode-text",
-    "firstAddedAt": "2026-04-26T18:19:28Z",
-    "lastUpdatedAt": "2026-09-25T01:25:55Z",
-    "updateCount": 1,
-    "prCount": 2,
     "status": "active",
     "prsLast90d": 1
   },
@@ -11394,15 +11466,6 @@
     "prsLast90d": 2
   },
   {
-    "id": "osrs-journal",
-    "firstAddedAt": "2026-08-24T01:45:03Z",
-    "lastUpdatedAt": "2026-09-14T15:17:35Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 4
-  },
-  {
     "id": "protect-item-notifier",
     "firstAddedAt": "2021-03-03T00:40:21Z",
     "lastUpdatedAt": "2026-09-14T15:12:19Z",
@@ -11723,15 +11786,6 @@
     "lastUpdatedAt": "2026-09-08T21:54:08Z",
     "updateCount": 14,
     "prCount": 15,
-    "status": "active",
-    "prsLast90d": 1
-  },
-  {
-    "id": "tzhaar-hp-tracker",
-    "firstAddedAt": "2024-01-07T00:24:44Z",
-    "lastUpdatedAt": "2026-09-08T20:37:01Z",
-    "updateCount": 13,
-    "prCount": 14,
     "status": "active",
     "prsLast90d": 1
   },
@@ -14073,7 +14127,7 @@
     "updateCount": 1,
     "prCount": 2,
     "status": "active",
-    "prsLast90d": 2
+    "prsLast90d": 1
   },
   {
     "id": "mouse-button-drop",
@@ -14091,7 +14145,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "big-fish-probability",
@@ -14100,7 +14154,7 @@
     "updateCount": 6,
     "prCount": 7,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "inventory-interaction-highlight",
@@ -14109,7 +14163,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "shinigami-eyes",
@@ -14118,7 +14172,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "xray",
@@ -14127,7 +14181,7 @@
     "updateCount": 2,
     "prCount": 3,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "barracuda-ghost-ship",
@@ -14136,7 +14190,7 @@
     "updateCount": 0,
     "prCount": 1,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "tictac7x-motherlode",
@@ -14145,7 +14199,7 @@
     "updateCount": 9,
     "prCount": 10,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "pet-info",
@@ -14154,7 +14208,7 @@
     "updateCount": 22,
     "prCount": 23,
     "status": "active",
-    "prsLast90d": 1
+    "prsLast90d": 0
   },
   {
     "id": "inventory-item-counter",
@@ -14511,15 +14565,6 @@
     "id": "unskulled-notifier",
     "firstAddedAt": "2025-12-07T16:21:51Z",
     "lastUpdatedAt": "2026-08-07T23:09:40Z",
-    "updateCount": 3,
-    "prCount": 4,
-    "status": "active",
-    "prsLast90d": 0
-  },
-  {
-    "id": "no-run-hotkey",
-    "firstAddedAt": "2025-06-28T19:41:10Z",
-    "lastUpdatedAt": "2026-08-07T22:28:52Z",
     "updateCount": 3,
     "prCount": 4,
     "status": "active",
