@@ -2167,8 +2167,8 @@
   },
   {
     "week": "2026-11-16",
-    "medianHours": 0.7,
-    "p90Hours": 744.7,
-    "n": 11
+    "medianHours": 1.9,
+    "p90Hours": 665.1,
+    "n": 75
   }
 ]
