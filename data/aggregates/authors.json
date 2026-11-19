@@ -2,7 +2,7 @@
   {
     "login": "geheur",
     "prCount": 256,
-    "mergedCount": 251
+    "mergedCount": 252
   },
   {
     "login": "Zoinkwiz",
@@ -11,8 +11,8 @@
   },
   {
     "login": "LlemonDuck",
-    "prCount": 201,
-    "mergedCount": 199
+    "prCount": 203,
+    "mergedCount": 201
   },
   {
     "login": "Skretzo",
@@ -31,8 +31,8 @@
   },
   {
     "login": "ScreteMonge",
-    "prCount": 135,
-    "mergedCount": 130
+    "prCount": 136,
+    "mergedCount": 131
   },
   {
     "login": "aHooder",
@@ -41,8 +41,8 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 131,
-    "mergedCount": 128
+    "prCount": 132,
+    "mergedCount": 129
   },
   {
     "login": "raiyni",
@@ -56,8 +56,8 @@
   },
   {
     "login": "Enriath",
-    "prCount": 114,
-    "mergedCount": 112
+    "prCount": 115,
+    "mergedCount": 113
   },
   {
     "login": "riktenx",
@@ -67,7 +67,7 @@
   {
     "login": "wukuna",
     "prCount": 112,
-    "mergedCount": 104
+    "mergedCount": 105
   },
   {
     "login": "Cyborger1",
@@ -75,19 +75,19 @@
     "mergedCount": 92
   },
   {
+    "login": "l2-",
+    "prCount": 96,
+    "mergedCount": 96
+  },
+  {
     "login": "dekvall",
     "prCount": 95,
     "mergedCount": 95
   },
   {
-    "login": "l2-",
-    "prCount": 95,
-    "mergedCount": 95
-  },
-  {
     "login": "JZomDev",
-    "prCount": 93,
-    "mergedCount": 88
+    "prCount": 94,
+    "mergedCount": 90
   },
   {
     "login": "ChunkyAtlas",
@@ -101,18 +101,18 @@
   },
   {
     "login": "vividflash",
-    "prCount": 83,
-    "mergedCount": 81
+    "prCount": 84,
+    "mergedCount": 82
+  },
+  {
+    "login": "bopsec",
+    "prCount": 74,
+    "mergedCount": 71
   },
   {
     "login": "zumaad",
     "prCount": 73,
     "mergedCount": 66
-  },
-  {
-    "login": "bopsec",
-    "prCount": 73,
-    "mergedCount": 70
   },
   {
     "login": "1Defence",
@@ -176,12 +176,12 @@
   },
   {
     "login": "DapperMickie",
-    "prCount": 59,
-    "mergedCount": 58
+    "prCount": 60,
+    "mergedCount": 59
   },
   {
     "login": "stenjansarv",
-    "prCount": 58,
+    "prCount": 59,
     "mergedCount": 57
   },
   {
@@ -220,6 +220,11 @@
     "mergedCount": 51
   },
   {
+    "login": "2hBuilds",
+    "prCount": 55,
+    "mergedCount": 52
+  },
+  {
     "login": "Fiffers",
     "prCount": 54,
     "mergedCount": 48
@@ -243,10 +248,5 @@
     "login": "AoceanP",
     "prCount": 53,
     "mergedCount": 48
-  },
-  {
-    "login": "2hBuilds",
-    "prCount": 53,
-    "mergedCount": 51
   }
 ]
