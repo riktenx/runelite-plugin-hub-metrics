@@ -11,8 +11,8 @@
   },
   {
     "login": "LlemonDuck",
-    "prCount": 203,
-    "mergedCount": 201
+    "prCount": 204,
+    "mergedCount": 202
   },
   {
     "login": "Skretzo",
@@ -66,7 +66,7 @@
   },
   {
     "login": "wukuna",
-    "prCount": 112,
+    "prCount": 113,
     "mergedCount": 105
   },
   {
@@ -86,8 +86,8 @@
   },
   {
     "login": "JZomDev",
-    "prCount": 94,
-    "mergedCount": 90
+    "prCount": 95,
+    "mergedCount": 91
   },
   {
     "login": "ChunkyAtlas",
@@ -101,8 +101,8 @@
   },
   {
     "login": "vividflash",
-    "prCount": 84,
-    "mergedCount": 82
+    "prCount": 85,
+    "mergedCount": 83
   },
   {
     "login": "bopsec",
@@ -155,14 +155,14 @@
     "mergedCount": 61
   },
   {
+    "login": "420kc",
+    "prCount": 63,
+    "mergedCount": 55
+  },
+  {
     "login": "iProdigy",
     "prCount": 62,
     "mergedCount": 60
-  },
-  {
-    "login": "420kc",
-    "prCount": 62,
-    "mergedCount": 54
   },
   {
     "login": "guillaume009",
@@ -200,6 +200,11 @@
     "mergedCount": 46
   },
   {
+    "login": "AoceanP",
+    "prCount": 57,
+    "mergedCount": 52
+  },
+  {
     "login": "leejt",
     "prCount": 56,
     "mergedCount": 53
@@ -222,7 +227,7 @@
   {
     "login": "2hBuilds",
     "prCount": 55,
-    "mergedCount": 52
+    "mergedCount": 53
   },
   {
     "login": "Fiffers",
@@ -243,10 +248,5 @@
     "login": "MoreBuchus",
     "prCount": 53,
     "mergedCount": 51
-  },
-  {
-    "login": "AoceanP",
-    "prCount": 53,
-    "mergedCount": 48
   }
 ]
