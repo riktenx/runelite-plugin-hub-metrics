@@ -1,8 +1,8 @@
 [
   {
     "login": "geheur",
-    "prCount": 258,
-    "mergedCount": 254
+    "prCount": 259,
+    "mergedCount": 255
   },
   {
     "login": "Zoinkwiz",
@@ -41,8 +41,13 @@
   },
   {
     "login": "ldavid432",
-    "prCount": 132,
-    "mergedCount": 129
+    "prCount": 133,
+    "mergedCount": 130
+  },
+  {
+    "login": "wukuna",
+    "prCount": 120,
+    "mergedCount": 111
   },
   {
     "login": "raiyni",
@@ -53,11 +58,6 @@
     "login": "pwatts6060",
     "prCount": 116,
     "mergedCount": 102
-  },
-  {
-    "login": "wukuna",
-    "prCount": 116,
-    "mergedCount": 109
   },
   {
     "login": "Enriath",
@@ -95,14 +95,14 @@
     "mergedCount": 85
   },
   {
+    "login": "vividflash",
+    "prCount": 88,
+    "mergedCount": 86
+  },
+  {
     "login": "Endrit-alt",
     "prCount": 87,
     "mergedCount": 76
-  },
-  {
-    "login": "vividflash",
-    "prCount": 85,
-    "mergedCount": 83
   },
   {
     "login": "bopsec",
@@ -146,8 +146,13 @@
   },
   {
     "login": "AoceanP",
+    "prCount": 65,
+    "mergedCount": 61
+  },
+  {
+    "login": "420kc",
     "prCount": 64,
-    "mergedCount": 59
+    "mergedCount": 56
   },
   {
     "login": "InfernoStats",
@@ -158,11 +163,6 @@
     "login": "mablack01",
     "prCount": 63,
     "mergedCount": 61
-  },
-  {
-    "login": "420kc",
-    "prCount": 63,
-    "mergedCount": 55
   },
   {
     "login": "iProdigy",
@@ -190,6 +190,11 @@
     "mergedCount": 58
   },
   {
+    "login": "2hBuilds",
+    "prCount": 58,
+    "mergedCount": 54
+  },
+  {
     "login": "m0bilebtw",
     "prCount": 57,
     "mergedCount": 57
@@ -203,11 +208,6 @@
     "login": "UserD40",
     "prCount": 57,
     "mergedCount": 46
-  },
-  {
-    "login": "2hBuilds",
-    "prCount": 57,
-    "mergedCount": 54
   },
   {
     "login": "leejt",
